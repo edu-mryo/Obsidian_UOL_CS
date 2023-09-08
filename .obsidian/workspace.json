@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.1.md",
+                "file": "1.1 Introduction to P5.js.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.1.md",
+                "file": "1.1 Introduction to P5.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.1.md",
+                "file": "1.1 Introduction to P5.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.1.md"
+                "file": "1.1 Introduction to P5.js.md"
               }
             }
           }
@@ -164,7 +164,7 @@
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming",
     " Introduction to Computer Science and Programming",
-    "1.1.md",
+    "1.1 Introduction to P5.js.md",
     "README.md",
     "Obsidian_UOL_CS/testing/Test.md",
     "Obsidian_UOL_CS/Test.md",
