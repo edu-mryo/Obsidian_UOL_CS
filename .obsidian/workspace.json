@@ -69,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -127,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Obsidian_UOL_CS/Test.md"
+              }
             }
           }
         ]
@@ -151,6 +152,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f436398dc7ba141d",
-  "lastOpenFiles": []
+  "active": "5b295ef04f655470",
+  "lastOpenFiles": [
+    "Obsidian_UOL_CS/testing/Test.md",
+    "Obsidian_UOL_CS/Test.md",
+    "Obsidian_UOL_CS/testing",
+    "Obsidian_UOL_CS"
+  ]
 }
