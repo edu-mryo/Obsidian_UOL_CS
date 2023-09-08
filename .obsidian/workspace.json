@@ -4,28 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "166f828b37ddef29",
+        "id": "58752830194c8dfc",
         "type": "tabs",
         "children": [
           {
-            "id": "f436398dc7ba141d",
+            "id": "cbe2ade2dc92093f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.1 Introduction to P5.js.md",
+                "file": " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "d19dd1c84872a40c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-09-09 07.58.32.excalidraw.md"
               }
             }
           }
@@ -83,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -104,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.1 Introduction to P5.js.md",
+                "file": " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.1 Introduction to P5.js.md",
+                "file": " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.1 Introduction to P5.js.md"
+                "file": " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md"
               }
             }
           }
@@ -169,15 +158,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f436398dc7ba141d",
+  "active": "cbe2ade2dc92093f",
   "lastOpenFiles": [
+    "README.md",
     "Excalidraw/Drawing 2023-09-09 07.58.32.excalidraw.md",
-    "1.1 Introduction to P5.js.md",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md",
     "Excalidraw",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming",
     " Introduction to Computer Science and Programming",
-    "README.md",
     "Obsidian_UOL_CS/testing/Test.md",
     "Obsidian_UOL_CS/Test.md",
     "Obsidian_UOL_CS/testing",
