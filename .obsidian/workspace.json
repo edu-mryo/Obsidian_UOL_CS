@@ -18,6 +18,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d19dd1c84872a40c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-09-09 07.58.32.excalidraw.md"
+              }
+            }
           }
         ]
       }
@@ -161,10 +171,12 @@
   },
   "active": "f436398dc7ba141d",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-09-09 07.58.32.excalidraw.md",
+    "1.1 Introduction to P5.js.md",
+    "Excalidraw",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming",
     " Introduction to Computer Science and Programming",
-    "1.1 Introduction to P5.js.md",
     "README.md",
     "Obsidian_UOL_CS/testing/Test.md",
     "Obsidian_UOL_CS/Test.md",
