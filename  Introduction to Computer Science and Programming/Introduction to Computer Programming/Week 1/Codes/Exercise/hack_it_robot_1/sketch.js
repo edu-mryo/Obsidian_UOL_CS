@@ -30,7 +30,7 @@ function draw()
 
 	//robots nose
 	fill(200, 0, 0);
-	triangle(250, 350, 200, 250, 300, 300);
+	triangle(250, 310, 200, 250, 300, 250);
 
 	//robots ears
 	rect(80, 180, 30, 100);
