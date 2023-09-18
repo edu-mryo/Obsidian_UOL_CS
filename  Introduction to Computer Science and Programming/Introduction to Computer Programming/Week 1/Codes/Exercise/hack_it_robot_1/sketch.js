@@ -29,8 +29,8 @@ function draw()
 
 
 	//robots nose
-	fill(200, 0, 0);
-	rect(200, 180, 30, 100);
+	fill(180, 0, 0);
+	rect(220, 250, 50, 50);
 
 	//robots ears
 	rect(80, 180, 30, 100);
