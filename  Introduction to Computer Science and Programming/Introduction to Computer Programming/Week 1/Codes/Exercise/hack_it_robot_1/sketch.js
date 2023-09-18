@@ -9,7 +9,7 @@ function draw()
 	strokeWeight(6);
 
 	//robots head
-	fill(200);
+	fill(120);
 	rect(100, 100, 300, 300, 20);
 
 
@@ -30,7 +30,7 @@ function draw()
 
 	//robots nose
 	fill(200, 0, 0);
-	triangle(250, 310, 200, 250, 300, 250);
+	rect(200, 180, 30, 100);
 
 	//robots ears
 	rect(80, 180, 30, 100);
