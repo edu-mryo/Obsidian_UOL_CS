@@ -11,12 +11,13 @@ function draw()
 	fill(255, 0, 0);
 
 	//set a thick stroke weight for the black lines
-	strokeWeight(12);
+	strokeWeight(10);
 
 	//draw the red rectangle 
 	rect(100, 50, 600, 600);
 	
-	rect(200,50,100,100);
+
+	rect(100,50,100,100);
 
 
 }
