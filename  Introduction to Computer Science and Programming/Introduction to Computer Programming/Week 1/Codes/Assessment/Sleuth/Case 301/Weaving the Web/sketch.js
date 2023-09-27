@@ -36,10 +36,10 @@ var pawel_karpinski_obj;
 // var lina_lovelace_location_y = 40;
 // var robbie_kray_location_x = 701;
 // var robbie_kray_location_y = 40;
-var bones_karpinski_location_x = 408;
-var bones_karpinski_location_y = 309;
-var anna_karpinski_location_x = 701;
-var anna_karpinski_location_y = 309;
+// var bones_karpinski_location_x = 408;
+// var bones_karpinski_location_y = 309;
+// var anna_karpinski_location_x = 701;
+// var anna_karpinski_location_y = 309;
 
 
 function preload()

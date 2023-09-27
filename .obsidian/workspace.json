@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "18da8fd3b0c2fbd7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 2/2.1 Drawing Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md",
+                "file": " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 2/2.1 Drawing Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md",
+                "file": " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 2/2.1 Drawing Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md"
+                "file": " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 2/2.1 Drawing Functions.md"
               }
             }
           }
@@ -158,32 +171,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5b295ef04f655470",
+  "active": "18da8fd3b0c2fbd7",
   "lastOpenFiles": [
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Bank Heist",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/Weaving the Web/sketch.js",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/Weaving the Web/photoBoard.png",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/Weaving the Web/p5.js",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/Weaving the Web/lina.png",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/Weaving the Web/krayBrothers2.png",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/Weaving the Web/karpinskiWoman.png",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/Weaving the Web/karpinskiDog.png",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/Weaving the Web/karpinskiBros2.png",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/Weaving the Web/karpinskiBros1.png",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/Weaving the Web/index.html",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/Weaving the Web",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/Weving the Web/sketch.js",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/Weving the Web/index.html",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/Weving the Web/p5.js",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/Weving the Web/photoBoard.png",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/Weving the Web/karpinskiBros1.png",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/Weving the Web/lina.png",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/Weving the Web",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 301/So Who Knows Python/sketch.js",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 2/2.1 Drawing Functions.md",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 2",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Art heist/sketch.js",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Art heist/scene.png",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Art heist/index.html",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Art heist/p5.js",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Art heist/spotlight.png",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Art heist",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Store heist/sketch.js",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Store heist/scene.png",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Store heist/index.html",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Store heist/p5.js",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Store heist/spotlight.png",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Store heist",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Mansion heist/sketch.js",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Mansion heist/scene.png",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Mansion heist/spotlight.png",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Bank Heist/spotlight.png",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Bank Heist/scene.png",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/scene.png",
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/spotlight.png",
     "README.md",
     "Excalidraw/Drawing 2023-09-09 07.58.32.excalidraw.md",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md",
     "Obsidian_UOL_CS/testing/Test.md",
     "Obsidian_UOL_CS/Test.md"
   ]
