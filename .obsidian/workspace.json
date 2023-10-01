@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "16dcc7bc0a892393",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +96,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -149,6 +160,16 @@
                 "file": " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 2/2.1 Drawing Functions.md"
               }
             }
+          },
+          {
+            "id": "88fb1800f776e0ed",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       }
@@ -171,8 +192,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "18da8fd3b0c2fbd7",
+  "active": "16dcc7bc0a892393",
   "lastOpenFiles": [
+    "How Computer Works",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 2/2.1 Drawing Functions.md",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 2",
