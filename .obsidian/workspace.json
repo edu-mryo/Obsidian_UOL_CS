@@ -172,13 +172,21 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "52c55f0708c4e600",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
