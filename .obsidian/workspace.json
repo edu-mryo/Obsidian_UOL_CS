@@ -101,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 469.5
   },
   "right": {
     "id": "fd6e9d19f8f8498c",
@@ -192,7 +192,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "16dcc7bc0a892393",
+  "active": "48cd9bfa720c9e1c",
   "lastOpenFiles": [
     "How Computer Works",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md",
