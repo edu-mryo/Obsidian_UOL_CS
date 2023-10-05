@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "How Computer Works/Week 1/Abstraction.md",
+                "file": "Test folder/test.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 469.5
   },
   "right": {
     "id": "fd6e9d19f8f8498c",
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How Computer Works/Week 1/Abstraction.md",
+                "file": "Test folder/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "How Computer Works/Week 1/Abstraction.md",
+                "file": "Test folder/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "How Computer Works/Week 1/Abstraction.md"
+                "file": "Test folder/test.md"
               }
             }
           },
@@ -174,14 +174,15 @@
             }
           },
           {
-            "id": "4449f6d2bb78d811",
+            "id": "52c55f0708c4e600",
             "type": "leaf",
             "state": {
-              "type": "git-history-view",
+              "type": "git-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -203,14 +204,13 @@
   },
   "active": "16dcc7bc0a892393",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "How Computer Works/Week 1/Abstraction.md",
-    "Test folder/test.md",
-    "Test folder",
     "How Computer Works/Week 1/Absraction",
     "How Computer Works/Week 1",
     "How Computer Works",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md",
+    "Test folder/test.md",
+    "Test folder",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 2/2.1 Drawing Functions.md",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 2",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Art heist/sketch.js",
