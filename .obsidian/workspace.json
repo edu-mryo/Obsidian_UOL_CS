@@ -39,6 +39,14 @@
             }
           },
           {
+            "id": "f111e3a2b30c65d7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
             "id": "6c992d12f9074cd6",
             "type": "leaf",
             "state": {
@@ -51,14 +59,6 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "f111e3a2b30c65d7",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
             }
           },
           {
@@ -171,17 +171,17 @@
   },
   "active": "5b295ef04f655470",
   "lastOpenFiles": [
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch/Untitled.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/p5jstweets/libraries/p5.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/p5jstweets/index.html",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/p5jstweets/libraries",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/p5jstweets/sketch.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/p5jstweets",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch/sketch.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch/p5.min.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch/index.html",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/p5.min.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/index.html",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1",
-    "Introduction to Programming I ( Oct 2023 ) ",
     "Test folder/test.md",
     "How Computer Works/Week 1/Abstraction.md",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md",
