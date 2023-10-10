@@ -69,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,16 +169,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "48cd9bfa720c9e1c",
+  "active": "5b295ef04f655470",
   "lastOpenFiles": [
-    "sketch/sketch.js",
-    "sketch/p5.min.js",
-    "sketch/index.html",
-    "sketch",
-    "Week 1/sketch.js",
-    "Week 1/p5.min.js",
-    "Week 1/index.html",
-    "Week 1",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch/sketch.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch/p5.min.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch/index.html",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/p5.min.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/index.html",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1",
     "Introduction to Programming I ( Oct 2023 ) ",
     "Test folder/test.md",
     "How Computer Works/Week 1/Abstraction.md",
