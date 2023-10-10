@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 469.5
+    "width": 300.5
   },
   "right": {
     "id": "fd6e9d19f8f8498c",
@@ -153,7 +153,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,6 +172,8 @@
   },
   "active": "52c55f0708c4e600",
   "lastOpenFiles": [
+    "Week 1",
+    "Introduction to Programming I ( Oct 2023 ) ",
     "Test folder/test.md",
     "How Computer Works/Week 1/Abstraction.md",
     "How Computer Works/Week 1/Absraction",
@@ -186,7 +189,6 @@
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Art heist/p5.js",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Art heist/spotlight.png",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Art heist",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Store heist/sketch.js",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Store heist/scene.png",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Store heist/spotlight.png",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Mansion heist/scene.png",
