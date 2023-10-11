@@ -11,4 +11,4 @@
 		- [jQuery](https://jquery.com/): For simplifying DOM
 		- [React](https://react.dev/): A lightweight framework / library managed by Meta. 
 		- [D3.js](https://d3js.org/): A popular selection for data viz
-- **Learn by Hacking** is an idea where you learn programming by editing/ chan
+- **Learn by Hacking** is an idea where you learn programming by editing/ changing existing codes and see what difference it made. This can be more productive and easy to understand compared to starting everything from clean slate. 
