@@ -1,0 +1,2 @@
+## TLDR
+- Programming is 
