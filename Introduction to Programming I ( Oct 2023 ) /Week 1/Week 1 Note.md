@@ -5,4 +5,5 @@
 	- JS is often used for web development and is a backend scripting
 		- [Wikipedia : JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 		- [W3 School](https://www.w3schools.com/js/)
-- 
+- Programming often uses a thing called **"library"** , which is a collection of code writtedn by someone else
+	- ITP1 will be using 
