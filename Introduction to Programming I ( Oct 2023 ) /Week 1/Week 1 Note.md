@@ -8,4 +8,6 @@
 - Programming often uses a thing called **"library"** , which is a collection of code writtedn by someone else
 	- ITP1 will be using [p45.js](https://p5js.org/), a library focused on creative coding
 	- Other notable libraries for JS are...
+		- [jQuery](https://jquery.com/): For simplifying DOM
+		- [React](https://react.dev/): A lightweight framework / library managed by Meta. 
 		- 
