@@ -1,7 +1,7 @@
 ## Summary
-- Commands are the smallest building blocks of your program. 
-- We use programming language(s) to write commands
-- Introduction to Programming 1 (ITP1) uses JavaScript as the main programming language
+- **Commands** are the smallest building blocks of your program. 
+- We use **programming language(s)** to write commands
+- Introduction to Programming 1 (ITP1) uses **JavaScript** as the main programming language
 	- JS is often used for web development and is a backend scripting
 		- [Wikipedia : JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 		- [W3 School](https://www.w3schools.com/js/)
@@ -10,4 +10,5 @@
 	- Other notable libraries for JS are...
 		- [jQuery](https://jquery.com/): For simplifying DOM
 		- [React](https://react.dev/): A lightweight framework / library managed by Meta. 
-		- 
+		- [D3.js](https://d3js.org/): A popular selection for data viz
+	
