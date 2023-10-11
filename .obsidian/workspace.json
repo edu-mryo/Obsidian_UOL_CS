@@ -69,7 +69,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -169,8 +170,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5b295ef04f655470",
+  "active": "48cd9bfa720c9e1c",
   "lastOpenFiles": [
+    "Introduction to Programming I ( Oct 2023 ) /Note",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch/Untitled.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/p5jstweets/libraries/p5.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/p5jstweets/index.html",
