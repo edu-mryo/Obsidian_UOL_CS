@@ -19,24 +19,22 @@
             "id": "314c3ca10e5593de",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Excalidraw/Drawing 2023-10-11 09.35.57.excalidraw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "f4ad029af9a77611",
+            "id": "91ac43fda360c0a5",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Excalidraw/Drawing 2023-10-11 09.35.57.excalidraw.md"
+                "file": "Excalidraw/Drawing 2023-10-11 09.39.12.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Excalidraw/Drawing 2023-10-11 09.35.57.excalidraw.md",
+                "file": "Excalidraw/Drawing 2023-10-11 09.39.12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Excalidraw/Drawing 2023-10-11 09.35.57.excalidraw.md",
+                "file": "Excalidraw/Drawing 2023-10-11 09.39.12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Excalidraw/Drawing 2023-10-11 09.35.57.excalidraw.md"
+                "file": "Excalidraw/Drawing 2023-10-11 09.39.12.md"
               }
             }
           },
@@ -194,10 +192,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "314c3ca10e5593de",
+  "active": "91ac43fda360c0a5",
   "lastOpenFiles": [
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/Week 1 Note.md",
+    "Excalidraw/Drawing 2023-10-11 09.39.12.png",
+    "Excalidraw/Drawing 2023-10-11 09.39.12.svg",
     "Introduction to Programming I ( Oct 2023 ) /Excalidraw/Drawing 2023-10-11 09.35.57.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-11 09.39.12.md",
+    "Excalidraw",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/Week 1 Note.md",
     "Untitled.canvas",
     "Introduction to Programming I ( Oct 2023 ) /Excalidraw",
     "CM1015 Computational Mathematics/Untitled 1",
@@ -209,7 +211,6 @@
     "Introduction to Programming I ( Oct 2023 ) /Week 1/p5jstweets/libraries/p5.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/p5jstweets/index.html",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/p5jstweets/libraries",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/p5jstweets/sketch.js",
     "Test folder/test.md",
     "How Computer Works/Week 1/Abstraction.md",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md",
@@ -223,7 +224,6 @@
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Bank Heist/spotlight.png",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Bank Heist/scene.png",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/scene.png",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/spotlight.png",
     "README.md",
     "Excalidraw/Drawing 2023-09-09 07.58.32.excalidraw.md",
     "Obsidian_UOL_CS/testing/Test.md",
