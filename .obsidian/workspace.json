@@ -172,10 +172,7 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "314c3ca10e5593de",
