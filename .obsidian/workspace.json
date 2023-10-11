@@ -26,6 +26,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f4ad029af9a77611",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Introduction to Programming I ( Oct 2023 ) /Excalidraw/Drawing 2023-10-11 09.35.57.excalidraw.md"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -186,20 +196,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "314c3ca10e5593de",
+  "active": "5b295ef04f655470",
   "lastOpenFiles": [
+    "Introduction to Programming I ( Oct 2023 ) /Excalidraw/Drawing 2023-10-11 09.35.57.excalidraw.md",
+    "Untitled.canvas",
+    "Introduction to Programming I ( Oct 2023 ) /Excalidraw",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/Week 1 Note.md",
+    "CM1015 Computational Mathematics/Untitled 1",
+    "CM1015 Computational Mathematics/Week 1 Number Base",
+    "Untitled",
+    "CM1015 Computational Mathematics",
     "Introduction to Programming I ( Oct 2023 ) /Note",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch/Untitled.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/p5jstweets/libraries/p5.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/p5jstweets/index.html",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/p5jstweets/libraries",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/p5jstweets/sketch.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/p5jstweets",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch/sketch.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch/p5.min.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch/index.html",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch",
     "Test folder/test.md",
     "How Computer Works/Week 1/Abstraction.md",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md",
