@@ -6,4 +6,6 @@
 		- [Wikipedia : JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 		- [W3 School](https://www.w3schools.com/js/)
 - Programming often uses a thing called **"library"** , which is a collection of code writtedn by someone else
-	- ITP1 will be using 
+	- ITP1 will be using [p45.js](https://p5js.org/), a library focused on creative coding
+	- Other notable libraries for JS are...
+		- 
