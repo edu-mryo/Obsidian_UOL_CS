@@ -1,22 +1,14 @@
 {
   "main": {
-    "id": "9167bdd562ec40d5",
+    "id": "9fcbc97a88fb7f3c",
     "type": "split",
     "children": [
       {
-        "id": "58752830194c8dfc",
+        "id": "6c1f02f88b92afc8",
         "type": "tabs",
         "children": [
           {
-            "id": "16dcc7bc0a892393",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "314c3ca10e5593de",
+            "id": "c3868e13a98cd434",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,22 +19,21 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d3b814376a4fee07",
+    "id": "54c337e5c0e81bd3",
     "type": "split",
     "children": [
       {
-        "id": "117e88b78a5cf780",
+        "id": "42830f1b040597c6",
         "type": "tabs",
         "children": [
           {
-            "id": "5b295ef04f655470",
+            "id": "71aeb0dde3f19fb2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -52,15 +43,7 @@
             }
           },
           {
-            "id": "f111e3a2b30c65d7",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "6c992d12f9074cd6",
+            "id": "ab2544c7269fe5b5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -75,10 +58,10 @@
             }
           },
           {
-            "id": "48cd9bfa720c9e1c",
+            "id": "bb17aeab33128932",
             "type": "leaf",
             "state": {
-              "type": "file-tree-view",
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -86,18 +69,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300
   },
   "right": {
-    "id": "fd6e9d19f8f8498c",
+    "id": "6d66e1b65758d6da",
     "type": "split",
     "children": [
       {
-        "id": "92ae862b761bfde8",
+        "id": "9b867fe9c37e26f9",
         "type": "tabs",
         "children": [
           {
-            "id": "6dbf6e019ee0b7d3",
+            "id": "3af490b4fb5deb94",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -114,7 +97,7 @@
             }
           },
           {
-            "id": "28b6982d49e7d100",
+            "id": "dd542411f08fee81",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -126,7 +109,7 @@
             }
           },
           {
-            "id": "f258e25adb08c133",
+            "id": "4ddc04631c56f115",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +120,7 @@
             }
           },
           {
-            "id": "90a6984d544c2dd9",
+            "id": "f05728697236ffdb",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -145,27 +128,8 @@
                 "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md"
               }
             }
-          },
-          {
-            "id": "88fb1800f776e0ed",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
-            }
-          },
-          {
-            "id": "52c55f0708c4e600",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -183,41 +147,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "314c3ca10e5593de",
+  "active": "c3868e13a98cd434",
   "lastOpenFiles": [
-    "CM1015 Computational Mathematics ( Oct 2023 )/Comp Math Syllabus.pdf",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal",
-    "CM1015 Computational Mathematics ( Oct 2023 )",
-    "Excalidraw/Drawing 2023-10-11 09.39.12.md",
-    "Excalidraw/Drawing 2023-10-11 09.39.12.png",
-    "Excalidraw/Drawing 2023-10-11 09.39.12.svg",
-    "Introduction to Programming I ( Oct 2023 ) /Excalidraw/Drawing 2023-10-11 09.35.57.excalidraw.md",
-    "Excalidraw",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/Week 1 Note.md",
-    "Untitled.canvas",
-    "Introduction to Programming I ( Oct 2023 ) /Excalidraw",
-    "CM1015 Computational Mathematics/Untitled 1",
-    "CM1015 Computational Mathematics/Week 1 Number Base",
-    "Untitled",
-    "CM1015 Computational Mathematics",
-    "Introduction to Programming I ( Oct 2023 ) /Note",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch/Untitled.md",
-    "Test folder/test.md",
-    "How Computer Works/Week 1/Abstraction.md",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 2/2.1 Drawing Functions.md",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Art heist/scene.png",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Art heist/spotlight.png",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Store heist/scene.png",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Store heist/spotlight.png",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Mansion heist/scene.png",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Mansion heist/spotlight.png",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Bank Heist/spotlight.png",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/Codes/Assessment/Sleuth/Case 302/Bank Heist/scene.png",
-    "README.md",
-    "Excalidraw/Drawing 2023-09-09 07.58.32.excalidraw.md",
-    "Obsidian_UOL_CS/testing/Test.md",
-    "Obsidian_UOL_CS/Test.md"
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Comp Math Syllabus.pdf",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Note.md",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Quiz",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Notes",
+    "conflict-files-obsidian-git.md",
+    "CM1015 Computational Mathematics ( Oct 2023 )/zy8lgMLGRCaRvb79GM4QGg_00564d9d524c4bda8e6875554c46d5e1_CompMathSyllabus.pdf",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Unconfirmed 875231.crdownload",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/p5jstweets/libraries/p5.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch/sketch.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch/p5.min.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/sketch/index.html",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/p5jstweets/sketch.js"
   ]
 }
