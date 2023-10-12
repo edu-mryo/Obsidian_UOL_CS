@@ -19,8 +19,12 @@
             "id": "314c3ca10e5593de",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -98,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md"
+              }
             }
           },
           {
@@ -177,9 +185,9 @@
   },
   "active": "314c3ca10e5593de",
   "lastOpenFiles": [
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Note.md",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal",
     "CM1015 Computational Mathematics ( Oct 2023 )/Comp Math Syllabus.pdf",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal",
     "CM1015 Computational Mathematics ( Oct 2023 )",
     "Excalidraw/Drawing 2023-10-11 09.39.12.md",
     "Excalidraw/Drawing 2023-10-11 09.39.12.png",
