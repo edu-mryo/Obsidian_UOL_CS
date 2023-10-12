@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Non-Integer Numbers Conversion/Week 2 Summary.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Non-Integer Numbers Conversion/Week 2 Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Non-Integer Numbers Conversion/Week 2 Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md"
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Non-Integer Numbers Conversion/Week 2 Summary.md"
               }
             }
           }
@@ -149,9 +149,11 @@
   },
   "active": "c3868e13a98cd434",
   "lastOpenFiles": [
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/Week 1 Note.md",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Non-Integer Numbers Conversion",
     "CM1015 Computational Mathematics ( Oct 2023 )/Comp Math Syllabus.pdf",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Non-Integer Numbers Conversion/Week 2 Summary.md",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/Week 1 Note.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Note.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Quiz",
     "CM1015 Computational Mathematics ( Oct 2023 )/Notes",
