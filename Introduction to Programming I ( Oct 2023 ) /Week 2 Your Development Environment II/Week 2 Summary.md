@@ -1,0 +1,2 @@
+- From this week, we will be using Sleuth, a practice tool/game to get used to shapes and drawing
+- 

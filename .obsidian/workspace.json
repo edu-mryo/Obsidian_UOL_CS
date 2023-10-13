@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Non-Integer Numbers Conversion/Week 2 Summary.md",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Week 2 Summary.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Non-Integer Numbers Conversion/Week 2 Summary.md",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Week 2 Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Non-Integer Numbers Conversion/Week 2 Summary.md",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Week 2 Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Non-Integer Numbers Conversion/Week 2 Summary.md"
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Week 2 Summary.md"
               }
             }
           }
@@ -147,21 +147,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "71aeb0dde3f19fb2",
+  "active": "c3868e13a98cd434",
   "lastOpenFiles": [
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian/final result.png",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian/sketch.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian/p5.min.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian/index.html",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian",
-    "Introduction to Programming I ( Oct 2023 ) /Mondrian/sketch.js",
-    "Introduction to Programming I ( Oct 2023 ) /Mondrian/p5.min.js",
-    "Introduction to Programming I ( Oct 2023 ) /Mondrian/index.html",
-    "Introduction to Programming I ( Oct 2023 ) /Mondrian",
-    "Mondrian/sketch.js",
-    "Mondrian/p5.min.js",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Non-Integer Numbers Conversion/Week 2 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 101 - The case of Anna Lovelace/sketch.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 101 - The case of Anna Lovelace/p5.min.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 101 - The case of Anna Lovelace/index.html",
+    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 101 - The case of Anna Lovelace/img.jpg",
+    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 101 - The case of Anna Lovelace",
+    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Sleuth v4.0.2/sketch.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Sleuth v4.0.2/p5.min.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Sleuth v4.0.2/index.html",
+    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Sleuth v4.0.2/img.jpg",
+    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Sleuth v4.0.2",
+    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth v4.0.2/sketch.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth v4.0.2/p5.min.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth v4.0.2/index.html",
+    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth v4.0.2/img.jpg",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Week 2 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1 Your Development Environment/Week 1 Note.md",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Non-Integer Numbers Conversion/Week 2 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1 Your Development Environment/Mondrian/final result.png",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian/final result.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/Week 1 Note.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Note.md",
     "conflict-files-obsidian-git.md"
