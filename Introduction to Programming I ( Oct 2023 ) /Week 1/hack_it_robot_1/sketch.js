@@ -9,7 +9,7 @@ function draw()
 	strokeWeight(6);
 
 	//robots head
-	fill(255,165,0);
+	fill(255,165,0)
 	rect(100, 100, 300, 300, 20);
 
 
