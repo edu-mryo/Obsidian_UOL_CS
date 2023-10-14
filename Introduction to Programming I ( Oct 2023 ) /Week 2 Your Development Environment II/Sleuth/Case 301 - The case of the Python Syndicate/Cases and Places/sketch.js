@@ -61,10 +61,10 @@ function draw()
 	image(bonesKarpinskiImage, bonesKarpinskiXPosition, bonesKarpinskiYPosition);
 
 	image(countessHamiltonImage, bonesKarpinskiXPosition-293, bonesKarpinskiYPosition-269);
-	image(adaLovelaceImage, bonesKarpinskiXPosition, bonesKarpinskiYPosition-368);
-	image(pawelKarpinskiImage, bonesKarpinskiXPosition+293, 40);
-	image(cecilKarpinskiImage, 115, 309);
-	image(rockyKrayImage, 701, 309);
+	image(adaLovelaceImage, bonesKarpinskiXPosition, bonesKarpinskiYPosition-269);
+	image(pawelKarpinskiImage, bonesKarpinskiXPosition+293, bonesKarpinskiYPosition-269);
+	image(cecilKarpinskiImage, bonesKarpinskiXPosition-293, bonesKarpinskiYPosition);
+	image(rockyKrayImage, bonesKarpinskiXPosition+293, bonesKarpinskiYPosition);
 
 }
 
