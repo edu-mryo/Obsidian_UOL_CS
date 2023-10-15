@@ -11,6 +11,16 @@
             "id": "c3868e13a98cd434",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/setup_draw_flow.png"
+              }
+            }
+          },
+          {
+            "id": "d3033e3879a5bbc5",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
@@ -19,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,13 +158,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c3868e13a98cd434",
+  "active": "d3033e3879a5bbc5",
   "lastOpenFiles": [
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/non_int_number_conversion.png",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Comp Math Syllabus.pdf",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Week 3 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/setup_draw_flow.png",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Comp Math Syllabus.pdf",
     "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Week 2 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D",
     "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 401 - The case of Norbert's Weiner Stand/Noxious Weiner",
