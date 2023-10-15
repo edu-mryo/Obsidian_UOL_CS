@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md"
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md"
               }
             }
           },
@@ -185,6 +185,10 @@
   },
   "active": "314c3ca10e5593de",
   "lastOpenFiles": [
+    "Introduction to Programming I ( Oct 2023 ) /Week 1 Your Development Environment/Week 1 Note.md",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/non_int_number_conversion.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/setup_draw_flow.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Week 3 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D",
@@ -206,11 +210,6 @@
     "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 301 - The case of the Python Syndicate/Weaving the web/karpinskiBros2.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 301 - The case of the Python Syndicate/Weaving the web/karpinskiBros1.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 301 - The case of the Python Syndicate/Weaving the web/countessHamilton.png",
-    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 301 - The case of the Python Syndicate/Weaving the web/ada.png",
-    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 301 - The case of the Python Syndicate/The usual suspects/photoBoard.png",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1 Your Development Environment/Week 1 Note.md",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
     "Excalidraw/Drawing 2023-10-11 09.39.12.md",
     "Introduction to Programming I ( Oct 2023 ) /Excalidraw/Drawing 2023-10-11 09.35.57.excalidraw.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/Week 1 Note.md",
