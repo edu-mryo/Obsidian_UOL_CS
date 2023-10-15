@@ -19,4 +19,4 @@
 ### setup() and draw()
 - In p5.js, you setup the canvas at setup() and draw() draws object on the screen. 
 
-![](Introduction%20to%20Programming%20I%20(%20Oct%202023%20)%20/Week%203%20Drawing%20in%202D/setup_draw_flow.png)
+![](setup_draw_flow.png)
