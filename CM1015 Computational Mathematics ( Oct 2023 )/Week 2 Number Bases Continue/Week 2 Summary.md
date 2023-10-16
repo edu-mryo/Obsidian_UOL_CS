@@ -28,5 +28,4 @@ eg: I want to convert 17.375 into binary
 		-  0 --> **stop**
 			-  = 011 ( Read from top to down )
 	
-  - **1101.011**
-		 
+  - **<span style="font-weight:bold; color:#ff0000">1101.011</span>**
