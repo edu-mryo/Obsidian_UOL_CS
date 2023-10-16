@@ -26,9 +26,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7a1b9827d297443f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -182,7 +192,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "314c3ca10e5593de",
+  "active": "7a1b9827d297443f",
   "lastOpenFiles": [
     "2023-10-16.md",
     "Untitled.canvas",
