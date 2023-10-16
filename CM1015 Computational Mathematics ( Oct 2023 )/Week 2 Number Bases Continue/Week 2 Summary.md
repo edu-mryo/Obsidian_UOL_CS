@@ -1,6 +1,8 @@
 [Week 1 Summary](../Week%201%20Introduction%20to%20number%20bases%20-%20%20conversion%20to%20decimal/Week%201%20Summary.md) for related details on number conversion. 
 
 
+###  Non int numbers : Decimal to Binary 
+
 ![](non_int_number_conversion_decimal_to_binary.png)
 - Non integer number conversion is not much different from integer number only with slight additional calculation for anything after fraction
 
@@ -28,4 +30,6 @@ eg: I want to convert 17.375 into binary
 		-  0 --> **stop**
 			-  = 011 ( Read from top to down )
 	
-  - **<span style="font-weight:bold; color:#ff0000">1101.011</span>**
+  - **1101.011**
+
+### Non int numbers : Binary to Decimal
