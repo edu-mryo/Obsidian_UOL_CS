@@ -36,9 +36,33 @@
                 "currentVersion": "1.4.16"
               }
             }
+          },
+          {
+            "id": "a5bfb3b6a986aca5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5835748e6f8a7471",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -112,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -174,7 +198,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -192,11 +217,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7a1b9827d297443f",
+  "active": "5835748e6f8a7471",
   "lastOpenFiles": [
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
+    "conflict-files-obsidian-git.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/hack_it_robot_2/p5.min.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/hack_it_robot_2/sketch.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/hack_it_robot_2/index.html",
+    "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/hack_it_robot_2",
     "2023-10-16.md",
     "Untitled.canvas",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
     "non_int_number_conversion.png.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/non_int_number_conversion.png",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/non_int_number_conversion_decimal_to_binary.png",
@@ -213,10 +243,6 @@
     "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 303 - The case of the Crooked Attorney/Torvalds Office/index.html",
     "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 303 - The case of the Crooked Attorney/Torvalds Office",
     "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 303 - The case of the Crooked Attorney/Torvalds House/sketch.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 303 - The case of the Crooked Attorney/Torvalds House/p5.min.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 303 - The case of the Crooked Attorney/Torvalds House/index.html",
-    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 303 - The case of the Crooked Attorney/The Gates Bank/sketch.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 303 - The case of the Crooked Attorney/The Gates Bank/p5.min.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 302 - The case of the Slippery Minsky Brothers/Bank heist/spotlight.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 302 - The case of the Slippery Minsky Brothers/Bank heist/scene.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 301 - The case of the Python Syndicate/Weaving the web/photoBoard.png",
