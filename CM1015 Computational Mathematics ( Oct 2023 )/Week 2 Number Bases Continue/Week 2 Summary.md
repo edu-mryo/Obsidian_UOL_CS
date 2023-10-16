@@ -6,4 +6,4 @@
 
 eg: I want to convert 17.375 into binary 
 1. Proceed with the standard conversion for integers before fraction
-2. For fractional point, use the 
+2. For fractional point, use the a<sup>-2<sup>
