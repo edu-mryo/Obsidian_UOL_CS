@@ -20,6 +20,13 @@ eg: I want to convert 17.375 into binary
 		 6  / 2 = 3r0
 		 3 / 2  = 1r1
 		 1 / 2 = 0r 1
-		 = 1101
+		 = 1101 ( Read from bottom to up )
 	 - Converting 0.375 to binary
-		 0.375 x 2 = 0.
+		 - 0.375 x 2 = 0.75 ( 0 + 0.75 )
+		-  0.75 x 2 = 1.5 (1 + 0.5 )
+		-  0.5 x 2 = 1 ( 1 + 0 )
+		-  0 --> **stop**
+			-  = 011 ( Read from top to down )
+	
+  - **1101.011**
+		 
