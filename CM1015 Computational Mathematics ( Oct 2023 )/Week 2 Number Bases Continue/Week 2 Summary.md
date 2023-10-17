@@ -43,8 +43,12 @@ eg: I want to convert 17.375 into binary
 
 - Summation : 101 + 111 ? 
 ![](../../Pasted%20image%2020231017210919.png)
-- Just like standard summation, you carry over 1 if its 1+1
 
-- Deduction : 110 - 101
+- Deduction : 110 - 101 ?
 ![](../../Pasted%20image%2020231017211441.png)
 
+- Multiplication : 1100 x 1111 ?
+![](../../Pasted%20image%2020231017211822.png)
+
+- Division : 11100110 / 110 ?
+![](../../Pasted%20image%2020231017212045.png)
