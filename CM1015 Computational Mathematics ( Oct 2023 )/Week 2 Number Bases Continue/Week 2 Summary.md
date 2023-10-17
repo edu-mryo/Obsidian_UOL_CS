@@ -38,3 +38,9 @@ eg: I want to convert 17.375 into binary
 
 ![](converting_division_to_binary.png)
 - Here is another way of calculating faction into binary. 
+
+### Operation in Binary
+
+- What is the answer of 101 + 111 ? 
+![](../../Pasted%20image%2020231017210919.png)
+- Just like standard summation, you carry over 1 if its 1+1
