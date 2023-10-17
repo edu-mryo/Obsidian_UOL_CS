@@ -37,4 +37,4 @@ eg: I want to convert 17.375 into binary
 　- Similar to decimal to binary conversion, you need to add all the number\
 
 ![](converting_division_to_binary.png)
-- Here is another way of calculating division into binary. 
+- Here is another way of calculating faction into binary. 
