@@ -41,14 +41,14 @@ eg: I want to convert 17.375 into binary
 
 ### Operation in Binary
 
-- Summation : 101 + 111 ? 
+**- Summation : 101 + 111 ?** 
 ![](../../Pasted%20image%2020231017210919.png)
 
-- Deduction : 110 - 101 ?
+**- Deduction : 110 - 101 ?**
 ![](../../Pasted%20image%2020231017211441.png)
 
-- Multiplication : 1100 x 1111 ?
+**- Multiplication : 1100 x 1111 ?**
 ![](../../Pasted%20image%2020231017211822.png)
 
-- Division : 11100110 / 110 ?
+**- Division : 11100110 / 110 ?**
 ![](../../Pasted%20image%2020231017212045.png)
