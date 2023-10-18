@@ -8,36 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "16dcc7bc0a892393",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "314c3ca10e5593de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7a1b9827d297443f",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
-              }
-            }
-          },
-          {
             "id": "a5bfb3b6a986aca5",
             "type": "leaf",
             "state": {
@@ -47,8 +17,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,7 +172,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5b295ef04f655470",
+  "active": "a5bfb3b6a986aca5",
   "lastOpenFiles": [
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/binary_multiplication.png",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/binary_deduction.png",
