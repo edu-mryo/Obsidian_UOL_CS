@@ -32,7 +32,7 @@ eg: I want to convert 17.375 into binary
 
 ### Non int numbers : Binary to Decimal
 ![](non_int_number_conversion_binary_to_decimal.png)
-　- Similar to decimal to binary conversion, you need to add all the number\
+　- Similar to decimal to binary conversion, you need to add all the number
 
 ![](converting_division_to_binary.png)
 - Here is another way of calculating faction into binary. 
