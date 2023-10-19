@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 3 Sequences and Series/Week 3 Summary.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 3 Sequences and Series/Week 3 Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 3 Sequences and Series/Week 3 Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md"
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 3 Sequences and Series/Week 3 Summary.md"
               }
             }
           },
@@ -176,11 +176,13 @@
   },
   "active": "a5bfb3b6a986aca5",
   "lastOpenFiles": [
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 3 Sequences and Series/Week 3 Summary.md",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 3 Sequences and Series",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/binary_division.png",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/binary_multiplication.png",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/binary_deduction.png",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/binary_summation.png",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/converting_division_to_binary.png",
     "conflict-files-obsidian-git.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/hack_it_robot_2/p5.min.js",
@@ -204,7 +206,6 @@
     "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 303 - The case of the Crooked Attorney/Torvalds Office/p5.min.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 303 - The case of the Crooked Attorney/Torvalds Office/index.html",
     "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 303 - The case of the Crooked Attorney/Torvalds Office",
-    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Sleuth/Case 303 - The case of the Crooked Attorney/Torvalds House/sketch.js",
     "Excalidraw/Drawing 2023-10-11 09.39.12.md",
     "Introduction to Programming I ( Oct 2023 ) /Excalidraw/Drawing 2023-10-11 09.35.57.excalidraw.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/Week 1 Note.md",
