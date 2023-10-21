@@ -20,7 +20,7 @@ function draw()
 
 	strokeWeight(20);
 	// fill dark brown
-	fill(200, 100, 0,50);	
+	fill(200, 100, 30,100);	
 	// fill(255, 200, 200,50);
 
 	// fill(200, 255, 200,50); 
