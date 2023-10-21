@@ -9,7 +9,7 @@ function draw()
 	//do your drawing here
 	strokeWeight(0);
 	//fill light orange
-	fill(255, 240, 200,50);
+	fill(243, 193, 191,50);
 	triangle( 20, 900, 20, 600, 800, 90);
 
 	strokeWeight(0);
@@ -19,11 +19,9 @@ function draw()
 
 
 	strokeWeight(20);
-	// fill dark brown
-	fill(200, 100, 30,100);	
-	// fill(255, 200, 200,50);
+	// fill light bage
+	fill(243, 221, 191,50);
 
-	// fill(200, 255, 200,50); 
 
 	ellipse(450, 350, 600, 600);
 
