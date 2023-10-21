@@ -7,9 +7,21 @@ function setup()
 function draw()
 {
 	//do your drawing here
-	strokeWeight(30);
-	//fill really light brown
-	fill(255, 255, 200);
+	strokeWeight(0);
+	//fill light orange
+	fill(255, 240, 200,50);
+	triangle( 20, 900, 20, 600, 800, 90);
+
+	strokeWeight(0);
+	//fill sky blue
+	fill(200, 200, 255,50);
+	triangle( 900, 900, 20, 100, 800, 400);
+
+
+	strokeWeight(20);
+	//fill really green
+	fill(200, 255, 169,50); 
+
 	ellipse(450, 350, 600, 600);
 
 	strokeWeight(5);
@@ -23,9 +35,7 @@ function draw()
 	line( 180, 350, 600, 600); 
 
 	//fill really light yellow with opacity of 100
-	strokeWeight(0.5);
-	fill(255, 255, 200, 100);
-	triangle( 20, 900, 20, 600, 800, 90);
+	
 
 
 }
