@@ -23,4 +23,8 @@
 
 ### Console View
 - Console, or developer tool is usually a browser built in tool where you can debug or log website data including HTML , CSS, JS and something more advanced such as request/response
-- 
+- Some of the common devtools you can use are as below
+	- [Chrome Dev Tool](https://developer.chrome.com/docs/devtools/)
+	- [Firefox Dev Tool](https://firefox-source-docs.mozilla.org/devtools-user/)
+	- [Safari Dev Tool](https://developer.apple.com/safari/tools/)
+	
