@@ -15,7 +15,7 @@ function draw()
 
 	//do your drawing here
 	strokeWeight(0);
-	fill(243, 193, 191,50);
+	fill(250,133,0,50);
 	triangle( 20, 900, 20, 600, 800, 90);
 
 	strokeWeight(0);
@@ -31,7 +31,9 @@ function draw()
 	fill(200, 255, 200,50);
 	ellipse(260, 350, 100, 100);	
 
-	strokeWeight(1);
+	strokeWeight(2);
+	//fill burgandy
+	fill(255, 60, 100,80);
 	ellipse(592,481, 100, 100);
 
 	strokeWeight(1);
