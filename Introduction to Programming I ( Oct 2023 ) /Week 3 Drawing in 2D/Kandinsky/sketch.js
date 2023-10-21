@@ -50,6 +50,14 @@ function draw()
 	fill(128,47,172,100);
 	ellipse(557,443,120,120);
 
+	fill(128,167,172)
+	ellipse(306, 500, 120, 120);
+
+	fill(128,167,172,100);
+	ellipse(436,468,300,300)
+	strokeWeight(60);
+	point(436,468);
+
 	strokeWeight(20);
 	point(651,292);
 	strokeWeight(5);
@@ -69,6 +77,10 @@ function draw()
 	line( 400, 200, 700, 450);
 	strokeWeight(2);
 	line( 400, 250, 700, 500);
+
+	strokeWeight(1);
+	line(420,582, 463, 616);
+	line(463, 582,420,616);
 
 	//fill really light yellow with opacity of 100
 	
