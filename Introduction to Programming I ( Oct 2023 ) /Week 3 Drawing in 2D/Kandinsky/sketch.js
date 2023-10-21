@@ -82,6 +82,8 @@ function draw()
 	line(420,582, 463, 616);
 	line(463, 582,420,616);
 
+
+
 	//fill really light yellow with opacity of 100
 	
 
