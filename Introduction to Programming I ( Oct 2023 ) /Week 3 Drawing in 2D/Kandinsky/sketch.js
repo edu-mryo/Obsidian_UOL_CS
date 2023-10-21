@@ -85,7 +85,7 @@ function draw()
 
 
 	//fill really light yellow with opacity of 100
-	
+	rect(100, 100, 150, 100);
 
 
 }
