@@ -35,8 +35,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Week 3 Summary.md",
-                "mode": "preview",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 4 Drawing in 2D II/Week 4 Summary.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Week 3 Summary.md",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 4 Drawing in 2D II/Week 4 Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Week 3 Summary.md",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 4 Drawing in 2D II/Week 4 Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Week 3 Summary.md"
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 4 Drawing in 2D II/Week 4 Summary.md"
               }
             }
           }
@@ -172,6 +172,10 @@
   },
   "active": "bd46cced7206442d",
   "lastOpenFiles": [
+    "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Week 3 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 4 Drawing in 2D II/Week 4 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 4 Drawing in 2D II",
+    "Introduction to Programming I ( Oct 2023 ) /Week 4 ",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 ",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/debugChallengeT2/sketch.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/debugChallengeT2/p5.min.js",
@@ -181,9 +185,7 @@
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Kandinsky/sketch.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Kandinsky/p5.min.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Kandinsky/index.html",
-    "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Kandinsky",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 3 Sequences and Series/Week 3 Summary.md",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 3 Sequences and Series",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/binary_summation.png",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/binary_multiplication.png",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/binary_division.png",
@@ -192,9 +194,7 @@
     "Pasted image 20231017211822.png",
     "Pasted image 20231017211441.png",
     "Pasted image 20231017210919.png",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Comp Math Syllabus.pdf",
     "conflict-files-obsidian-git.md",
-    "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Week 3 Summary.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/converting_division_to_binary.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/setup_draw_flow.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Week 2 Summary.md",
