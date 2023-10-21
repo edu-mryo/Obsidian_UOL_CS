@@ -15,12 +15,15 @@ function draw()
 	strokeWeight(0);
 	//fill sky blue
 	fill(200, 200, 255,50);
-	triangle( 900, 900, 20, 100, 800, 400);
+	triangle( 900, 900, 0, 60, 800, 400);
 
 
 	strokeWeight(20);
-	//fill really green
-	fill(200, 255, 169,50); 
+	// fill dark brown
+	fill(200, 100, 0,50);	
+	// fill(255, 200, 200,50);
+
+	// fill(200, 255, 200,50); 
 
 	ellipse(450, 350, 600, 600);
 
