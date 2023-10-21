@@ -20,3 +20,7 @@
 - In p5.js, you setup the canvas at setup() and draw() draws object on the screen. 
 
 ![](setup_draw_flow.png)
+
+### Console View
+- Console, or developer tool is usually a browser built in tool where you can debug or log website data including HTML , CSS, JS and something more advanced such as request/response
+- 

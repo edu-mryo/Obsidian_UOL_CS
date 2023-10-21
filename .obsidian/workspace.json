@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Week 3 Summary.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Week 3 Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Week 3 Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md"
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Week 3 Summary.md"
               }
             }
           }
@@ -172,6 +172,7 @@
   },
   "active": "bd46cced7206442d",
   "lastOpenFiles": [
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Kandinsky/sketch.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Kandinsky/p5.min.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Kandinsky/index.html",
@@ -187,7 +188,6 @@
     "Pasted image 20231017211441.png",
     "Pasted image 20231017210919.png",
     "CM1015 Computational Mathematics ( Oct 2023 )/Comp Math Syllabus.pdf",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
     "conflict-files-obsidian-git.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Week 3 Summary.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/converting_division_to_binary.png",
@@ -197,7 +197,6 @@
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/hack_it_robot_2/index.html",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/hack_it_robot_2",
     "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Week 2 Summary.md",
-    "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 1 Your Development Environment/Week 1 Note.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/Week 1 Note.md",

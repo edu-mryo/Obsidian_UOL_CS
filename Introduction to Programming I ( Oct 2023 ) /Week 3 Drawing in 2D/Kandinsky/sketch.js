@@ -8,7 +8,7 @@ function setup()
 
 function draw()
 {
-
+	//Show XY coordinates
 	background(240);
 	fill(255, 60, 100);
 	text("(" + mouseX + ", " + mouseY + ")", mouseX, mouseY);
