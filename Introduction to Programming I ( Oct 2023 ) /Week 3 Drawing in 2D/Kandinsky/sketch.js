@@ -17,7 +17,15 @@ function draw()
 	fill(255, 200, 200);
 	ellipse(260, 350, 100, 100);	
 
-	line( 450, 350, 450, 700); s
+	strokeWeight(1);
+	line( 380, 350, 600, 100); 
+	strokeWeight(3);
+	line( 180, 350, 600, 600); 
+
+	//fill really light yellow with opacity of 100
+	strokeWeight(0.5);
+	fill(255, 255, 200, 100);
+	triangle( 20, 900, 20, 600, 800, 90);
 
 
 }
