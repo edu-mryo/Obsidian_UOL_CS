@@ -100,13 +100,17 @@ function draw()
 	//fill sky blue
 	fill(0, 0, 255);
 	rect(180, 432, 60, 144);
+	//fill light brown
+	fill(139,69,19);
+	rect(170,432,10,144);
+	rect(240,432,10,144);
 
 
 
 
 	noStroke();
 	fill(255);
-	text("canyon", 100, 480);
+	// text("canyon", 100, 480);
 
 	//5. a collectable token - eg. a jewel, fruit, coins
 	//... add your code here
