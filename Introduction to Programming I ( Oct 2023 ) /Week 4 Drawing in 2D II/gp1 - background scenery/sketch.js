@@ -98,8 +98,8 @@ function draw()
 
 	//... add your code here
 	//fill sky blue
-	// fill(0, 0, 255);
-	curve(100, 26, 100, 26, 180, 24, 180, 61);
+	fill(0, 0, 255);
+	rect(180, 432, 60, 144);
 
 
 
