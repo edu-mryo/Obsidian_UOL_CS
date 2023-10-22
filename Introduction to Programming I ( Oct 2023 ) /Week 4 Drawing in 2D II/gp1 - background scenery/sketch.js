@@ -80,6 +80,9 @@ function draw()
 	noStroke();
 	fill(255);
 	text("tree", 800, 346);
+	// fill brown
+	fill(139,69,19);
+	rect(800, 333, 30, 100);
 
 	//4. a canyon
 	//NB. the canyon should go from ground-level to the bottom of the screen
