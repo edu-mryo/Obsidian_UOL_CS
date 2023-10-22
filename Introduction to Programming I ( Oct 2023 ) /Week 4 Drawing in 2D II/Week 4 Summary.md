@@ -1,0 +1,2 @@
+### The art of asking for help
+- Coding in complex and the surrounding technologies rapidly evolve, which means we are constantly in learning mode. It is therefore really natural for programmers, developers and engineers to "not know everything" ( If you engineers)
