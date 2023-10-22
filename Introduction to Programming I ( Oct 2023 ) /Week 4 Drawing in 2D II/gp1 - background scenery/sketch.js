@@ -121,8 +121,6 @@ function draw()
 	fill(255,0,0);
 	ellipse(417,417,30,30);
 	//fill black
-	// fill(0);
-	stroke(0);
-	arc(35, 35, 30, 50, 0, PI / 5.0); // lower quarter circle
+	arc(405, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
 
 }
