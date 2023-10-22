@@ -9,4 +9,4 @@
 
 		--> What exactly is the issue ? What program ? How does it not work ? 
 	- Good questions are detail oriented ( but not too much ) and clear with purpose of question
-		>"My Python code which intends to scrape website and ret"
+		>**"My Python code which intends to scrape website and return summary by using LLM is returning an error which I am not aware of. The error cod is xxx and I have checked the document which did not mention such an error. I use xxx and version is xxx. I have also attached the script."**

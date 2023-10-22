@@ -30,7 +30,12 @@ function setup()
 
 function draw()
 {
+
 	background(100, 155, 255); //fill the sky blue
+	fill(255, 60, 100);
+	text("(" + mouseX + ", " + mouseY + ")", mouseX, mouseY);
+	
+	
 
 	noStroke();
 	fill(0,155,0);
@@ -41,7 +46,12 @@ function draw()
 
 	noStroke();
 	fill(255);
-	text("cloud", 200, 100);
+	// text("cloud", 200, 100);
+	ellipse(211,134,60,60);
+	ellipse(240,144,60,60);
+	ellipse(211,154,60,60);
+	ellipse(190,154,60,60);
+	ellipse(165,144,60,60);
 
 	//2. a mountain in the distance
 	//... add your code here
