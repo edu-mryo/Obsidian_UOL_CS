@@ -1,2 +1,3 @@
 ### The art of asking for help
-- Coding in complex and the surrounding technologies rapidly evolve, which means we are constantly in learning mode. It is therefore really natural for programmers, developers and engineers to "not know everything" ( If you engineers memorise everything, then that's too naive)
+- Coding is complex and the surrounding technologies rapidly evolve, which means ***we are constantly in learning mode***. It is really normal for programmers, developers and engineers to ***"not know everything"*** ( If you think engineers memorise everything, then that's too naive mindset.) You need to be aware of "knowing what you don't know." and being able to ask the appropriate question to solve your issues.
+- The world of information technology is usually **open sourced**. Most of the answers are documented and there are many communities and forums you can use to ask question and communicate. Use these tools and platforms 
