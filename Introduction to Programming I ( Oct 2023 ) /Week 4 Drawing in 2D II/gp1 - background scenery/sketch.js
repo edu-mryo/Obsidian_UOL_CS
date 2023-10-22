@@ -99,7 +99,7 @@ function draw()
 	//... add your code here
 	//fill sky blue
 	fill(0, 0, 255);
-	arc(200, 432, 50, 50,10;
+	arc(200, 432, 50, 50,10,100);
 
 
 	noStroke();
