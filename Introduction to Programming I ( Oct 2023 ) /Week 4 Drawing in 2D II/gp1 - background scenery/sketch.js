@@ -65,12 +65,13 @@ function draw()
 
 	noStroke();
 	fill(255);
-	text("mountain", 500, 256);
+	// text("mountain", 500, 256);
 	// fill brown
-	fill(139,69,19);
+	fill(139,69,19,190);
 	triangle(460, 432, 760, 432, 610, 200);
 	fill(255,255,255);
-	l_cloud(590,230,60);
+	l_cloud(600,225,60);
+	l_cloud(680,310,60);
 
 
 	//3. a tree
