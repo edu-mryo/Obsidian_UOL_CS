@@ -94,8 +94,13 @@ function draw()
 
 	//4. a canyon
 	//NB. the canyon should go from ground-level to the bottom of the screen
+	
 
 	//... add your code here
+	//fill sky blue
+	fill(0, 0, 255);
+	arc(200, 432, 50, 50,10;
+
 
 	noStroke();
 	fill(255);
