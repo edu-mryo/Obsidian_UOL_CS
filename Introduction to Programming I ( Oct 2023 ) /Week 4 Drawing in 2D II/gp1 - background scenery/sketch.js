@@ -83,6 +83,14 @@ function draw()
 	// fill brown
 	fill(139,69,19);
 	rect(800, 333, 30, 100);
+	// fill green
+	fill(0,155,0);
+	ellipse(770, 333, 60, 60);
+	ellipse(815, 333, 60, 60);
+	ellipse(860, 333, 60, 60);
+	ellipse(790, 290, 60, 60);
+	ellipse(835, 290, 60, 60);
+	ellipse(813, 250, 60, 60);
 
 	//4. a canyon
 	//NB. the canyon should go from ground-level to the bottom of the screen
