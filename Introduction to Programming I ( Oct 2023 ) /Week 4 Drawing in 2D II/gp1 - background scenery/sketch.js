@@ -117,5 +117,7 @@ function draw()
 
 	noStroke();
 	fill(255);
-	text("collectable item", 400, 400);
+	// text("collectable item", 400, 400);
+	fill(255,0,0);
+	ellipse(417,417,30,30);
 }
