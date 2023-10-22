@@ -120,4 +120,7 @@ function draw()
 	// text("collectable item", 400, 400);
 	fill(255,0,0);
 	ellipse(417,417,30,30);
+	//fill black
+	fill(0);
+	arc(417,417,30,30,0);
 }
