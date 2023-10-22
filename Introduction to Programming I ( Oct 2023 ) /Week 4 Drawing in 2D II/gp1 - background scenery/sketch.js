@@ -28,6 +28,15 @@ function setup()
 	createCanvas(1024, 576);
 }
 
+function l_cloud(x,y,z){
+	ellipse(x,y,z,z);
+	ellipse(x+20,y+10,z,z);
+	ellipse(x,y+20,z,z);
+	ellipse(x-20,y+20,z,z);
+	ellipse(x-45,y+10,z,z);
+	ellipse(x-20,y,z,z);
+}
+
 function draw()
 {
 
@@ -47,11 +56,14 @@ function draw()
 	noStroke();
 	fill(255);
 	// text("cloud", 200, 100);
-	ellipse(211,134,60,60);
-	ellipse(240,144,60,60);
-	ellipse(211,154,60,60);
-	ellipse(190,154,60,60);
-	ellipse(165,144,60,60);
+
+	l_cloud(210,120,50);
+	// ellipse(211,134,60,60);
+	// ellipse(240,144,60,60);
+	// ellipse(211,154,60,60);
+	// ellipse(190,154,60,60);
+	// ellipse(165,144,60,60);
+	// ellipse(190,133,60,60);
 
 	//2. a mountain in the distance
 	//... add your code here
