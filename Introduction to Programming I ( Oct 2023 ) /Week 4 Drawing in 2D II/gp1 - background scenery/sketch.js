@@ -123,7 +123,7 @@ function draw()
 	fill(255,255,0,0);
 	stroke(0);
 	arc(405, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
-	arc(407, 407, 30, 10, 0, PI / 5.0); // lower quarter circle
+	arc(412, 408, 23, 3, 0, PI / 5.0); // lower quarter circle
 
 	
 
