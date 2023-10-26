@@ -22,6 +22,16 @@ ellipse(mouseX,mouseY,100,100); // create an ellipse object which follows you
 
 ### The Events
 
-```
+```js
+
+mousePressed(){} // Do certain action when mouse is pressed
+
+keyPressed(){} // Trigger this when key is pressed
+
+//eg 
+
+mousePressed(){
+alert('Hello!'); //Show alert screen on the page saying "Hello!"
+}
 
 ```
