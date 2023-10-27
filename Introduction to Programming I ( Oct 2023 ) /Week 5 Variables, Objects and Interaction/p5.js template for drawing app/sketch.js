@@ -12,8 +12,7 @@ function setup()
 function draw()
 {
 	stroke(0); 
-
-	point(mouseX,mouseY);
 	strokeWeight(10);
+	line(mouseX,mouseY,pmouseX,pmouseY);
 
 }
