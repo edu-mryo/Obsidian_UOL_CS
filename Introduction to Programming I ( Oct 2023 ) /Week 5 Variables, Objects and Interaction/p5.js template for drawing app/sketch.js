@@ -1,7 +1,9 @@
 function setup()
 {
 	createCanvas(800, 600);
-	fill(255, 60, 100);
+	background(255);
+
+	
 
 }
 
@@ -9,6 +11,8 @@ function setup()
 
 function draw()
 {
+	stroke(0); 
+
 	point(mouseX,mouseY);
 	strokeWeight(10);
 
