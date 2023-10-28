@@ -67,3 +67,5 @@ objectName.objectB
 ...
 
 ```
+
+### Mathematical functions `random`, `min`,`max` 
