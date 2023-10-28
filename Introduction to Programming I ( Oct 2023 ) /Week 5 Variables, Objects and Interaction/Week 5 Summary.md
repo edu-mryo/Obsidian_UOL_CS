@@ -54,6 +54,16 @@ alert('Hello!'); //Show alert screen on the page saying "Hello!"
 
 ```js
 
-objectName = {objectA = x , objectB = x , objectC =x}...
+objectName = {
+	objectA = x , 
+	objectB = x ,
+	objectC =x
+	}
+
+//Using objects
+
+objectName.objectA
+objectName.objectB
+...
 
 ```
