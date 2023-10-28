@@ -35,3 +35,17 @@ alert('Hello!'); //Show alert screen on the page saying "Hello!"
 }
 
 ```
+
+### Tips for naming variable
+1. Avoid keywords
+2. Avoid weird symbols
+3. Avoid long variable names
+4. Avoid joke names
+5. Avoid abstract name
+6. Use camel cases
+7. Use underscoring
+8. Combine with both methods
+9. If too many, replace with methods
+10. Be consistent
+11. Adapt your variable - Don't be afraid of changing while developing
+12. Use "find" and "replace" on IDE for bulk fixes. 
