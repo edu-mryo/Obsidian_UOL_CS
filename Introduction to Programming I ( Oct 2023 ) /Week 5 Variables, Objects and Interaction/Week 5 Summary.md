@@ -50,3 +50,10 @@ alert('Hello!'); //Show alert screen on the page saying "Hello!"
 11. Adapt your variable - Don't be afraid of changing while developing
 12. Use "find" and "replace" on IDE for bulk fixes. 
 
+### Object
+
+```js
+
+objectName = {objectA = x , objectB = x , objectC =x}...
+
+```
