@@ -49,3 +49,4 @@ alert('Hello!'); //Show alert screen on the page saying "Hello!"
 10. Be consistent
 11. Adapt your variable - Don't be afraid of changing while developing
 12. Use "find" and "replace" on IDE for bulk fixes. 
+
