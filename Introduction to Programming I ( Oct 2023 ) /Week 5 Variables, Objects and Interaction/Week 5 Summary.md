@@ -69,4 +69,8 @@ objectName.objectB
 ```
 
 ### Mathematical functions `random`, `min`,`max` 
-- `random`,`min`,and `max` functions are commonly used mathematical functions for js and p5js in general. in
+- `random`,`min`,and `max` functions are commonly used mathematical functions for js and p5js in general. 
+	- [random()](https://p5js.org/reference/#/p5/random)
+	- [min](https://p5js.org/reference/#/p5/min)
+	- [max](https://p5js.org/reference/#/p5/max)
+
