@@ -104,6 +104,7 @@ function draw()
 
 	//draw the cloud
 	fill(255,cloud.brightness);
+	noStroke();
 	ellipse(cloud.x, cloud.y, cloud.diameter);
 	ellipse(cloud.x-40, cloud.y, cloud.diameter-20);
 	ellipse(cloud.x+40, cloud.y, cloud.diameter-20);
@@ -120,6 +121,10 @@ function draw()
 	fill(0,0,0,darkness);
 	rect(0,0,800,600);
 
+	frameRate(12);
+	text("X: "+mouseX, 0, height/4);
+	text("Y: "+mouseY, 0, height/2);
+
 }
 
 function mouseMoved(){
@@ -128,7 +133,7 @@ function mouseMoved(){
 	sun.y = max(mouseX,70);
 	
 	moon.brightness = min(min(mouseX/2,800),255);
-	cloud.brightness = max(mouseX/2,0);
+	cloud.brightness -= mouseX/90;
 	darkness = min(mouseX/2,190);
 
 
