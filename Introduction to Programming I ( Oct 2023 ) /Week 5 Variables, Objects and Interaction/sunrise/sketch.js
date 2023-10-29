@@ -95,6 +95,10 @@ function draw()
 		mountain2.x + (mountain2.width / 2), mountain2.y - mountain2.height);
     
     //TASK: You can draw the tree yourself
+	fill(139,69,19);
+	rect(tree.x, tree.y, tree.trunkWidth, tree.trunkHeight);
+	fill(0,155,0);
+	ellipse(tree.x + (tree.trunkWidth / 2), tree.y - (tree.canopyHeight / 2), tree.canopyWidth, tree.canopyHeight);
     
 
 	//TASK: make the scene dark by drawing a rectangle that covers the whole canvas.
