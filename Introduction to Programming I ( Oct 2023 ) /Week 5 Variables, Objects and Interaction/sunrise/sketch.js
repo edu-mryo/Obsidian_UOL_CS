@@ -43,6 +43,7 @@ function setup()
 		x: 150,
 		y: 70,
 		diameter: 80,
+		brightness : 255
 	};
     
     //TASK: intialise a moon object with an extra property for brightness
@@ -73,7 +74,7 @@ function draw()
 	noStroke();  
 
 	//draw the sun
-	fill(255, 255, 0);
+	fill(255, sun.brightness, 0);
 	ellipse(sun.x, sun.y, sun.diameter);
     
     //TASK: you'll need to draw the moon too. Make sure you use brightness to adjust the colour
@@ -112,6 +113,8 @@ function mouseMoved(){
 	//TASK: use the mouse's position to update the sun's position
 
 	sun.y = max(mouseX,70);
+	sun.brightness -= max(mouseX,255)
+	
 	moon.brightness = min(min(mouseX/2,800),255);
 	darkness = min(mouseX/2,190);
 
