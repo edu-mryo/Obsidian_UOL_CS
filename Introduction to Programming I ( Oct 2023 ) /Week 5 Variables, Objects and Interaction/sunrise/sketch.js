@@ -77,7 +77,7 @@ function draw()
 	ellipse(sun.x, sun.y, sun.diameter);
     
     //TASK: you'll need to draw the moon too. Make sure you use brightness to adjust the colour
-	fill(255, 255, 255);
+	fill(255, 255, 255, moon.brightness);
 	ellipse(moon.x, moon.y, moon.diameter);
 
 	//draw the ground and make it green
@@ -112,10 +112,13 @@ function mouseMoved(){
 	//TASK: use the mouse's position to update the sun's position
 
 	sun.y = max(mouseX,70);
+	darkness = min(mouseX/3,255)
+
+
+	moon.brightness = min(mouseX,255)
 
 
 
-	// darkness+=mouseX;
 	
 
 	
