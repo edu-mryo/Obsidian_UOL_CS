@@ -33,11 +33,9 @@
             "id": "bd46cced7206442d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/Week 5 Summary.md",
-                "mode": "source",
-                "source": false
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/sunrise/Sunrise.gif"
               }
             }
           }
@@ -108,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/Week 5 Summary.md",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/sunrise/Sunrise.gif",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/Week 5 Summary.md",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/sunrise/Sunrise.gif",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/Week 5 Summary.md"
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/sunrise/Sunrise.gif"
               }
             }
           }
@@ -172,6 +170,10 @@
   },
   "active": "bd46cced7206442d",
   "lastOpenFiles": [
+    "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/Week 5 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/sunrise/Sunrise.gif",
+    "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/sunrise/Sunrise (1)..gif",
+    "Sunrise (1)..gif",
     "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/sunrise/sketch.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/sunrise/p5.min.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/sunrise/index.html",
@@ -182,9 +184,7 @@
     "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/p5.js template for drawing app",
     "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/p5.js template/sketch.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/p5.js template/p5.min.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/p5.js template/index.html",
     "Introduction to Programming I ( Oct 2023 ) /Week 4 Drawing in 2D II/Week 4 Summary.md",
-    "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/Week 5 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 4 Drawing in 2D II/gp1 - background scenery/scenery_assignment.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Week 3 Summary.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
@@ -195,10 +195,7 @@
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/binary_deduction.png",
     "Pasted image 20231017212045.png",
     "Pasted image 20231017211822.png",
-    "Pasted image 20231017211441.png",
-    "Pasted image 20231017210919.png",
     "conflict-files-obsidian-git.md",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/converting_division_to_binary.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Week 2 Summary.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 1 Your Development Environment/Week 1 Note.md",
