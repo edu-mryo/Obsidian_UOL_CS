@@ -70,7 +70,7 @@ function draw()
 
 	//draw the sky
 	background(150, 200, 255);
-	noStroke();
+	noStroke();  
 
 	//draw the sun
 	fill(255, 255, 0);
@@ -112,10 +112,7 @@ function mouseMoved(){
 	//TASK: use the mouse's position to update the sun's position
 
 	sun.y = max(mouseX,70);
-	moon.brightness = min(mouseX,255)
-
-	darkness = min(mouseX/6,190)
-
+	moon.brightness = min(mouseX/6,255);
 
 
 
