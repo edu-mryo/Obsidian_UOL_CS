@@ -64,10 +64,10 @@ function draw()
 	endShape();
 
 	//animate the robot
-	robot_x += 1;
+	robot_x += 2;
 }
 
 function keyPressed()
 {
-	robot_x =  320;
+	robot_x =  -320;
 }
