@@ -49,7 +49,7 @@ function setup()
 
 	moon ={
 		x: 650,
-		y: 70,
+		y: 600,
 		diameter: 80,
 		brightness: 0
 	}
@@ -108,9 +108,11 @@ function draw()
 
 function mouseMoved(){
 	//TASK: use the mouse's position to update the sun's position
-	// Keep the sun height not to go below 150
 
-	sun.y = mouseY;
+	sun.y = mouseX;
+
+	//Make the moon go up when sun goes downn 
+	moon.y = 600 - mouseX;
 
 
 
