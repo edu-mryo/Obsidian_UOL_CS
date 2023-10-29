@@ -104,15 +104,20 @@ function draw()
 	//TASK: make the scene dark by drawing a rectangle that covers the whole canvas.
 	//Use the alpha value of fill to determine how dark to make it
 
+	rect(0,0,0,0);
+
 }
 
 function mouseMoved(){
 	//TASK: use the mouse's position to update the sun's position
 
-	sun.y = mouseX;
+	sun.y = max(mouseX,70);
 
 	//Make the moon go up when sun goes downn 
-	moon.y = 600 - mouseX;
+	moon.y = max(600 - mouseX,70);
+
+	
+
 
 
 
