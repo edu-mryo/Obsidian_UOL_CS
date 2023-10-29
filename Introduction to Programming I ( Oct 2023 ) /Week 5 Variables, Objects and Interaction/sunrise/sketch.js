@@ -47,6 +47,13 @@ function setup()
     
     //TASK: intialise a moon object with an extra property for brightness
 
+	moon ={
+		x: 650,
+		y: 70,
+		diameter: 80,
+		brightness: 0
+	}
+
 
 	//set the initial darkness
 	darkness = 0;
@@ -60,6 +67,7 @@ function draw()
 	//You can either map this to the mouse's location (i.e. the futher left the mouse is the more daylight) or you can just change the values gradually over time.
 
 
+
 	//draw the sky
 	background(150, 200, 255);
 	noStroke();
@@ -69,6 +77,8 @@ function draw()
 	ellipse(sun.x, sun.y, sun.diameter);
     
     //TASK: you'll need to draw the moon too. Make sure you use brightness to adjust the colour
+	fill(255, 255, 255);
+	ellipse(moon.x, moon.y, moon.diameter);
 
 	//draw the ground and make it green
 	fill(70, 200, 0);
