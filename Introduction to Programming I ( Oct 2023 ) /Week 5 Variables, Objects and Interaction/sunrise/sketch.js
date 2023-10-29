@@ -59,9 +59,9 @@ function setup()
 
 		x: 400,
 		y: 70,
-		diameter: 80
+		diameter: 80,
+		brightness:255
 	}
-
 
 	//set the initial darkness
 	darkness = 0;
@@ -103,7 +103,7 @@ function draw()
 		mountain2.x + (mountain2.width / 2), mountain2.y - mountain2.height);
 
 	//draw the cloud
-	fill(255);
+	fill(255,cloud.brightness);
 	ellipse(cloud.x, cloud.y, cloud.diameter);
 	ellipse(cloud.x-40, cloud.y, cloud.diameter-20);
 	ellipse(cloud.x+40, cloud.y, cloud.diameter-20);
@@ -128,6 +128,7 @@ function mouseMoved(){
 	sun.y = max(mouseX,70);
 	
 	moon.brightness = min(min(mouseX/2,800),255);
+	cloud.brightness = max(mouseX/2,0);
 	darkness = min(mouseX/2,190);
 
 
