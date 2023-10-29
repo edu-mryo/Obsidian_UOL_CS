@@ -49,7 +49,7 @@ function setup()
 
 	moon ={
 		x: 650,
-		y: 600,
+		y: 70,
 		diameter: 80,
 		brightness: 0
 	}
@@ -103,8 +103,8 @@ function draw()
 
 	//TASK: make the scene dark by drawing a rectangle that covers the whole canvas.
 	//Use the alpha value of fill to determine how dark to make it
-
-	rect(0,0,0,0);
+	fill(0,0,0,darkness);
+	rect(0,0,800,600);
 
 }
 
@@ -113,8 +113,10 @@ function mouseMoved(){
 
 	sun.y = max(mouseX,70);
 
-	//Make the moon go up when sun goes downn 
-	moon.y = max(600 - mouseX,70);
+
+
+	// darkness+=mouseX;
+	
 
 	
 
