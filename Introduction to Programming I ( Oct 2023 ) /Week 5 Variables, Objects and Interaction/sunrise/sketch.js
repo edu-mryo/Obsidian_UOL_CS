@@ -133,7 +133,9 @@ function mouseMoved(){
 	sun.y = max(mouseX,70);
 	
 	moon.brightness = min(min(mouseX/2,800),255);
-	cloud.brightness = min(max(mouseX/2,800),0);
+
+	// decrease the cloud.brightness to 0 as mouse move to the right
+	cloud.brightness = max(255-mouseX/2,0);
 	darkness = min(mouseX/2,190);
 
 
