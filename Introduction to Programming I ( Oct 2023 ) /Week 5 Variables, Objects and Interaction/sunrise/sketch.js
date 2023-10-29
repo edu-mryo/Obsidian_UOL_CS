@@ -85,8 +85,7 @@ function draw()
 	ellipse(sun.x, sun.y, sun.diameter);
     
     //TASK: you'll need to draw the moon too. Make sure you use brightness to adjust the colour
-	fill(255, 255, 255, moon.brightness);
-	ellipse(moon.x, moon.y, moon.diameter);
+
 
 	//draw the ground and make it green
 	fill(70, 200, 0);
@@ -121,9 +120,12 @@ function draw()
 	fill(0,0,0,darkness);
 	rect(0,0,800,600);
 
-	frameRate(12);
-	text("X: "+mouseX, 0, height/4);
-	text("Y: "+mouseY, 0, height/2);
+	fill(255, 255, 255, moon.brightness);
+	ellipse(moon.x, moon.y, moon.diameter);
+
+	// frameRate(12);
+	// text("X: "+mouseX, 0, height/4);
+	// text("Y: "+mouseY, 0, height/2);
 
 }
 
@@ -136,6 +138,7 @@ function mouseMoved(){
 
 	// decrease the cloud.brightness to 0 as mouse move to the right
 	cloud.brightness = max(255-mouseX/2,0);
+	// increase the darkness as mouse move to the right
 	darkness = min(mouseX/2,190);
 
 
