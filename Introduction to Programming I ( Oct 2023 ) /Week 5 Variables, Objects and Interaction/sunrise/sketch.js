@@ -66,6 +66,15 @@ function draw()
 	//TASK: update the values for the moons brightness, the sun's position and the darkness.
 	//You can either map this to the mouse's location (i.e. the futher left the mouse is the more daylight) or you can just change the values gradually over time.
 
+	//TASK: make the sun rise and set by changing the sun's y position
+	sun.y = 70;
+
+	//TASK: make the moon rise and set by changing the moon's y position
+	moon.y = 70;
+
+	//TASK: make the sky darker by changing the alpha value of the fill colour
+	darkness = 0;
+
 
 
 	//draw the sky
