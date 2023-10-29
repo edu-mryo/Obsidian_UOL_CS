@@ -75,3 +75,7 @@ objectName.objectB
 	- [max](https://p5js.org/reference/#/p5/max)
 
 
+### `consol.log` is your best friend
+Nothing more to say really... if you want to check the value on your devtool, use `console.log` , one of the most useful command you can use on JavaScript. 
+- [console.log - Modzilla web doc](https://developer.mozilla.org/en-US/docs/Web/API/console/log)
+- [Console log() - Web 3](https://www.w3schools.com/jsref/met_console_log.asp)
