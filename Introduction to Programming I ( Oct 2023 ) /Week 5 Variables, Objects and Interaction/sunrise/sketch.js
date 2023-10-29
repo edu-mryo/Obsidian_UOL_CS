@@ -112,10 +112,11 @@ function mouseMoved(){
 	//TASK: use the mouse's position to update the sun's position
 
 	sun.y = max(mouseX,70);
-	darkness = min(mouseX/4,190)
+	moon.brightness = min(mouseX,255)
+
+	darkness = min(mouseX/6,190)
 
 
-	moon.brightness = 255
 
 
 
