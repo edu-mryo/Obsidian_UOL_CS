@@ -23,9 +23,11 @@
             "id": "5c9d4a04595d933d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/note1.pdf"
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/Week 4 Summary.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/note1.pdf",
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/Week 4 Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/note1.pdf",
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/Week 4 Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/note1.pdf"
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/Week 4 Summary.md"
               }
             }
           },
@@ -187,9 +189,12 @@
   },
   "active": "5c9d4a04595d933d",
   "lastOpenFiles": [
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/note1.pdf.sb-06cefb42-99MgSG",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/note1-1.pdf",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/Week 4 Summary.md",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/note1-2.pdf",
+    "note1.pdf.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/note1.pdf",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/note1.pdf.sb-06cefb42-99MgSG",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/20231030094300822.pdf",
     "Excalidraw/Drawing 2023-10-30 09.08.22.md",
     "Excalidraw",
@@ -201,10 +206,7 @@
     "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/debug challenge 3/uol_ip1_w5.gif",
     "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/debug challenge 3/sketch.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/debug challenge 3/p5.min.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/debug challenge 3/index.html",
-    "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/debug challenge 3",
     "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/sunrise/Sunrise.gif",
-    "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/sunrise/sketch.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 4 Drawing in 2D II/gp1 - background scenery/scenery_assignment.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 4 Drawing in 2D II/Week 4 Summary.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
@@ -232,7 +234,6 @@
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 2/2.1 Drawing Functions.md",
     "README.md",
-    "Excalidraw/Drawing 2023-09-09 07.58.32.excalidraw.md",
-    "Obsidian_UOL_CS/testing/Test.md"
+    "Excalidraw/Drawing 2023-09-09 07.58.32.excalidraw.md"
   ]
 }
