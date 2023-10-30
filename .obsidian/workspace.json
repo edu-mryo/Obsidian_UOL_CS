@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5c9d4a04595d933d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/Week 4 Summary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,10 +187,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a5bfb3b6a986aca5",
+  "active": "5c9d4a04595d933d",
   "lastOpenFiles": [
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 3 Sequences and Series/Week 3 Summary.md",
+    "Excalidraw/Drawing 2023-10-30 09.08.22.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/Week 4 Summary.md",
+    "Excalidraw",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 3 Sequences and Series/Week 3 Summary.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/Week 6 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/Week 5 Summary.md",
@@ -191,7 +206,6 @@
     "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/sunrise/sketch.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/sunrise/p5.min.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/sunrise/index.html",
-    "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/sunrise",
     "Introduction to Programming I ( Oct 2023 ) /Week 4 Drawing in 2D II/gp1 - background scenery/scenery_assignment.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 4 Drawing in 2D II/Week 4 Summary.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
