@@ -11,11 +11,9 @@
             "id": "a5bfb3b6a986aca5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/Week 4 Summary.md",
-                "mode": "source",
-                "source": false
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/dChl1.jpeg"
               }
             }
           }
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/Week 4 Summary.md",
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/dChl1.jpeg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/Week 4 Summary.md",
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/dChl1.jpeg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/Week 4 Summary.md"
+                "file": "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/dChl1.jpeg"
               }
             }
           },
@@ -174,11 +172,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a5bfb3b6a986aca5",
+  "active": "5b295ef04f655470",
   "lastOpenFiles": [
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/Week 4 Summary.md",
+    "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/dChl1.jpeg",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/note1-1.pdf",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/note1-2.png",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/Week 4 Summary.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/note1-2.pdf",
     "note1.pdf.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/note1.pdf",
@@ -207,7 +206,6 @@
     "2023-10-16.md",
     "Untitled.canvas",
     "non_int_number_conversion.png.md",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/non_int_number_conversion.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 1 Your Development Environment/Week 1 Note.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Week 3 Summary.md",
