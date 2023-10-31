@@ -43,6 +43,9 @@ function draw()
 {
 	background(255);
 
+  fill(255, 60, 100);
+  text("(" + mouseX + ", " + mouseY + ")", mouseX, mouseY);
+
 	//Standing, facing frontwards
 
 	stroke(100);
@@ -55,6 +58,8 @@ function draw()
 	gameChar_x = 45;
 	gameChar_y = 137;
 	//Add your code here ...
+
+	ellipse(45,80,40,40)
 
 
 	//Jumping facing forwards
