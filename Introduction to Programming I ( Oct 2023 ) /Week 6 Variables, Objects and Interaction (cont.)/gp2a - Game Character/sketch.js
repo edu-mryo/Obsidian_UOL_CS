@@ -58,8 +58,14 @@ function draw()
 	gameChar_x = 45;
 	gameChar_y = 137;
 	//Add your code here ...
+	fill("#FFE4C4")
+	ellipse(gameChar_x,gameChar_y-58,35,35);
 
-	ellipse(45,80,40,40)
+	fill("#0aa132");
+	rect(gameChar_x,gameChar_y,20,10);
+
+	
+	
 
 
 	//Jumping facing forwards
