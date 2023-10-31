@@ -5,7 +5,7 @@ The Idea of 'elegant code' is often discussed among professional programmers. Wh
 2. Good use of objects
 3. Logical organisation
 4. Explanatory comments
-5. Follow conventions and guid
+5. Follow conventions and guidelines explicitly mentioned. 
 
 The code which are not elegant, a redundant codes are and should be avoided
 ![redundant_code](redundant_code.png)
