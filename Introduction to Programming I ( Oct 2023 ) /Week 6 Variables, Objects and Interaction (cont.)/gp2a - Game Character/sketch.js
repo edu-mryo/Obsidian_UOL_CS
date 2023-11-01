@@ -71,6 +71,8 @@ function draw()
 	fill('black')
 	ellipse(gameChar_x-10,gameChar_y-3,12,12);
 	ellipse(gameChar_x+10,gameChar_y-3,12,12);
+	ellipse(gameChar_x-16,gameChar_y-20,8,8);
+	ellipse(gameChar_x+16,gameChar_y-20,8,8);
 
 
 	
@@ -142,10 +144,6 @@ function draw()
 	gameChar_y = 537;
 	//Add your code here ...
 
-	background(255);
-
-	// fill(255, 60, 100);
-	text("(" + mouseX + ", " + mouseY + ")", mouseX, mouseY);
   
 
 }
