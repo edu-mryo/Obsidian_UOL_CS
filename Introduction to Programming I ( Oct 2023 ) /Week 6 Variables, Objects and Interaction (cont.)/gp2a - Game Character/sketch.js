@@ -60,9 +60,17 @@ function draw()
 	//Add your code here ...
 	fill("#FFE4C4")
 	ellipse(gameChar_x,gameChar_y-58,35,35);
+	// stroke()
+	fill('red')
+	ellipse(gameChar_x,gameChar_y-55,5,5);
 
 	fill("#0aa132");
-	rect(gameChar_x,gameChar_y,20,10);
+	rect(gameChar_x-15,gameChar_y-43,30,38);
+	
+
+	fill('black')
+	ellipse(gameChar_x-10,gameChar_y-3,12,12);
+	ellipse(gameChar_x+10,gameChar_y-3,12,12);
 
 	
 	
