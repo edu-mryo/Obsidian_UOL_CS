@@ -41,10 +41,6 @@ function setup()
 
 function draw()
 {
-	background(255);
-
-  fill(255, 60, 100);
-  text("(" + mouseX + ", " + mouseY + ")", mouseX, mouseY);
 
 	//Standing, facing frontwards
 
@@ -68,12 +64,16 @@ function draw()
 	noStroke();
 	fill("#0aa132");
 	rect(gameChar_x-15,gameChar_y-43,30,38);
+	rect(gameChar_x-20,gameChar_y-43,5,20);
+	rect(gameChar_x+15,gameChar_y-43,5,20);
 	
-
+	
 	fill('black')
 	ellipse(gameChar_x-10,gameChar_y-3,12,12);
 	ellipse(gameChar_x+10,gameChar_y-3,12,12);
 
+
+	
 	
 	
 
@@ -141,5 +141,11 @@ function draw()
 	gameChar_x = 245;
 	gameChar_y = 537;
 	//Add your code here ...
+
+	background(255);
+
+	// fill(255, 60, 100);
+	text("(" + mouseX + ", " + mouseY + ")", mouseX, mouseY);
+  
 
 }
