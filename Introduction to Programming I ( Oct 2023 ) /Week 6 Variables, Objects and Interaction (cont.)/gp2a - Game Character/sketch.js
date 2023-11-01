@@ -60,10 +60,12 @@ function draw()
 	//Add your code here ...
 	fill("#FFE4C4")
 	ellipse(gameChar_x,gameChar_y-58,35,35);
-	// stroke()
-	fill('red')
+	
+	fill('#FFE4C4');
+	stroke('black'); // Add stroke to make the nose more obvious
 	ellipse(gameChar_x,gameChar_y-55,5,5);
 
+	noStroke();
 	fill("#0aa132");
 	rect(gameChar_x-15,gameChar_y-43,30,38);
 	
