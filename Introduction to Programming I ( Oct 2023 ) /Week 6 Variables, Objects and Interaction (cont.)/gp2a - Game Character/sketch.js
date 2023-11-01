@@ -144,6 +144,16 @@ function draw()
 	gameChar_y = 537;
 	//Add your code here ...
 
+	fill("#FFE4C4");
+	ellipse(gameChar_x,gameChar_y-58,35,35);
+	ellipse(gameChar_x-18,gameChar_y-57,9,9);
+
+	fill("#0aa132");
+	rect(gameChar_x-10,gameChar_y-43,20,38);
+
+
+	
+
   
 
 }
