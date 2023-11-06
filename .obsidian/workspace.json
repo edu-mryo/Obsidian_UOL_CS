@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/Week 6 Summary.md",
-                "mode": "source",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/README.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/Week 6 Summary.md",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/Week 6 Summary.md",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/Week 6 Summary.md"
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/README.md"
               }
             }
           },
@@ -176,6 +176,7 @@
   },
   "active": "a5bfb3b6a986aca5",
   "lastOpenFiles": [
+    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/Week 6 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/index.html",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/sketch.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/p5.min.js",
@@ -190,7 +191,6 @@
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2a - Game Character",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/sunrise 2/sketch.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/sunrise 2/p5.min.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/sunrise 2/index.html",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/redundant_code.png",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/note1-1.jpg",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/note1-2.jpg",
@@ -199,7 +199,6 @@
     "note1.pdf.md",
     "Excalidraw/Drawing 2023-10-30 09.08.22.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 3 Sequences and Series/Week 3 Summary.md",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/Week 6 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/Week 5 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/debug challenge 3/uol_ip1_w5.gif",
     "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/sunrise/Sunrise.gif",
