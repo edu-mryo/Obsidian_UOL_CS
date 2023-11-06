@@ -42,6 +42,30 @@ function draw()
 	fill(0, 155, 0);
 	rect(0, floorPos_y, height, width - floorPos_y); //draw some green ground
 
+
+	//Front facing character
+	fill("#FFE4C4")
+	ellipse(gameChar_x,gameChar_y-58,35,35);
+	
+	fill('#FFE4C4');
+	stroke('black'); // Add stroke to make the nose more obvious
+	ellipse(gameChar_x,gameChar_y-55,5,5);
+
+	noStroke();
+	fill("#0aa132");
+	rect(gameChar_x-15,gameChar_y-43,30,38);
+	rect(gameChar_x-20,gameChar_y-43,5,20);
+	rect(gameChar_x+15,gameChar_y-43,5,20);
+	
+	
+	fill('black')
+	ellipse(gameChar_x-10,gameChar_y-3,12,12);
+	ellipse(gameChar_x+10,gameChar_y-3,12,12);
+	ellipse(gameChar_x-16,gameChar_y-20,8,8);
+	ellipse(gameChar_x+16,gameChar_y-20,8,8);
+	//Front facing character end
+
+
 }
 
 function mousePressed()
