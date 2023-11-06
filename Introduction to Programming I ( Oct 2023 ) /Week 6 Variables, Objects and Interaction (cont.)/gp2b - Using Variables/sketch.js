@@ -20,6 +20,13 @@ var collectable;
 var mountain;
 var cloud;
 
+function l_cloud(x,y,z=50){
+	ellipse(x,y,z,z);
+	ellipse(x+20,y+10,z,z);
+	ellipse(x,y+20,z,z);
+	ellipse(x-20,y+20,z,z);
+	ellipse(x-45,y+10,z,z);
+	ellipse(x-20,y,z,z)};
 
 function setup() {
 	createCanvas(1024, 576);
@@ -35,6 +42,8 @@ function setup() {
 	canyon = {x_pos:0,width:100};
 
 	collectable = {x_pos:100,y_pos:100,size:50};
+
+	mountain = {x_pos:100,y_pos:100};
 
 }
 
@@ -83,7 +92,26 @@ function draw() {
 	arc(collectable.x_pos+193, collectable.y_pos+307, 23, 5, 0, PI / 5.0); // lower quarter circle
 	//collectable item end.
 	
+//1. a cloud in the sky
+	//... add your code here
 
+	noStroke();
+	fill(255);
+	// text("cloud", 200, 100);
+
+	l_cloud(210,120,50);
+
+
+	//2. a mountain in the distance
+	//... add your code here
+
+	noStroke();
+	fill(255);
+	fill(139,69,19,190);
+	triangle(mountain.x_pos, mountain.y_pos, 760, 432, 610, 200);
+	fill(255,255,255);
+	l_cloud(600,225,60);
+	l_cloud(680,310,60);
 
 
 	//Front facing character
