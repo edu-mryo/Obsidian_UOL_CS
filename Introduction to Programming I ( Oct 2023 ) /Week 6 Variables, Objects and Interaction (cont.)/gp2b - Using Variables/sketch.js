@@ -53,12 +53,12 @@ function draw() {
 	rect(treePos_x, treePos_y, 30, 100);
 	// fill green
 	fill(0, 155, 0);
-	ellipse(treePos_x-15, 333, 60, 60);
-	ellipse(treePos_x+30, 333, 60, 60);
-	ellipse(treePos_x+80, 333, 60, 60);
-	ellipse(790, 290, 60, 60);
-	ellipse(835, 290, 60, 60);
-	ellipse(813, 250, 60, 60);
+	ellipse(treePos_x-30, 333, 60, 60);
+	ellipse(treePos_x+20, 333, 60, 60);
+	ellipse(treePos_x+65, 333, 60, 60);
+	ellipse(treePos_x-4, 290, 60, 60);
+	ellipse(treePos_x+45, 290, 60, 60);
+	ellipse(treePos_x+20, 250, 60, 60);
 	//Tree ends
 
 	//Front facing character
