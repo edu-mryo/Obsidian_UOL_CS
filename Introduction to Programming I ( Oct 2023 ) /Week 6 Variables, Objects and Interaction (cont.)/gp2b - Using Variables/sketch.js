@@ -45,6 +45,8 @@ function setup() {
 
 	mountain = {x_pos:100,y_pos:100};
 
+	cloud = {x_pos:100,y_pos:100,width:10, height:10};
+
 }
 
 function draw() {
@@ -99,7 +101,9 @@ function draw() {
 	fill(255);
 	// text("cloud", 200, 100);
 
-	l_cloud(210,120,50);
+	// l_cloud(210,120,50);
+	ellipse(cloud.x_pos,cloud.y_pos,cloud.width,cloud.height);
+
 
 
 	//2. a mountain in the distance
@@ -108,7 +112,7 @@ function draw() {
 	noStroke();
 	fill(255);
 	fill(139,69,19,190);
-	triangle(mountain.x_pos, mountain.y_pos, 760, 432, 610, 200);
+	triangle(mountain.x_pos-100, mountain.y_pos+335, mountain.x_pos+150, mountain.y_pos+335, mountain.x_pos+27, mountain.y_pos+150);
 	fill(255,255,255);
 	l_cloud(600,225,60);
 	l_cloud(680,310,60);
