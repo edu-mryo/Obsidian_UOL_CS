@@ -20,13 +20,14 @@ var collectable;
 var mountain;
 var cloud;
 
-function l_cloud(x,y,z=50){
-	ellipse(x,y,z,z);
-	ellipse(x+20,y+10,z,z);
-	ellipse(x,y+20,z,z);
-	ellipse(x-20,y+20,z,z);
-	ellipse(x-45,y+10,z,z);
-	ellipse(x-20,y,z,z)};
+function l_cloud(x, y, z = 50) {
+	ellipse(x, y, z, z);
+	ellipse(x + 20, y + 10, z, z);
+	ellipse(x, y + 20, z, z);
+	ellipse(x - 20, y + 20, z, z);
+	ellipse(x - 45, y + 10, z, z);
+	ellipse(x - 20, y, z, z)
+};
 
 function setup() {
 	createCanvas(1024, 576);
@@ -39,13 +40,13 @@ function setup() {
 	treePos_x = width / 1.9;
 	treePos_y = height / 1.72;
 
-	canyon = {x_pos:0,width:100};
+	canyon = { x_pos: 0, width: 100 };
 
-	collectable = {x_pos:100,y_pos:100,size:50};
+	collectable = { x_pos: 100, y_pos: 100, size: 50 };
 
-	mountain = {x_pos:100,y_pos:100};
+	mountain = { x_pos: 100, y_pos: 100 };
 
-	cloud = {x_pos:100,y_pos:100,width:10, height:10};
+	cloud = { x_pos: 100, y_pos: 100, width: 10, height: 10 };
 
 }
 
@@ -58,6 +59,31 @@ function draw() {
 
 
 
+	//Cloud and Mountain 
+
+	noStroke();
+	fill(255);
+	//Cloud in the sky
+	ellipse(cloud.x_pos, cloud.y_pos, cloud.width + 30, cloud.height + 30);
+	ellipse(cloud.x_pos + 20, cloud.y_pos - 10, cloud.width + 30, cloud.height + 30);
+	ellipse(cloud.x_pos + 20, cloud.y_pos + 10, cloud.width + 30, cloud.height + 30);
+	ellipse(cloud.x_pos + 40, cloud.y_pos - 10, cloud.width + 30, cloud.height + 30);
+	ellipse(cloud.x_pos + 40, cloud.y_pos + 10, cloud.width + 30, cloud.height + 30);
+	ellipse(cloud.x_pos + 60, cloud.y_pos, cloud.width + 30, cloud.height + 30);
+	noStroke();
+	fill(255);
+	fill(139, 69, 19, 190);
+	//mountain
+	triangle(mountain.x_pos - 100, mountain.y_pos + 335, mountain.x_pos + 150, mountain.y_pos + 335, mountain.x_pos + 27, mountain.y_pos + 150);
+	fill(255, 255, 255);
+	//Cloud casting mountain
+	ellipse(cloud.x_pos - 20, cloud.y_pos + 200, cloud.width + 30, cloud.height + 30);
+	ellipse(cloud.x_pos, cloud.y_pos + 190, cloud.width + 30, cloud.height + 30);
+	ellipse(cloud.x_pos, cloud.y_pos + 210, cloud.width + 30, cloud.height + 30);
+	ellipse(cloud.x_pos + 20, cloud.y_pos + 190, cloud.width + 30, cloud.height + 30);
+	ellipse(cloud.x_pos + 20, cloud.y_pos + 210, cloud.width + 30, cloud.height + 30);
+	ellipse(cloud.x_pos + 40, cloud.y_pos + 200, cloud.width + 30, cloud.height + 30);
+	//Cloud and Mountein end
 
 	// Tree 
 	// fill brown
@@ -65,72 +91,35 @@ function draw() {
 	rect(treePos_x, treePos_y, 30, 100);
 	// fill green
 	fill(0, 155, 0);
-	ellipse(treePos_x-30, 333, 60, 60);
-	ellipse(treePos_x+20, 333, 60, 60);
-	ellipse(treePos_x+65, 333, 60, 60);
-	ellipse(treePos_x-4, 290, 60, 60);
-	ellipse(treePos_x+45, 290, 60, 60);
-	ellipse(treePos_x+20, 250, 60, 60);
+	ellipse(treePos_x - 30, 333, 60, 60);
+	ellipse(treePos_x + 20, 333, 60, 60);
+	ellipse(treePos_x + 65, 333, 60, 60);
+	ellipse(treePos_x - 4, 290, 60, 60);
+	ellipse(treePos_x + 45, 290, 60, 60);
+	ellipse(treePos_x + 20, 250, 60, 60);
 	//Tree ends
 
 	//Canyon from here
 
 	//fill sky blue
 	fill(0, 0, 255);
-	rect(canyon.x_pos+310, 432, canyon.width+10, 144);
-	fill(139,69,19);
-	rect(canyon.x_pos+300,432,canyon.width/7,144);
-	rect(canyon.x_pos+420,432,canyon.width/7,144);
+	rect(canyon.x_pos + 310, 432, canyon.width + 10, 144);
+	fill(139, 69, 19);
+	rect(canyon.x_pos + 300, 432, canyon.width / 7, 144);
+	rect(canyon.x_pos + 420, 432, canyon.width / 7, 144);
 	//Canyon End
 
 	//Collectable Itenm
 	noStroke();
 	fill(255);
-	fill(255,0,0);
-	ellipse(collectable.x_pos*3,collectable.y_pos+317,collectable.size-20,collectable.size-20);
-	fill(255,255,0,0);
+	fill(255, 0, 0);
+	ellipse(collectable.x_pos * 3, collectable.y_pos + 317, collectable.size - 20, collectable.size - 20);
+	fill(255, 255, 0, 0);
 	stroke(0);
-	arc(collectable.x_pos+187, collectable.y_pos+300, 30, 50, 0, PI / 5.0); // lower quarter circle
-	arc(collectable.x_pos+193, collectable.y_pos+307, 23, 5, 0, PI / 5.0); // lower quarter circle
+	arc(collectable.x_pos + 187, collectable.y_pos + 300, 30, 50, 0, PI / 5.0); // lower quarter circle
+	arc(collectable.x_pos + 193, collectable.y_pos + 307, 23, 5, 0, PI / 5.0); // lower quarter circle
 	//collectable item end.
-	
-//1. a cloud in the sky
-	//... add your code here
 
-	noStroke();
-	fill(255);
-	// text("cloud", 200, 100);
-
-	// l_cloud(210,120,50);
-	ellipse(cloud.x_pos,cloud.y_pos,cloud.width+30,cloud.height+30);
-	ellipse(cloud.x_pos+20,cloud.y_pos-10,cloud.width+30,cloud.height+30);
-	ellipse(cloud.x_pos+20,cloud.y_pos+10,cloud.width+30,cloud.height+30);
-	ellipse(cloud.x_pos+40,cloud.y_pos-10,cloud.width+30,cloud.height+30);
-	ellipse(cloud.x_pos+40,cloud.y_pos+10,cloud.width+30,cloud.height+30);
-	ellipse(cloud.x_pos+60,cloud.y_pos,cloud.width+30,cloud.height+30);
-
-
-
-
-
-
-
-	//2. a mountain in the distance
-	//... add your code here
-
-	noStroke();
-	fill(255);
-	fill(139,69,19,190);
-	triangle(mountain.x_pos-100, mountain.y_pos+335, mountain.x_pos+150, mountain.y_pos+335, mountain.x_pos+27, mountain.y_pos+150);
-	fill(255,255,255);
-	ellipse(cloud.x_pos-20,cloud.y_pos+200,cloud.width+30,cloud.height+30);
-	ellipse(cloud.x_pos,cloud.y_pos+190,cloud.width+30,cloud.height+30);
-	ellipse(cloud.x_pos,cloud.y_pos+210,cloud.width+30,cloud.height+30);
-	ellipse(cloud.x_pos+20,cloud.y_pos+190,cloud.width+30,cloud.height+30);
-	ellipse(cloud.x_pos+20,cloud.y_pos+210,cloud.width+30,cloud.height+30);
-	ellipse(cloud.x_pos+40,cloud.y_pos+200,cloud.width+30,cloud.height+30);
-
-	l_cloud(680,310,60);
 
 
 	//Front facing character
@@ -156,7 +145,7 @@ function draw() {
 	//Front facing character end
 
 
-	
+
 
 
 
