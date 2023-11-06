@@ -102,7 +102,16 @@ function draw() {
 	// text("cloud", 200, 100);
 
 	// l_cloud(210,120,50);
-	ellipse(cloud.x_pos,cloud.y_pos,cloud.width,cloud.height);
+	ellipse(cloud.x_pos,cloud.y_pos,cloud.width+30,cloud.height+30);
+	ellipse(cloud.x_pos+20,cloud.y_pos-10,cloud.width+30,cloud.height+30);
+	ellipse(cloud.x_pos+20,cloud.y_pos+10,cloud.width+30,cloud.height+30);
+	ellipse(cloud.x_pos+40,cloud.y_pos-10,cloud.width+30,cloud.height+30);
+	ellipse(cloud.x_pos+40,cloud.y_pos+10,cloud.width+30,cloud.height+30);
+	ellipse(cloud.x_pos+60,cloud.y_pos,cloud.width+30,cloud.height+30);
+
+
+
+
 
 
 
@@ -114,7 +123,13 @@ function draw() {
 	fill(139,69,19,190);
 	triangle(mountain.x_pos-100, mountain.y_pos+335, mountain.x_pos+150, mountain.y_pos+335, mountain.x_pos+27, mountain.y_pos+150);
 	fill(255,255,255);
-	l_cloud(600,225,60);
+	ellipse(cloud.x_pos-20,cloud.y_pos+200,cloud.width+30,cloud.height+30);
+	ellipse(cloud.x_pos,cloud.y_pos+190,cloud.width+30,cloud.height+30);
+	ellipse(cloud.x_pos,cloud.y_pos+210,cloud.width+30,cloud.height+30);
+	ellipse(cloud.x_pos+20,cloud.y_pos+190,cloud.width+30,cloud.height+30);
+	ellipse(cloud.x_pos+20,cloud.y_pos+210,cloud.width+30,cloud.height+30);
+	ellipse(cloud.x_pos+40,cloud.y_pos+200,cloud.width+30,cloud.height+30);
+
 	l_cloud(680,310,60);
 
 
