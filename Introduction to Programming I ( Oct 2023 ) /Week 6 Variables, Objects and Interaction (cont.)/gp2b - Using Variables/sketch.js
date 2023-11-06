@@ -34,6 +34,8 @@ function setup() {
 
 	canyon = {x_pos:0,width:100};
 
+	collectable = {x_pos:100,y_pos:100};
+
 }
 
 function draw() {
@@ -60,6 +62,16 @@ function draw() {
 	ellipse(treePos_x+20, 250, 60, 60);
 	//Tree ends
 
+	//Canyon from here
+
+	//fill sky blue
+	fill(0, 0, 255);
+	rect(canyon.x_pos+310, 432, 60, 144);
+	fill(139,69,19);
+	rect(canyon.x_pos+300,432,canyon.width/7,144);
+	rect(canyon.x_pos+420,432,canyon.width/7,144);
+	//Canyon End
+
 	//Front facing character
 	fill("#FFE4C4")
 	ellipse(gameChar_x, gameChar_y - 58, 35, 35);
@@ -83,15 +95,7 @@ function draw() {
 	//Front facing character end
 
 
-	//Canyon from here
-
-	//fill sky blue
-	fill(0, 0, 255);
-	rect(canyon.x_pos+40, 432, 60, 144);
-	//fill light brown
-	fill(139,69,19);
-	rect(canyon.x_pos+27,432,canyon.width/7,144);
-	rect(canyon.x_pos+95,432,canyon.width/7,144);
+	
 
 
 
