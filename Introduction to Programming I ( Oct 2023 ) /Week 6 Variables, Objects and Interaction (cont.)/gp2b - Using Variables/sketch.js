@@ -66,11 +66,25 @@ function draw() {
 
 	//fill sky blue
 	fill(0, 0, 255);
-	rect(canyon.x_pos+310, 432, 60, 144);
+	rect(canyon.x_pos+310, 432, canyon.width+10, 144);
 	fill(139,69,19);
 	rect(canyon.x_pos+300,432,canyon.width/7,144);
 	rect(canyon.x_pos+420,432,canyon.width/7,144);
 	//Canyon End
+
+	//Collectable Itenm
+	noStroke();
+	fill(255);
+	fill(255,0,0);
+	ellipse(collectable.x_pos*3,collectable.y_pos+317,30,30);
+	fill(255,255,0,0);
+	stroke(0);
+	arc(405, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
+	arc(412, 408, 23, 5, 0, PI / 5.0); // lower quarter circle
+	//collectable item end.
+	
+
+
 
 	//Front facing character
 	fill("#FFE4C4")
