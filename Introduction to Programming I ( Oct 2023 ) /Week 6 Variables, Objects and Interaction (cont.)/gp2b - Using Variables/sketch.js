@@ -34,7 +34,7 @@ function setup() {
 
 	canyon = {x_pos:0,width:100};
 
-	collectable = {x_pos:100,y_pos:100};
+	collectable = {x_pos:100,y_pos:100,size:50};
 
 }
 
@@ -76,11 +76,11 @@ function draw() {
 	noStroke();
 	fill(255);
 	fill(255,0,0);
-	ellipse(collectable.x_pos*3,collectable.y_pos+317,30,30);
+	ellipse(collectable.x_pos*3,collectable.y_pos+317,collectable.size-20,collectable.size-20);
 	fill(255,255,0,0);
 	stroke(0);
-	arc(405, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
-	arc(412, 408, 23, 5, 0, PI / 5.0); // lower quarter circle
+	arc(collectable.x_pos+187, collectable.y_pos+300, 30, 50, 0, PI / 5.0); // lower quarter circle
+	arc(collectable.x_pos+193, collectable.y_pos+307, 23, 5, 0, PI / 5.0); // lower quarter circle
 	//collectable item end.
 	
 
