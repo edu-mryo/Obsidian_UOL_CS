@@ -65,11 +65,30 @@ function draw()
 	ellipse(gameChar_x+16,gameChar_y-20,8,8);
 	//Front facing character end
 
+	// Tree 
+	noStroke();
+	fill(255);
+	text("tree", 800, 346);
+	// fill brown
+	fill(139,69,19);
+	rect(treePos_x, treePos_y, 30, 100);
+	// fill green
+	fill(0,155,0);
+	ellipse(770, 333, 60, 60);
+	ellipse(815, 333, 60, 60);
+	ellipse(860, 333, 60, 60);
+	ellipse(790, 290, 60, 60);
+	ellipse(835, 290, 60, 60);
+	ellipse(813, 250, 60, 60);
+
 
 }
 
 function mousePressed()
 {
+	// Move character where user clicks on the screen.
+	gameChar_x = mouseX;
+	gameChar_y = mouseY;
 
 
 }
