@@ -32,6 +32,8 @@ function setup() {
 	treePos_x = width / 1.9;
 	treePos_y = height / 1.72;
 
+	canyon = {x_pos:0,width:100};
+
 }
 
 function draw() {
@@ -45,9 +47,6 @@ function draw() {
 
 
 	// Tree 
-	noStroke();
-	fill(255);
-	text("tree", 800, 346);
 	// fill brown
 	fill(139, 69, 19);
 	rect(treePos_x, treePos_y, 30, 100);
@@ -82,6 +81,19 @@ function draw() {
 	ellipse(gameChar_x - 16, gameChar_y - 20, 8, 8);
 	ellipse(gameChar_x + 16, gameChar_y - 20, 8, 8);
 	//Front facing character end
+
+
+	//Canyon from here
+
+	//fill sky blue
+	fill(0, 0, 255);
+	rect(canyon.x_pos+40, 432, 60, 144);
+	//fill light brown
+	fill(139,69,19);
+	rect(canyon.x_pos+27,432,canyon.width/7,144);
+	rect(canyon.x_pos+95,432,canyon.width/7,144);
+
+
 
 }
 
