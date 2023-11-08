@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/setup_draw_flow.png",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Week 7 Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/setup_draw_flow.png",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Week 7 Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/setup_draw_flow.png"
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Week 7 Summary.md"
               }
             }
           }
@@ -182,8 +182,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "71aeb0dde3f19fb2",
+  "active": "cd08c5e486b22c18",
   "lastOpenFiles": [
+    "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/setup_draw_flow.png",
+    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/robot heads/sketch.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/robot heads/hackIt.gif",
+    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/robot heads/p5.min.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/robot heads/index.html",
+    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/robot heads",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/Week 6 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Week 7 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types",
@@ -199,14 +205,8 @@
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/sketch.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/p5.min.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/README.md",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables",
-    "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/setup_draw_flow.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2a - Game Character/character.png",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2a - Game Character/sketch.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2a - Game Character/p5.min.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2a - Game Character/index.html",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/redundant_code.png",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/b683bb2249b6c032c12e5c483e1ef168.png",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/Week 4 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/Week 5 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 4 Drawing in 2D II/Week 4 Summary.md",
