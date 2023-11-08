@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Week 7 Summary.md",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/setup_draw_flow.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Week 7 Summary.md",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/setup_draw_flow.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Week 7 Summary.md"
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/setup_draw_flow.png"
               }
             }
           }
