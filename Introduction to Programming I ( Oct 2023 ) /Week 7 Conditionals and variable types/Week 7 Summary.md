@@ -42,6 +42,18 @@ if(day =='Monday'){
 
 var phone_battery = 70;
 
-if (phone_battery <-)
+if (phone_battery >0 && phone_battery <=10){
+	console.log("Battery Low. Charging for 30 minugtes")
+}else if (phone_battery >10 && phone_battery <=50){
+	console.log("Battery medium. Charging for 10 minutes")
+}else{
+	console.log("Battery relatively high. Not charging")
+}
 
 ```
+
+#### Additional logic operator to remember 
+
+1. `==`  : Return `true` if both conditions are the same. If not, return `false`
+2. `!=` : Return `true` if both conditions are not the same. If it is , return `true`
+3. `&&` : if both sides are `true` ,
