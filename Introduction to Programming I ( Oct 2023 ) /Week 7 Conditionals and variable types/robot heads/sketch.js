@@ -134,9 +134,23 @@ function draw()
 
 	//place your if statements here
 
-	//console.log when robot hit the edge of the canvas
+	
 	if (robot1_x >= width - 100|| robot1_x <= 0) {
-		console.log("robot1 hit the edge of the canvas");
-		
-	}
+		robot1Speed_x *= -1;
+	};
+	if(robot1_y >= height - 100|| robot1_y <= 0){
+		robot1Speed_y *= -1;
+	};
+	if (robot2_x >= width - 100|| robot2_x <= 0) {
+		robot2Speed_x *= -1;
+	};
+	if(robot2_y >= height - 100|| robot2_y <= 0){
+		robot2Speed_y *= -1;
+	};
+	if(robot1_x == robot2_x || robot1_y == robot2_y){
+		robot1Speed_x *= -1;
+		robot1Speed_y *= -1;
+		robot2Speed_x *= -1;
+		robot2Speed_y *= -1;
+	};
 }
