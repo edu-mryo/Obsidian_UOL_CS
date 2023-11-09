@@ -148,6 +148,7 @@ function draw()
 		robot2Speed_y *= -1;
 	};
 	if(robot1_x == robot2_x || robot1_y == robot2_y){
+		console.log("collision");
 		robot1Speed_x *= -1;
 		robot1Speed_y *= -1;
 		robot2Speed_x *= -1;
