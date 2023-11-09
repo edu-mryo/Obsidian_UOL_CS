@@ -58,3 +58,5 @@ if (phone_battery >0 && phone_battery <=10){
 2. `!=` : Return `true` if both conditions are not the same. If it is , return `true`
 3. `&&` : if both sides are `true` , then return `true` . If either side is `false` then return `false`
 4. `||` : If either one side is `true`, then return true. If both sides are `false` then return `false`
+
+
