@@ -134,8 +134,9 @@ function draw()
 
 	//place your if statements here
 
-	if (robot1_x == width){
-		console.log('hi');
+	//console.log when robot hit the edge of the canvas
+	if (robot1_x >= width - 100|| robot1_x <= 0) {
+		console.log("robot1 hit the edge of the canvas");
+		
 	}
-
 }
