@@ -47,8 +47,8 @@ function setup()
 	robot1Speed_x = random(2, 5);
 	robot1Speed_y = random(2, 5);
 
-	robot2Speed_x = 0;
-	robot2Speed_y = 0;
+	robot2Speed_x = random(2, 5);;
+	robot2Speed_y = random(2, 5);;
 
 }
 
@@ -129,8 +129,8 @@ function draw()
 	//update the robots location
 	robot1_x += robot1Speed_x;
 	robot1_y += robot1Speed_y;
-	//robot2_x += robot2Speed_x;
-	//robot2_y += robot2Speed_y;
+	robot2_x += robot2Speed_x;
+	robot2_y += robot2Speed_y;
 
 	//place your if statements here
 
