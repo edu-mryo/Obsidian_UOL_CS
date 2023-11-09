@@ -134,4 +134,8 @@ function draw()
 
 	//place your if statements here
 
+	if (robot1_x == width){
+		console.log('hi');
+	}
+
 }
