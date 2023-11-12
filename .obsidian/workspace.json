@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b641da3b1075ff06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Week 7 Summary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22cebaeedbcf36d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/Week 6 Summary.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/Week 6 Summary.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/Week 6 Summary.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -174,8 +199,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "428146b8452647a3",
+  "active": "22cebaeedbcf36d6",
   "lastOpenFiles": [
+    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Week 7 Summary.md",
+    "conflict-files-obsidian-git.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/robot heads/hackIt.gif",
+    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/robot heads/sketch.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/robot heads/p5.min.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/robot heads/index.html",
+    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/robot heads",
+    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types",
+    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/Week 6 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/README.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/submission.zip",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/submission/variables_setup_fct.png",
@@ -188,19 +222,11 @@
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables.zip",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/game_screen.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 4 Drawing in 2D II/Week 4 Summary.md",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/Week 6 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/index.html",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/sketch.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/p5.min.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/Week 4 Summary.md",
-    "conflict-files-obsidian-git.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2a - Game Character/character.png",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2a - Game Character/sketch.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2a - Game Character/p5.min.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2a - Game Character/index.html",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/redundant_code.png",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/note1-1.jpg",
     "note1.pdf.md",
     "Excalidraw/Drawing 2023-10-30 09.08.22.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 3 Sequences and Series/Week 3 Summary.md",
@@ -220,7 +246,6 @@
     "Test folder/test.md",
     "How Computer Works/Week 1/Abstraction.md",
     " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 1/1.1 Introduction to P5.js.md",
-    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 2/2.1 Drawing Functions.md",
-    "README.md"
+    " Introduction to Computer Science and Programming/Introduction to Computer Programming/Week 2/2.1 Drawing Functions.md"
   ]
 }
