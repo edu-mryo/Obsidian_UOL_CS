@@ -59,5 +59,7 @@ if (phone_battery >0 && phone_battery <=10){
 3. `&&` : if both sides are `true` , then return `true` . If either side is `false` then return `false`
 4. `||` : If either one side is `true`, then return true. If both sides are `false` then return `false`
 
-### Boolean
-- `true` and `false` value
+#### Debugger Mindset
+- Coder spend more time in debugging than developing (In most cases)
+- Development is creative mode, debugging is investigator mode. 
+
