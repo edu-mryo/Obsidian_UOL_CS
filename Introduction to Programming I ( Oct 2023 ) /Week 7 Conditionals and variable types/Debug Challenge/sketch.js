@@ -56,7 +56,7 @@ function draw()
 
 function mousePressed()
 {
-	if (dist(mouseX, mouseY, redButton.x, redButton.y) < redButton.dis)
+	if (dist(mouseX, mouseY, redButton.x, redButton.y) < redButton.dis-90)
 	{
 		redButton.activated = !redButton.activated;
 	}
