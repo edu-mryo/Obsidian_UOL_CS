@@ -20,14 +20,7 @@ function draw()
 
 	if (frameCount / 30 == parseInt(frameCount / 30))
 	{
-		if (alertFlash == true)
-		{
-			alertFlash = true;
-		}
-		else
-		{
-			alertFlash = false;
-		}
+		alertFlash = !alertFlash;
 	}
 
 	if (redButton.activated == true)
@@ -36,8 +29,8 @@ function draw()
 
 		if (alertFlash)
 		{
-			textSize(35);
-			text("Meltdown Sequence Initiated!!!", width / 2, height / 2 - redButton.dis);
+			textSize(100);
+			text("ALERT!!!", width / 2, height / 2 - redButton.dis);
 		}
 
 	}
