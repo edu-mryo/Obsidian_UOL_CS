@@ -63,3 +63,7 @@ if (phone_battery >0 && phone_battery <=10){
 - Coder spend more time in debugging than developing (In most cases)
 - Development is creative mode, debugging is investigator mode. 
 
+##### Here are some debugging basics
+1. Check the console error code
+2.  Check syntax, variables and values. Any spelling mistakes ? Did you declare functions objects correctly ? Any missing brackets ?
+3. Add comments from top to bottom to explain what you are doing. 
