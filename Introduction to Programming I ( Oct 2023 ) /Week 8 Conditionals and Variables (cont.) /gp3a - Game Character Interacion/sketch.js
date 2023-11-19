@@ -48,6 +48,17 @@ function draw() {
 	else if (isRight && isFalling) {
 		// add your jumping-right code
 
+		fill("#FFE4C4");
+		ellipse(gameChar_x, gameChar_y - 58, 35, 35);
+		ellipse(gameChar_x + 18, gameChar_y - 57, 9, 9);
+
+		fill("#0aa132");
+		rect(gameChar_x - 10, gameChar_y - 43, 20, 33);
+
+		fill('black')
+		ellipse(gameChar_x - 8, gameChar_y - 8, 12, 12);
+		ellipse(gameChar_x + 10, gameChar_y - 15, 12, 12);
+
 	}
 	else if (isLeft) {
 		// add your walking left code
@@ -64,6 +75,8 @@ function draw() {
 		ellipse(gameChar_x - 8, gameChar_y - 2, 12, 12);
 		ellipse(gameChar_x + 10, gameChar_y - 2, 12, 12);
 
+		gameChar_x -= 1;
+
 	}
 	else if (isRight) {
 		// add your walking right code
@@ -78,6 +91,8 @@ function draw() {
 		fill('black')
 		ellipse(gameChar_x - 8, gameChar_y - 2, 12, 12);
 		ellipse(gameChar_x + 10, gameChar_y - 2, 12, 12);
+
+		gameChar_x += 1;
 
 
 
@@ -140,4 +155,7 @@ function keyReleased() {
 
 	console.log("keyReleased: " + key);
 	console.log("keyReleased: " + keyCode);
+
+	isLeft = false;
+	isRight = false;
 }
