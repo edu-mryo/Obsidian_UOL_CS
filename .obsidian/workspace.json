@@ -52,9 +52,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2bbb1b5fb31c55b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -120,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Week 7 Summary.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Week 7 Summary.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Week 7 Summary.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -182,23 +194,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cd08c5e486b22c18",
+  "active": "2bbb1b5fb31c55b3",
   "lastOpenFiles": [
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian/Game Character Interaction.zip",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian/FANqlFShQnCYMIeHFacWNw_0d25764221bd4b1195a819d50807ffe1_gp3a---Game-Character-Interacion.zip",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian/Unconfirmed 567861.crdownload",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1",
-    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Debug Challenge/sketch.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Debug Challenge/p5.min.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Debug Challenge/index.html",
-    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Debug Challenge",
+    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Week 7 Summary.md",
+    "conflict-files-obsidian-git.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian/gp3a - Game Character Interacion 2/p5.min.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian/gp3a - Game Character Interacion 2/sketch.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian/gp3a - Game Character Interacion 2/index.html",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian/gp3a - Game Character Interacion 2/README.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian/gp3a - Game Character Interacion 2",
     "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/debug Challenge/sketch.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/debug Challenge/p5.min.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/debug Challenge/index.html",
+    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/debug Challenge",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian/Game Character Interaction (1)..zip",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian/Game Character Interaction.zip",
+    "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian/gp3a - Game Character Interacion/README.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/setup_draw_flow.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/robot heads/hackIt.gif",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/Week 6 Summary.md",
-    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Week 7 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/submission/variables_setup_fct.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/submission/mousePressed.png",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/submission/game_screen.png",
@@ -214,7 +228,6 @@
     "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Week 3 Summary.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 3 Sequences and Series/Week 3 Summary.md",
-    "conflict-files-obsidian-git.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Week 2 Summary.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 1 Your Development Environment/Week 1 Note.md",
