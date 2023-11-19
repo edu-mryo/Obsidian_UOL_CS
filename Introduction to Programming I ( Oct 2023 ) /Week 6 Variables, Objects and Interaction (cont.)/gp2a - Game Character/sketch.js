@@ -34,13 +34,11 @@ WARNING: Do not get too carried away. Around 10-20 lines of code should work for
 var gameChar_x = 0;
 var gameChar_y = 0;
 
-function setup()
-{
+function setup() {
 	createCanvas(400, 600);
 }
 
-function draw()
-{
+function draw() {
 
 	//Standing, facing frontwards
 
@@ -55,29 +53,29 @@ function draw()
 	gameChar_y = 137;
 	//Add your code here ...
 	fill("#FFE4C4")
-	ellipse(gameChar_x,gameChar_y-58,35,35);
-	
+	ellipse(gameChar_x, gameChar_y - 58, 35, 35);
+
 	fill('#FFE4C4');
 	stroke('black'); // Add stroke to make the nose more obvious
-	ellipse(gameChar_x,gameChar_y-55,5,5);
+	ellipse(gameChar_x, gameChar_y - 55, 5, 5);
 
 	noStroke();
 	fill("#0aa132");
-	rect(gameChar_x-15,gameChar_y-43,30,38);
-	rect(gameChar_x-20,gameChar_y-43,5,20);
-	rect(gameChar_x+15,gameChar_y-43,5,20);
-	
-	
+	rect(gameChar_x - 15, gameChar_y - 43, 30, 38);
+	rect(gameChar_x - 20, gameChar_y - 43, 5, 20);
+	rect(gameChar_x + 15, gameChar_y - 43, 5, 20);
+
+
 	fill('black')
-	ellipse(gameChar_x-10,gameChar_y-3,12,12);
-	ellipse(gameChar_x+10,gameChar_y-3,12,12);
-	ellipse(gameChar_x-16,gameChar_y-20,8,8);
-	ellipse(gameChar_x+16,gameChar_y-20,8,8);
+	ellipse(gameChar_x - 10, gameChar_y - 3, 12, 12);
+	ellipse(gameChar_x + 10, gameChar_y - 3, 12, 12);
+	ellipse(gameChar_x - 16, gameChar_y - 20, 8, 8);
+	ellipse(gameChar_x + 16, gameChar_y - 20, 8, 8);
 
 
-	
-	
-	
+
+
+
 
 
 	//Jumping facing forwards
@@ -93,27 +91,27 @@ function draw()
 	//Add your code here ...
 
 	fill("#FFE4C4")
-	ellipse(gameChar_x,gameChar_y-58,35,35);
-	
+	ellipse(gameChar_x, gameChar_y - 58, 35, 35);
+
 	fill('#FFE4C4');
 	stroke('black'); // Add stroke to make the nose more obvious
-	ellipse(gameChar_x,gameChar_y-55,5,5);
+	ellipse(gameChar_x, gameChar_y - 55, 5, 5);
 
 	noStroke();
 	fill("#0aa132");
-	rect(gameChar_x-15,gameChar_y-43,30,30);
-	rect(gameChar_x-20,gameChar_y-43,5,20);
-	rect(gameChar_x+15,gameChar_y-43,5,20);
-	
-	
+	rect(gameChar_x - 15, gameChar_y - 43, 30, 30);
+	rect(gameChar_x - 20, gameChar_y - 43, 5, 20);
+	rect(gameChar_x + 15, gameChar_y - 43, 5, 20);
+
+
 	fill('black')
-	ellipse(gameChar_x-10,gameChar_y-10,12,12);
-	ellipse(gameChar_x+10,gameChar_y-10,12,12);
-	ellipse(gameChar_x-16,gameChar_y-20,8,8);
-	ellipse(gameChar_x+16,gameChar_y-20,8,8);
+	ellipse(gameChar_x - 10, gameChar_y - 10, 12, 12);
+	ellipse(gameChar_x + 10, gameChar_y - 10, 12, 12);
+	ellipse(gameChar_x - 16, gameChar_y - 20, 8, 8);
+	ellipse(gameChar_x + 16, gameChar_y - 20, 8, 8);
 
 
-	
+
 
 
 	//Walking, turned left
@@ -129,15 +127,15 @@ function draw()
 	//Add your code here ...
 
 	fill("#FFE4C4");
-	ellipse(gameChar_x,gameChar_y-58,35,35);
-	ellipse(gameChar_x-18,gameChar_y-57,9,9);
+	ellipse(gameChar_x, gameChar_y - 58, 35, 35);
+	ellipse(gameChar_x - 18, gameChar_y - 57, 9, 9);
 
 	fill("#0aa132");
-	rect(gameChar_x-10,gameChar_y-43,20,35);
+	rect(gameChar_x - 10, gameChar_y - 43, 20, 35);
 
 	fill('black')
-	ellipse(gameChar_x-8,gameChar_y-8,12,12);
-	ellipse(gameChar_x+10,gameChar_y-8,12,12);
+	ellipse(gameChar_x - 8, gameChar_y - 8, 12, 12);
+	ellipse(gameChar_x + 10, gameChar_y - 8, 12, 12);
 
 
 
@@ -154,15 +152,15 @@ function draw()
 	//Add your code here ...
 
 	fill("#FFE4C4");
-	ellipse(gameChar_x,gameChar_y-58,35,35);
-	ellipse(gameChar_x+18,gameChar_y-57,9,9);
+	ellipse(gameChar_x, gameChar_y - 58, 35, 35);
+	ellipse(gameChar_x + 18, gameChar_y - 57, 9, 9);
 
 	fill("#0aa132");
-	rect(gameChar_x-10,gameChar_y-43,20,35);
+	rect(gameChar_x - 10, gameChar_y - 43, 20, 35);
 
 	fill('black')
-	ellipse(gameChar_x-8,gameChar_y-8,12,12);
-	ellipse(gameChar_x+10,gameChar_y-8,12,12);
+	ellipse(gameChar_x - 8, gameChar_y - 8, 12, 12);
+	ellipse(gameChar_x + 10, gameChar_y - 8, 12, 12);
 
 
 
@@ -181,15 +179,15 @@ function draw()
 	//Add your code here ...
 
 	fill("#FFE4C4");
-	ellipse(gameChar_x,gameChar_y-58,35,35);
-	ellipse(gameChar_x+18,gameChar_y-57,9,9);
+	ellipse(gameChar_x, gameChar_y - 58, 35, 35);
+	ellipse(gameChar_x + 18, gameChar_y - 57, 9, 9);
 
 	fill("#0aa132");
-	rect(gameChar_x-10,gameChar_y-43,20,33);
+	rect(gameChar_x - 10, gameChar_y - 43, 20, 33);
 
 	fill('black')
-	ellipse(gameChar_x-8,gameChar_y-8,12,12);
-	ellipse(gameChar_x+10,gameChar_y-15,12,12);
+	ellipse(gameChar_x - 8, gameChar_y - 8, 12, 12);
+	ellipse(gameChar_x + 10, gameChar_y - 15, 12, 12);
 
 
 	//Jumping to the left
@@ -205,19 +203,19 @@ function draw()
 	//Add your code here ...
 
 	fill("#FFE4C4");
-	ellipse(gameChar_x,gameChar_y-58,35,35);
-	ellipse(gameChar_x-18,gameChar_y-57,9,9);
+	ellipse(gameChar_x, gameChar_y - 58, 35, 35);
+	ellipse(gameChar_x - 18, gameChar_y - 57, 9, 9);
 
 	fill("#0aa132");
-	rect(gameChar_x-10,gameChar_y-43,20,33);
+	rect(gameChar_x - 10, gameChar_y - 43, 20, 33);
 
 	fill('black')
-	ellipse(gameChar_x-10,gameChar_y-15,12,12);
-	ellipse(gameChar_x+8,gameChar_y-8,12,12);
+	ellipse(gameChar_x - 10, gameChar_y - 15, 12, 12);
+	ellipse(gameChar_x + 8, gameChar_y - 8, 12, 12);
 
 
-	
 
-  
+
+
 
 }

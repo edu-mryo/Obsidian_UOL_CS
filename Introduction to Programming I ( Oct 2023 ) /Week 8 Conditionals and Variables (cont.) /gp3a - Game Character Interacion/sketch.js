@@ -165,6 +165,11 @@ function keyReleased() {
 	console.log("keyReleased: " + key);
 	console.log("keyReleased: " + keyCode);
 
-	isLeft = false;
-	isRight = false;
+	if(keyCode == 65){
+		console.log("Released Left Arrow")
+		isLeft = false;
+	}else if(keyCode ==68){
+		console.log("Release Right Arrow")
+		isRight = false;
+	}
 }
