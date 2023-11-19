@@ -12,9 +12,10 @@ Game interaction
 var gameChar_x;
 var gameChar_y;
 var floorPos_y;
-var isLeft = 37;
-var isRight;
-var isFalling = 40;
+var isLeft = false;
+var isRight = false;
+var isFalling = false;
+var isPlummeting = false; 
 
 function setup()
 {
@@ -59,6 +60,7 @@ function draw()
 	{
 		// add your walking right code
 
+
 	}
 	else if(isFalling || isPlummeting)
 	{
@@ -85,6 +87,14 @@ function keyPressed()
 	//open up the console to see how these work
 	console.log("keyPressed: " + key);
 	console.log("keyPressed: " + keyCode);
+
+	if(keyCode == 65){
+		console.log("Left Arrow");
+		isLeft = true;
+	}else if(keyCode == 68){
+		console.log("Right Arrow");
+		isRight = true;
+	}
 }
 
 function keyReleased()
