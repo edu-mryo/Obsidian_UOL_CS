@@ -59,6 +59,8 @@ function draw() {
 		ellipse(gameChar_x - 8, gameChar_y - 8, 12, 12);
 		ellipse(gameChar_x + 10, gameChar_y - 15, 12, 12);
 
+		gameChar_y -100;
+
 	}
 	else if (isLeft) {
 		// add your walking left code
@@ -75,7 +77,6 @@ function draw() {
 		ellipse(gameChar_x - 8, gameChar_y - 2, 12, 12);
 		ellipse(gameChar_x + 10, gameChar_y - 2, 12, 12);
 
-		gameChar_x -= 1;
 
 	}
 	else if (isRight) {
@@ -92,7 +93,6 @@ function draw() {
 		ellipse(gameChar_x - 8, gameChar_y - 2, 12, 12);
 		ellipse(gameChar_x + 10, gameChar_y - 2, 12, 12);
 
-		gameChar_x += 1;
 
 
 
@@ -129,6 +129,12 @@ function draw() {
 	///////////INTERACTION CODE//////////
 	//Put conditional statements to move the game character below here
 
+	if(isLeft == true){
+		gameChar_x -=1;
+	}else if(isRight == true){
+		gameChar_x +=1;
+	}
+
 }
 
 
@@ -146,6 +152,9 @@ function keyPressed() {
 	} else if (keyCode == 68) {
 		console.log("Right Arrow");
 		isRight = true;
+	}else if (keyCode == 68 && keyCode == 87){
+		console.log('Right Jumping');
+		isPlummeting = true;
 	}
 }
 
