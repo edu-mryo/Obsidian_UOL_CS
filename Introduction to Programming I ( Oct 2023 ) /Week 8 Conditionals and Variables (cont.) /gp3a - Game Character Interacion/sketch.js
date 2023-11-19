@@ -42,6 +42,8 @@ function draw() {
 	if (isLeft && isFalling) {
 		// add your jumping-left code
 
+
+
 	}
 	else if (isRight && isFalling) {
 		// add your jumping-right code
@@ -49,6 +51,18 @@ function draw() {
 	}
 	else if (isLeft) {
 		// add your walking left code
+
+
+		fill("#FFE4C4");
+		ellipse(gameChar_x, gameChar_y - 58, 35, 35);
+		ellipse(gameChar_x - 18, gameChar_y - 57, 9, 9);
+
+		fill("#0aa132");
+		rect(gameChar_x - 10, gameChar_y - 43, 20, 38);
+
+		fill('black')
+		ellipse(gameChar_x - 8, gameChar_y - 2, 12, 12);
+		ellipse(gameChar_x + 10, gameChar_y - 2, 12, 12);
 
 	}
 	else if (isRight) {
@@ -59,7 +73,7 @@ function draw() {
 		ellipse(gameChar_x + 18, gameChar_y - 57, 9, 9);
 
 		fill("#0aa132");
-		rect(gameChar_x - 10, gameChar_y - 43, 20, 35);
+		rect(gameChar_x - 10, gameChar_y - 43, 20, 38);
 
 		fill('black')
 		ellipse(gameChar_x - 8, gameChar_y - 2, 12, 12);
