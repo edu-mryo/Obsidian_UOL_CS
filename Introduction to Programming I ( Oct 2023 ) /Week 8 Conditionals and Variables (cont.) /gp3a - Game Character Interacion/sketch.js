@@ -48,18 +48,7 @@ function draw() {
 	else if (isRight && isFalling) {
 		// add your jumping-right code
 
-		fill("#FFE4C4");
-		ellipse(gameChar_x, gameChar_y - 58, 35, 35);
-		ellipse(gameChar_x + 18, gameChar_y - 57, 9, 9);
 
-		fill("#0aa132");
-		rect(gameChar_x - 10, gameChar_y - 43, 20, 33);
-
-		fill('black')
-		ellipse(gameChar_x - 8, gameChar_y - 8, 12, 12);
-		ellipse(gameChar_x + 10, gameChar_y - 15, 12, 12);
-
-		gameChar_y -100;
 
 	}
 	else if (isLeft) {
@@ -100,6 +89,27 @@ function draw() {
 	else if (isFalling || isPlummeting) {
 		// add your jumping facing forwards code
 
+		fill("#FFE4C4")
+		ellipse(gameChar_x, gameChar_y - 58, 35, 35);
+
+		fill('#FFE4C4');
+		stroke('black'); // Add stroke to make the nose more obvious
+		ellipse(gameChar_x, gameChar_y - 55, 5, 5);
+
+		noStroke();
+		fill("#0aa132");
+		rect(gameChar_x - 15, gameChar_y - 43, 30, 30);
+		rect(gameChar_x - 20, gameChar_y - 43, 5, 20);
+		rect(gameChar_x + 15, gameChar_y - 43, 5, 20);
+
+
+		fill('black')
+		ellipse(gameChar_x - 10, gameChar_y - 10, 12, 12);
+		ellipse(gameChar_x + 10, gameChar_y - 10, 12, 12);
+		ellipse(gameChar_x - 16, gameChar_y - 20, 8, 8);
+		ellipse(gameChar_x + 16, gameChar_y - 20, 8, 8);
+
+
 	}
 	else {
 		// add your standing front facing code
@@ -129,10 +139,10 @@ function draw() {
 	///////////INTERACTION CODE//////////
 	//Put conditional statements to move the game character below here
 
-	if(isLeft == true){
-		gameChar_x -=1;
-	}else if(isRight == true){
-		gameChar_x +=1;
+	if (isLeft == true) {
+		gameChar_x -= 1;
+	} else if (isRight == true) {
+		gameChar_x += 1;
 	}
 
 }
@@ -152,9 +162,11 @@ function keyPressed() {
 	} else if (keyCode == 68) {
 		console.log("Right Arrow");
 		isRight = true;
-	}else if (keyCode == 68 && keyCode == 87){
-		console.log('Right Jumping');
+	} else if (keyCode == 87) {
+		console.log('Jumping');
 		isPlummeting = true;
+
+		gameChar_y -= 100;
 	}
 }
 
@@ -165,10 +177,10 @@ function keyReleased() {
 	console.log("keyReleased: " + key);
 	console.log("keyReleased: " + keyCode);
 
-	if(keyCode == 65){
+	if (keyCode == 65) {
 		console.log("Released Left Arrow")
 		isLeft = false;
-	}else if(keyCode ==68){
+	} else if (keyCode == 68) {
 		console.log("Release Right Arrow")
 		isRight = false;
 	}
