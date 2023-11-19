@@ -15,61 +15,85 @@ var floorPos_y;
 var isLeft = false;
 var isRight = false;
 var isFalling = false;
-var isPlummeting = false; 
+var isPlummeting = false;
 
-function setup()
-{
+function setup() {
 	createCanvas(1024, 576);
-	floorPos_y = height * 3/4;
-	gameChar_x = width/2;
+	floorPos_y = height * 3 / 4;
+	gameChar_x = width / 2;
 	gameChar_y = floorPos_y;
 }
 
-function draw()
-{
+function draw() {
 
 	///////////DRAWING CODE//////////
 
-	background(100,155,255); //fill the sky blue
+	background(100, 155, 255); //fill the sky blue
 
 
 	noStroke();
-	fill(0,155,0);
+	fill(0, 155, 0);
 	rect(0, floorPos_y, width, height - floorPos_y); //draw some green ground
 
 	//draw the canyon
 
 
 	//the game character
-	if(isLeft && isFalling)
-	{
+	if (isLeft && isFalling) {
 		// add your jumping-left code
 
 	}
-	else if(isRight && isFalling)
-	{
+	else if (isRight && isFalling) {
 		// add your jumping-right code
 
 	}
-	else if(isLeft)
-	{
+	else if (isLeft) {
 		// add your walking left code
 
 	}
-	else if(isRight)
-	{
+	else if (isRight) {
 		// add your walking right code
+
+		fill("#FFE4C4");
+		ellipse(gameChar_x, gameChar_y - 58, 35, 35);
+		ellipse(gameChar_x + 18, gameChar_y - 57, 9, 9);
+
+		fill("#0aa132");
+		rect(gameChar_x - 10, gameChar_y - 43, 20, 35);
+
+		fill('black')
+		ellipse(gameChar_x - 8, gameChar_y - 2, 12, 12);
+		ellipse(gameChar_x + 10, gameChar_y - 2, 12, 12);
+
 
 
 	}
-	else if(isFalling || isPlummeting)
-	{
+	else if (isFalling || isPlummeting) {
 		// add your jumping facing forwards code
 
 	}
-	else
-	{
+	else {
 		// add your standing front facing code
+
+		fill("#FFE4C4")
+		ellipse(gameChar_x, gameChar_y - 58, 35, 35);
+
+		fill('#FFE4C4');
+		stroke('black'); // Add stroke to make the nose more obvious
+		ellipse(gameChar_x, gameChar_y - 55, 5, 5);
+
+		noStroke();
+		fill("#0aa132");
+		rect(gameChar_x - 15, gameChar_y - 43, 30, 38);
+		rect(gameChar_x - 20, gameChar_y - 43, 5, 20);
+		rect(gameChar_x + 15, gameChar_y - 43, 5, 20);
+
+
+		fill('black')
+		ellipse(gameChar_x - 10, gameChar_y - 3, 12, 12);
+		ellipse(gameChar_x + 10, gameChar_y - 3, 12, 12);
+		ellipse(gameChar_x - 16, gameChar_y - 20, 8, 8);
+		ellipse(gameChar_x + 16, gameChar_y - 20, 8, 8);
 
 	}
 
@@ -79,8 +103,7 @@ function draw()
 }
 
 
-function keyPressed()
-{
+function keyPressed() {
 	// if statements to control the animation of the character when
 	// keys are pressed.
 
@@ -88,17 +111,16 @@ function keyPressed()
 	console.log("keyPressed: " + key);
 	console.log("keyPressed: " + keyCode);
 
-	if(keyCode == 65){
+	if (keyCode == 65) {
 		console.log("Left Arrow");
 		isLeft = true;
-	}else if(keyCode == 68){
+	} else if (keyCode == 68) {
 		console.log("Right Arrow");
 		isRight = true;
 	}
 }
 
-function keyReleased()
-{
+function keyReleased() {
 	// if statements to control the animation of the character when
 	// keys are released.
 
