@@ -12,7 +12,9 @@ Game interaction
 var gameChar_x;
 var gameChar_y;
 var floorPos_y;
-
+var isLeft = 37;
+var isRight;
+var isFalling = 40;
 
 function setup()
 {
