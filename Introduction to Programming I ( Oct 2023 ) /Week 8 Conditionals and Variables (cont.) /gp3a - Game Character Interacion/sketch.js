@@ -160,9 +160,15 @@ function keyPressed() {
 	//open up the console to see how these work
 	console.log("keyPressed: " + key);
 	console.log("keyPressed: " + keyCode);
-	console.log(isFalling);
+	// console.log(isFalling);
 
-	if (keyCode == 65) {
+
+	
+	 if (isFalling){
+		keyCode;
+	 }
+	 else if
+	 (keyCode == 65) {
 		console.log("Left Arrow");
 		isLeft = true;
 	} else if (keyCode == 68) {
@@ -171,10 +177,7 @@ function keyPressed() {
 	} else if (keyCode == 87) {
 		console.log('Jumping');
 		gameChar_y -= 100;
-	} else if (isFalling == true) {
-		
 	}
-
 
 }
 
