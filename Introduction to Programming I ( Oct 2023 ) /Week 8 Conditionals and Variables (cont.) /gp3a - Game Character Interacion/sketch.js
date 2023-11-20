@@ -143,8 +143,11 @@ function draw() {
 		gameChar_x -= 1;
 	} else if (isRight == true) {
 		gameChar_x += 1;
-	} else if (gameChar_y <= floorPos_y) {
-		gameChar_y += 1.5;
+	} else if (gameChar_y < floorPos_y) {
+		gameChar_y += 1.5
+		isFalling = true;
+	}else{
+		isFalling = false;
 	}
 
 }
