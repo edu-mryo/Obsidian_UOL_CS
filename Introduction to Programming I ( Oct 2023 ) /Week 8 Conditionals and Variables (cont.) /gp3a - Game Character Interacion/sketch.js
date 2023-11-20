@@ -143,8 +143,8 @@ function draw() {
 		gameChar_x -= 1;
 	} else if (isRight == true) {
 		gameChar_x += 1;
-	}else if (gameChar_y <=floorPos_y){
-		gameChar_y+=1.5;
+	} else if (gameChar_y <= floorPos_y) {
+		gameChar_y += 1.5;
 	}
 
 }
@@ -166,12 +166,12 @@ function keyPressed() {
 		isRight = true;
 	} else if (keyCode == 87) {
 		console.log('Jumping');
-		isPlummeting = true;
+		// isPlummeting = true;
 
 		gameChar_y -= 100;
 	}
 
-	
+
 }
 
 function keyReleased() {
@@ -187,7 +187,7 @@ function keyReleased() {
 	} else if (keyCode == 68) {
 		console.log("Release Right Arrow")
 		isRight = false;
-	}else if (keyCode ==87){
+	} else if (keyCode == 87) {
 		console.log("Released Jump Arrow")
 		isPlummeting = false;
 	}
