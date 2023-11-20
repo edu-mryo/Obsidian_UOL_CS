@@ -146,7 +146,7 @@ function draw() {
 	} else if (gameChar_y < floorPos_y) {
 		gameChar_y += 1.5
 		isFalling = true;
-	}else{
+	} else {
 		isFalling = false;
 	}
 
@@ -160,6 +160,7 @@ function keyPressed() {
 	//open up the console to see how these work
 	console.log("keyPressed: " + key);
 	console.log("keyPressed: " + keyCode);
+	console.log(isFalling);
 
 	if (keyCode == 65) {
 		console.log("Left Arrow");
@@ -169,9 +170,9 @@ function keyPressed() {
 		isRight = true;
 	} else if (keyCode == 87) {
 		console.log('Jumping');
-		// isPlummeting = true;
-
 		gameChar_y -= 100;
+	} else if (isFalling == true) {
+		
 	}
 
 
@@ -183,6 +184,7 @@ function keyReleased() {
 
 	console.log("keyReleased: " + key);
 	console.log("keyReleased: " + keyCode);
+	console.log(isFalling);
 
 	if (keyCode == 65) {
 		console.log("Released Left Arrow")
