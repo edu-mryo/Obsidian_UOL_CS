@@ -28,13 +28,17 @@ function draw() {
 
 	///////////DRAWING CODE//////////
 
+
 	background(100, 155, 255); //fill the sky blue
 
 
 	noStroke();
 	fill(0, 155, 0);
 	rect(0, floorPos_y, width, height - floorPos_y); //draw some green ground
-
+	fill('black');
+	text("isFalling: "+isFalling,10,12)
+	text("isLeft: "+isLeft,10,25)
+	text("isRight: "+ isRight,10,37)
 	//draw the canyon
 
 
@@ -163,12 +167,12 @@ function keyPressed() {
 	// console.log(isFalling);
 
 
-	
-	 if (isFalling){
+
+	if (isFalling) {
 		keyCode;
-	 }
-	 else if
-	 (keyCode == 65) {
+	}
+	else if
+		(keyCode == 65) {
 		console.log("Left Arrow");
 		isLeft = true;
 	} else if (keyCode == 68) {
