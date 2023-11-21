@@ -7,8 +7,8 @@ Now to add some proper interaction to your game.
 2. Create variables for interaction [1 marks]
 	- Declare four variables: `isLeft`, `isRight`, `isFalling` and `isPlummeting`
 	- Initialise each of them to `false`. These variables will be used to animate your game
-	 character.
-
+	 character. 
+	 
 3. Implement left and right for keyPressed [1 marks]
 	- Inside the function keyPressed write two if statements to make isLeft = true when the 'a' key is pressed and isRight = true when the 'd' key is pressed.
 	- Test your conditional statements  using `console.log()` to see the values of isLeft and isRight

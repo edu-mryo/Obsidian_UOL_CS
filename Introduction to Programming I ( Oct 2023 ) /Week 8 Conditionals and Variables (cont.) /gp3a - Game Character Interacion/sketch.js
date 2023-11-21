@@ -37,8 +37,9 @@ function draw() {
 	rect(0, floorPos_y, width, height - floorPos_y); //draw some green ground
 	fill('black');
 	text("isFalling: "+isFalling,10,12)
-	text("isLeft: "+isLeft,10,25)
-	text("isRight: "+ isRight,10,37)
+	text("isLeft: "+isLeft,10,25);
+	text("isRight: "+ isRight,10,37);
+	text("keyCode:" + keyCode,10,49);
 	//draw the canyon
 
 
@@ -201,6 +202,5 @@ function keyReleased() {
 		isRight = false;
 	} else if (keyCode == 87) {
 		console.log("Released Jump Arrow")
-		isPlummeting = false;
 	}
 }
