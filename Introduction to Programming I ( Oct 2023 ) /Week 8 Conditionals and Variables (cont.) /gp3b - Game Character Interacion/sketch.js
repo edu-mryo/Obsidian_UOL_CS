@@ -47,22 +47,7 @@ function draw() {
 
 	//draw the canyon
 
-	//draw the collectable item and make it visible using isFound
 
-	if (isFound == false) {
-		// fill(255, 0, 0);
-		// ellipse(417, 417, 30, 30);
-		// fill(255, 255, 0, 0);
-		// stroke(0);
-		// arc(405, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
-		// arc(412, 408, 23, 30, 0, PI / 5.0); // lower quarter circle
-		// fill(255, 0, 0);
-		// ellipse(417, 417, 30, 30);
-		// fill(255, 255, 0, 0);
-		// stroke(0);
-		// arc(405, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
-		// arc(412, 408, 20, 5, 0, PI / 5.0); // lower quarter circle
-	}
 
 
 
@@ -165,6 +150,24 @@ function draw() {
 
 	}
 
+	//collectable
+
+	if (isFound == false) {
+		fill(255, 0, 0);
+		ellipse(417, 417, 30, 30);
+		fill(255, 255, 0, 0);
+		stroke(0);
+		arc(405, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
+		arc(412, 408, 23, 30, 0, PI / 5.0); // lower quarter circle
+		fill(255, 0, 0);
+		ellipse(417, 417, 30, 30);
+		fill(255, 255, 0, 0);
+		stroke(0);
+		arc(405, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
+		arc(412, 408, 20, 5, 0, PI / 5.0); // lower quarter circle
+	}
+
+
 	///////////INTERACTION CODE//////////
 	//Put conditional statements to move the game character below here
 
@@ -212,6 +215,8 @@ function keyPressed() {
 	}
 
 	//Conditional statment for the character to get item
+
+
 
 
 }
