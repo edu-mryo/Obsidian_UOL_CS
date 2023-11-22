@@ -37,31 +37,33 @@ function draw() {
 	fill(0, 155, 0);
 	rect(0, floorPos_y, width, height - floorPos_y); //draw some green ground
 	fill('black');
-	text("isFalling: "+isFalling,10,12)
-	text("isLeft: "+isLeft,10,25);
-	text("isRight: "+ isRight,10,37);
-	text("keyCode:" + keyCode,10,49);
-	text("gameChar_x:" + gameChar_x,10,59);
+	text("isFalling: " + isFalling, 10, 12)
+	text("isLeft: " + isLeft, 10, 25);
+	text("isRight: " + isRight, 10, 37);
+	text("isFound: " + isFound, 10, 49);
+	text("keyCode:" + keyCode, 10, 60);
+	text("gameChar_x:" + gameChar_x, 10, 72);
+
 
 	//draw the canyon
 
 	//draw the collectable item and make it visible using isFound
 
-	if(isFound == false){
-		fill(255,0,0);
-	ellipse(417,417,30,30);
-	fill(255,255,0,0);
-	stroke(0);
-	arc(405, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
-	arc(412, 408, 23, 30, 0, PI / 5.0); // lower quarter circle
-	fill(255,0,0);
-	ellipse(417,417,30,30);
-	fill(255,255,0,0);
-	stroke(0);
-	arc(405, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
-	arc(412, 408, 20, 5, 0, PI / 5.0); // lower quarter circle
-	};
-	
+	if (isFound == false) {
+		// fill(255, 0, 0);
+		// ellipse(417, 417, 30, 30);
+		// fill(255, 255, 0, 0);
+		// stroke(0);
+		// arc(405, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
+		// arc(412, 408, 23, 30, 0, PI / 5.0); // lower quarter circle
+		// fill(255, 0, 0);
+		// ellipse(417, 417, 30, 30);
+		// fill(255, 255, 0, 0);
+		// stroke(0);
+		// arc(405, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
+		// arc(412, 408, 20, 5, 0, PI / 5.0); // lower quarter circle
+	}
+
 
 
 
@@ -177,6 +179,9 @@ function draw() {
 		isFalling = false;
 	}
 
+	if (dist(405, 400, gameChar_x, gameChar_y) < 60) {
+		isFound = true;
+	}
 }
 
 
@@ -205,12 +210,9 @@ function keyPressed() {
 		console.log('Jumping');
 		gameChar_y -= 100;
 	}
-	
+
 	//Conditional statment for the character to get item
 
-	if(dist(405,400,gameChar_x,gameChar_y)<60){
-		isFound = true;
-	}
 
 }
 
