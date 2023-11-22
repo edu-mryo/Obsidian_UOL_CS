@@ -16,7 +16,7 @@ var isLeft = false;
 var isRight = false;
 var isFalling = false;
 var isPlummeting = false;
-var isFOund = false;
+var isFound = false;
 
 function setup() {
 	createCanvas(1024, 576);
@@ -43,9 +43,10 @@ function draw() {
 	text("keyCode:" + keyCode,10,49);
 	//draw the canyon
 
-	//draw the collectable item
+	//draw the collectable item and make it visible using isFound
 
-	fill(255,0,0);
+	if(isFound == false){
+		fill(255,0,0);
 	ellipse(417,417,30,30);
 	fill(255,255,0,0);
 	stroke(0);
@@ -57,6 +58,8 @@ function draw() {
 	stroke(0);
 	arc(405, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
 	arc(412, 408, 20, 5, 0, PI / 5.0); // lower quarter circle
+	};
+	
 
 
 
