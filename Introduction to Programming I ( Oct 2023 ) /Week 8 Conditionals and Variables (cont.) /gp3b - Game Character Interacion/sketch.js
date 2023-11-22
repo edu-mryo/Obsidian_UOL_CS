@@ -208,7 +208,9 @@ function keyPressed() {
 	
 	//Conditional statment for the character to get item
 
-	console.log(dist(405,400,gameChar_x,gameChar_y))
+	if(dist(405,400,gameChar_x,gameChar_y)<60){
+		isFound = true;
+	}
 
 }
 
