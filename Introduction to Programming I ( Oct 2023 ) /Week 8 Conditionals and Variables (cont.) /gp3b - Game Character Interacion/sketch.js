@@ -41,6 +41,8 @@ function draw() {
 	text("isLeft: "+isLeft,10,25);
 	text("isRight: "+ isRight,10,37);
 	text("keyCode:" + keyCode,10,49);
+	text("gameChar_x:" + gameChar_x,10,59);
+
 	//draw the canyon
 
 	//draw the collectable item and make it visible using isFound
@@ -203,6 +205,10 @@ function keyPressed() {
 		console.log('Jumping');
 		gameChar_y -= 100;
 	}
+	
+	//Conditional statment for the character to get item
+
+	console.log(dist(405,400,gameChar_x,gameChar_y))
 
 }
 
