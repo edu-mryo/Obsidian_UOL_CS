@@ -47,20 +47,22 @@ function draw() {
 	fill('black');
 
 	button = createButton('Log');
-	button.position(0,576);
+	button.position(0, 576);
 	button.mousePressed(flip);
-	function flip(){
-		log =true;
-	}
-	if(log==true){
+	function flip() {
+		log = !log;
+	};
+
+	if (log) {
 		text("isFalling: " + isFalling, 10, 12)
 		text("isLeft: " + isLeft, 10, 25);
 		text("isRight: " + isRight, 10, 37);
 		text("isFound: " + isFound, 10, 49);
 		text("keyCode:" + keyCode, 10, 60);
-		text("gameChar_x:" + gameChar_x, 10, 72);
-	}
-	
+		text("isPlummeting: " + isPlummeting, 10, 72);
+		text("gameChar_x:" + gameChar_x, 10, 84);
+	};
+
 
 	//draw the canyon
 
@@ -204,8 +206,8 @@ function draw() {
 	} else if (gameChar_y < floorPos_y) {
 		gameChar_y += 1.5
 		isFalling = true;
-	}else if(isPlummeting){
-		gameChar_y -=10;
+	} else if (isPlummeting) {
+		gameChar_y -= 10;
 	} else {
 		isFalling = false;
 	}
@@ -214,7 +216,7 @@ function draw() {
 	if (dist(405, 400, gameChar_x, gameChar_y) < 60) {
 		isFound = true;
 	}
-	if(dist(canyon.x_pos,canyon.floorPos_y,gameChar_x,gameChar_y<50)){
+	if (dist(canyon.x_pos, gameChar_x, gameChar_y < 50)) {
 		isPlummeting = true;
 	}
 }
