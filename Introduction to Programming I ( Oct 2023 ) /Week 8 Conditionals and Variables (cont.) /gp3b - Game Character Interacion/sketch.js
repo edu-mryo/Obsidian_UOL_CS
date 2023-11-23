@@ -17,7 +17,10 @@ var isRight = false;
 var isFalling = false;
 var isPlummeting = false;
 var isFound = false;
+var log = false;
+var button;
 var canyon;
+
 
 
 function setup() {
@@ -42,13 +45,22 @@ function draw() {
 	fill(0, 155, 0);
 	rect(0, floorPos_y, width, height - floorPos_y); //draw some green ground
 	fill('black');
-	text("isFalling: " + isFalling, 10, 12)
-	text("isLeft: " + isLeft, 10, 25);
-	text("isRight: " + isRight, 10, 37);
-	text("isFound: " + isFound, 10, 49);
-	text("keyCode:" + keyCode, 10, 60);
-	text("gameChar_x:" + gameChar_x, 10, 72);
 
+	button = createButton('Log');
+	button.position(0,576);
+	button.mousePressed(flip);
+	function flip(){
+		log =true;
+	}
+	if(log==true){
+		text("isFalling: " + isFalling, 10, 12)
+		text("isLeft: " + isLeft, 10, 25);
+		text("isRight: " + isRight, 10, 37);
+		text("isFound: " + isFound, 10, 49);
+		text("keyCode:" + keyCode, 10, 60);
+		text("gameChar_x:" + gameChar_x, 10, 72);
+	}
+	
 
 	//draw the canyon
 
