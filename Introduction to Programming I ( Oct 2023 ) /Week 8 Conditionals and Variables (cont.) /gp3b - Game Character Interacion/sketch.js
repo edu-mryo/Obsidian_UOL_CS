@@ -60,6 +60,7 @@ function draw() {
 		text("keyCode:" + keyCode, 10, 60);
 		text("isPlummeting: " + isPlummeting, 10, 72);
 		text("gameChar_x:" + gameChar_x, 10, 84);
+		text("gameChar_y:"+ gameChar_y, 10,96);
 	};
 
 
@@ -206,7 +207,7 @@ function draw() {
 		gameChar_y += 1.5
 		isFalling = true;
 	} else if (isPlummeting) {
-		gameChar_y += 10;
+		gameChar_y += 1.5;
 	} else {
 		isFalling = false;
 	}
@@ -215,10 +216,8 @@ function draw() {
 	if (dist(405, 400, gameChar_x, gameChar_y) < 60) {
 		isFound = true;
 	}
-	if (dist(canyon.x_pos+310,432, gameChar_x, gameChar_y <50)) {
+	if (dist(365,432, gameChar_x, gameChar_y)<20) {
 		isPlummeting = true;
-	}else{
-		isPlummeting = false;
 	}
 
 }
