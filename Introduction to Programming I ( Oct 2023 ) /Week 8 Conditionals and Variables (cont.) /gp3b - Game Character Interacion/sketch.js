@@ -28,7 +28,6 @@ function setup() {
 	floorPos_y = height * 3 / 4;
 	gameChar_x = width / 2;
 	gameChar_y = floorPos_y;
-
 	canyon = { x_pos: 0, width: 100 };
 
 }
@@ -207,7 +206,7 @@ function draw() {
 		gameChar_y += 1.5
 		isFalling = true;
 	} else if (isPlummeting) {
-		gameChar_y -= 10;
+		gameChar_y += 10;
 	} else {
 		isFalling = false;
 	}
@@ -216,9 +215,12 @@ function draw() {
 	if (dist(405, 400, gameChar_x, gameChar_y) < 60) {
 		isFound = true;
 	}
-	if (dist(canyon.x_pos, gameChar_x, gameChar_y < 50)) {
+	if (dist(canyon.x_pos+310,432, gameChar_x, gameChar_y <50)) {
 		isPlummeting = true;
+	}else{
+		isPlummeting = false;
 	}
+
 }
 
 
