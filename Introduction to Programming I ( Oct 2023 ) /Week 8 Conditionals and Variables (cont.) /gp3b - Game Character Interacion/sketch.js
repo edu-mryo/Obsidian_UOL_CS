@@ -185,13 +185,15 @@ function draw() {
 	///////////INTERACTION CODE//////////
 	//Put conditional statements to move the game character below here
 
-	if (isLeft == true) {
+	if (isLeft) {
 		gameChar_x -= 1;
-	} else if (isRight == true) {
+	} else if (isRight) {
 		gameChar_x += 1;
 	} else if (gameChar_y < floorPos_y) {
 		gameChar_y += 1.5
 		isFalling = true;
+	}else if(isPlummeting){
+		gameChar_y -=10;
 	} else {
 		isFalling = false;
 	}
@@ -199,6 +201,9 @@ function draw() {
 	//Setting collectable as true (invisible) using distance function.
 	if (dist(405, 400, gameChar_x, gameChar_y) < 60) {
 		isFound = true;
+	}
+	if(dist(canyon.x_pos,canyon.floorPos_y,gameChar_x,gameChar_y<50)){
+		isPlummeting = true;
 	}
 }
 
