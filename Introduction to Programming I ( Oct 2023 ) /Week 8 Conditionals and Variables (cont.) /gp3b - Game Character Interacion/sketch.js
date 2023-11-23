@@ -17,12 +17,17 @@ var isRight = false;
 var isFalling = false;
 var isPlummeting = false;
 var isFound = false;
+var canyon;
+
 
 function setup() {
 	createCanvas(1024, 576);
 	floorPos_y = height * 3 / 4;
 	gameChar_x = width / 2;
 	gameChar_y = floorPos_y;
+
+	canyon = { x_pos: 0, width: 100 };
+
 }
 
 function draw() {
@@ -47,6 +52,15 @@ function draw() {
 
 	//draw the canyon
 
+	//Canyon from here
+
+	//fill sky blue
+	fill(0, 0, 255);
+	rect(canyon.x_pos + 310, 432, canyon.width + 10, 144);
+	fill(139, 69, 19);
+	rect(canyon.x_pos + 300, 432, canyon.width / 7, 144);
+	rect(canyon.x_pos + 420, 432, canyon.width / 7, 144);
+	//Canyon End
 
 
 
@@ -182,6 +196,7 @@ function draw() {
 		isFalling = false;
 	}
 
+	//Setting collectable as true (invisible) using distance function.
 	if (dist(405, 400, gameChar_x, gameChar_y) < 60) {
 		isFound = true;
 	}
