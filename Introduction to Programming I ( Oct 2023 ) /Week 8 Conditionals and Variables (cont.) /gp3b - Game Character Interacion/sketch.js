@@ -207,6 +207,8 @@ function draw() {
 	} else if (gameChar_y < floorPos_y) {
 		gameChar_y += 1.5
 		isFalling = true;
+		isLeft = false;
+		isRight = false;
 	} else if (isPlummeting) {
 		gameChar_y += 2;
 	} else {
@@ -239,9 +241,10 @@ function keyPressed() {
 
 
 	if (isFalling || isPlummeting) {
-		keyCode;
+		isLeft = false;
+		isRight = false;
 	}
-	else if
+	 else if
 		(keyCode == 65) {
 		console.log("Left Arrow");
 		isLeft = true;
