@@ -16,6 +16,7 @@ var isLeft = false;
 var isRight = false;
 var isFalling = false;
 var isPlummeting = false;
+var
 var isFound = false;
 var log = false;
 var button;
@@ -183,17 +184,17 @@ function draw() {
 
 	if (isFound == false) {
 		fill(255, 0, 0);
-		ellipse(417, 417, 30, 30);
+		ellipse(430, 417, 30, 30);
 		fill(255, 255, 0, 0);
 		stroke(0);
-		arc(405, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
-		arc(412, 408, 23, 30, 0, PI / 5.0); // lower quarter circle
+		arc(418, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
+		arc(425, 408, 23, 30, 0, PI / 5.0); // lower quarter circle
 		fill(255, 0, 0);
-		ellipse(417, 417, 30, 30);
+		ellipse(430, 417, 30, 30);
 		fill(255, 255, 0, 0);
 		stroke(0);
-		arc(405, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
-		arc(412, 408, 20, 5, 0, PI / 5.0); // lower quarter circle
+		arc(418, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
+		arc(425, 408, 20, 5, 0, PI / 5.0); // lower quarter circle
 	}
 
 
@@ -239,7 +240,6 @@ function keyPressed() {
 
 
 	if (isFalling || isPlummeting) {
-
 		keyCode;
 	}
 	else if
