@@ -209,17 +209,9 @@ function draw() {
 		isFalling = true;
 		isLeft = false;
 		isRight = false;
-	}else if (dist(365, 432, gameChar_x, gameChar_y) < 38) {
-			isLeft = false;
-			isRight = false;
-			isPlummeting = true;
-		
 	} else if (isPlummeting) {
 		gameChar_y += 2;
-	}  else if (dist(405, 400, gameChar_x, gameChar_y) < 50) {
-		isFound = true;
-	}
-	else {
+	} else {
 		isFalling = false;
 	}
 
@@ -227,7 +219,12 @@ function draw() {
 	if (dist(405, 400, gameChar_x, gameChar_y) < 50) {
 		isFound = true;
 	}
+	if (dist(365, 432, gameChar_x, gameChar_y) < 38) {
+		isLeft = false;
+		isRight = false;
+		isPlummeting = true;
 
+	}
 
 }
 
@@ -248,16 +245,16 @@ function keyPressed() {
 		isRight = false;
 	}
 	else if
-		(keyCode == 65) {
-		console.log("Left Arrow");
-		isLeft = true;
-	} else if (keyCode == 68) {
-		console.log("Right Arrow");
-		isRight = true;
-	} else if (keyCode == 87) {
-		console.log('Jumping');
-		gameChar_y -= 100;
-	}
+			(keyCode == 65) {
+			console.log("Left Arrow");
+			isLeft = true;
+		} else if (keyCode == 68) {
+			console.log("Right Arrow");
+			isRight = true;
+		} else if (keyCode == 87) {
+			console.log('Jumping');
+			gameChar_y -= 100;
+		}
 
 	//Conditional statment for the character to get item
 
