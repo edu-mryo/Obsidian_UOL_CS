@@ -60,7 +60,7 @@ function draw() {
 		text("keyCode:" + keyCode, 10, 60);
 		text("isPlummeting: " + isPlummeting, 10, 72);
 		text("gameChar_x:" + gameChar_x, 10, 84);
-		text("gameChar_y:"+ gameChar_y, 10,96);
+		text("gameChar_y:" + gameChar_y, 10, 96);
 	};
 
 
@@ -216,7 +216,10 @@ function draw() {
 	if (dist(405, 400, gameChar_x, gameChar_y) < 60) {
 		isFound = true;
 	}
-	if (dist(365,432, gameChar_x, gameChar_y)<38) {
+	if (dist(365, 432, gameChar_x, gameChar_y) < 38) {
+		isLeft = false;
+		isRight = false;
+
 		isPlummeting = true;
 
 	}
@@ -235,7 +238,9 @@ function keyPressed() {
 
 
 
-	if (isFalling) {
+	if (isFalling || isPlummeting) {
+		isLeft = false;
+		isRight = false;
 		keyCode;
 	}
 	else if
