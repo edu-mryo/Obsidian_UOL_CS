@@ -48,7 +48,7 @@
               "type": "markdown",
               "state": {
                 "file": "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /gp3b - Game Character Interacion/README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -104,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6d66e1b65758d6da",
@@ -182,7 +183,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "71aeb0dde3f19fb2",
+  "active": "cd08c5e486b22c18",
   "lastOpenFiles": [
     "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /Week 8 Summary.md",
     "conflict-files-obsidian-git.md",

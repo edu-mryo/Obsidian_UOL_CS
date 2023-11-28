@@ -207,7 +207,7 @@ function draw() {
 		gameChar_y += 1.5
 		isFalling = true;
 	} else if (isPlummeting) {
-		gameChar_y += 1.5;
+		gameChar_y += 2;
 	} else {
 		isFalling = false;
 	}
@@ -216,8 +216,9 @@ function draw() {
 	if (dist(405, 400, gameChar_x, gameChar_y) < 60) {
 		isFound = true;
 	}
-	if (dist(365,432, gameChar_x, gameChar_y)<20) {
+	if (dist(365,432, gameChar_x, gameChar_y)<38) {
 		isPlummeting = true;
+
 	}
 
 }
