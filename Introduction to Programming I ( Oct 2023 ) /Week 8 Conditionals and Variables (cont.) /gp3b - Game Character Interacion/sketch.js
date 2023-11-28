@@ -16,7 +16,6 @@ var isLeft = false;
 var isRight = false;
 var isFalling = false;
 var isPlummeting = false;
-var
 var isFound = false;
 var log = false;
 var button;
