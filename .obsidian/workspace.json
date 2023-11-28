@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /Week 8 Summary.md",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /gp3b - Game Character Interacion/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /Week 8 Summary.md",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /gp3b - Game Character Interacion/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /Week 8 Summary.md",
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /gp3b - Game Character Interacion/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /Week 8 Summary.md"
+                "file": "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /gp3b - Game Character Interacion/README.md"
               }
             }
           }
@@ -182,10 +182,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cd08c5e486b22c18",
+  "active": "71aeb0dde3f19fb2",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /Week 8 Summary.md",
+    "conflict-files-obsidian-git.md",
     "CM1015 Computational Mathematics ( Oct 2023 )/MPKmini3_Updater_v1.26.app/Contents/Frameworks/QtWidgets.framework/Versions/5/_CodeSignature/CodeResources",
     "CM1015 Computational Mathematics ( Oct 2023 )/MPKmini3_Updater_v1.26.app/Contents/Frameworks/QtWidgets.framework/Versions/5/Resources/Info.plist",
     "CM1015 Computational Mathematics ( Oct 2023 )/MPKmini3_Updater_v1.26.app/Contents/Frameworks/QtSvg.framework/Versions/5/_CodeSignature/CodeResources",
