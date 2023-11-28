@@ -61,7 +61,7 @@ function draw() {
 		text("isPlummeting: " + isPlummeting, 10, 72);
 		text("gameChar_x:" + gameChar_x, 10, 84);
 		text("gameChar_y:" + gameChar_y, 10, 96);
-		text("dist from item: " + dist(405, 400, gameChar_x, gameChar_y), 10,108);
+		text("dist from item: " + dist(405, 400, gameChar_x, gameChar_y), 10, 108);
 	};
 
 
@@ -209,9 +209,17 @@ function draw() {
 		isFalling = true;
 		isLeft = false;
 		isRight = false;
+	}else if (dist(365, 432, gameChar_x, gameChar_y) < 38) {
+			isLeft = false;
+			isRight = false;
+			isPlummeting = true;
+		
 	} else if (isPlummeting) {
 		gameChar_y += 2;
-	} else {
+	}  else if (dist(405, 400, gameChar_x, gameChar_y) < 50) {
+		isFound = true;
+	}
+	else {
 		isFalling = false;
 	}
 
@@ -219,12 +227,7 @@ function draw() {
 	if (dist(405, 400, gameChar_x, gameChar_y) < 50) {
 		isFound = true;
 	}
-	if (dist(365, 432, gameChar_x, gameChar_y) < 38) {
-		isLeft = false;
-		isRight = false;
-		isPlummeting = true;
 
-	}
 
 }
 
@@ -244,7 +247,7 @@ function keyPressed() {
 		isLeft = false;
 		isRight = false;
 	}
-	 else if
+	else if
 		(keyCode == 65) {
 		console.log("Left Arrow");
 		isLeft = true;
