@@ -21,10 +21,27 @@ for(x;x<10;x++){
 
 ### What is an array ？
 - A variable which you can store numerous value in a list style.
+- Array is declared by using `[]`. 
 
 #### Pseudo Cod Example of an array
 - `[orange, apple, 100 usd, Drivers license]`
 
+#### Implementing the actual code
+- Standard array implemntation
+```js
+var arr = [1,4,"Hello",1000,0.12];
+
+console.log(arr[0]) // should show 1
+console.log(arr[2]) // should show TRUE
+console.log(arr[7]) // undefined
+
+arr[0] = 100; // Replace 1 with 100
+
+console.log(arr) //Show the entire array
+```
+
 #### Some other resources to read
 
 - [Javascript for Loop](https://www.w3schools.com/js/js_loop_for.asp)
+
+- [JavaScript Arrays](https://www.w3schools.com/js/js_arrays.asp)
