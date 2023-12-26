@@ -2,9 +2,9 @@
 
 The Game Project
 
-Week 3
+Week 10
 
-Game interaction
+Midterm Assignment
 
 */
 
@@ -214,14 +214,13 @@ function draw() {
 	}
 
 	//Setting collectable as true (invisible) using distance function.
-	if (dist(405, 400, gameChar_x, gameChar_y) < 50) {
+	if (dist(405, 432, gameChar_x, gameChar_y)<35) {
 		isFound = true;
 	}
 	if (dist(365, 432, gameChar_x, gameChar_y) < 38) {
 		isLeft = false;
 		isRight = false;
 		isPlummeting = true;
-
 	}
 
 }
