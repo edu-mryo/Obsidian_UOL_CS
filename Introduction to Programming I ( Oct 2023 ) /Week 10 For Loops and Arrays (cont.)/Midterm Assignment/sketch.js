@@ -16,7 +16,7 @@ var isRight = false;
 var isFalling = false;
 var isPlummeting = false;
 var isFound = false;
-var logData = false;
+var logData = true;
 var logButton;
 var reset = false;
 var resetButton;
@@ -50,10 +50,10 @@ function draw() {
 
   if (isRight) {
     cameraPosX += 3;
-    // isLeft = false;
+    isLeft = false;
   } else if (isLeft) {
     cameraPosX -= 3;
-    // isRight = false;
+    isRight = false;
   }
 
   background(100, 155, 255); //fill the sky blue
@@ -273,9 +273,10 @@ function draw() {
   resetButton.position(40, 576);
   resetButton.mousePressed(reset);
   function reset() {
-    isFalling = !isFalling;
-    isPlummeting = !isPlummeting;
-    isFound = !isFound;
+    logData = true;
+    isFalling = false;
+    isPlummeting = false;
+    isFound = false
     cameraPosX = 0;
     gameChar_x = width / 2;
     gameChar_y = floorPos_y = (height * 3) / 4;
@@ -320,7 +321,6 @@ function keyPressed() {
 
   if (isFalling || isPlummeting) {
     keyCode = 0;
-    // isLeft = falseisRight = false;
   } else if (keyCode == 65) {
     console.log("Left Arrow");
     isLeft = true;
