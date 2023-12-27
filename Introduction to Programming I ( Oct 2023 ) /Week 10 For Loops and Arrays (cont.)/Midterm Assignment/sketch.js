@@ -16,8 +16,10 @@ var isRight = false;
 var isFalling = false;
 var isPlummeting = false;
 var isFound = false;
-var log = false;
-var button;
+var logData = false;
+var logButton;
+var reset = false;
+var resetButton;
 var canyon;
 var trees_x = []; //Declare a variable called trees_x
 var clouds = [];
@@ -46,30 +48,26 @@ function setup() {
 function draw() {
   ///////////DRAWING CODE//////////
 
-  if(isRight){
-    cameraPosX+=3;
-  }else if(isLeft){
-    cameraPosX-=3;
+  if (isRight) {
+    cameraPosX += 3;
+    // isLeft = false;
+  } else if (isLeft) {
+    cameraPosX -= 3;
+    // isRight = false;
   }
-  
-  
-  background(100, 155, 255); //fill the sky blue
 
+  background(100, 155, 255); //fill the sky blue
   noStroke();
   fill(0, 155, 0);
-
   rect(0, floorPos_y, width, height - floorPos_y); //draw some green ground
-  fill("black");
+  // fill("black"); for night screen
 
+  //Start scrolling bakcground
   push();
   translate(-cameraPosX, 0);
 
-
-  //Create Log data and button for debugging pupose
   //for loop mountains
   for (i = 0; i < mountains.length; i++) {
-    // noStroke();
-    // fill(255);
     fill(128, 128, 128, 230);
     triangle(
       mountains[i].x_pos - 100,
@@ -90,12 +88,7 @@ function draw() {
     );
   }
 
-  
-
-
   //Draw the canyon
-
-  //fill sky blue
   fill(0, 0, 255);
   rect(canyon.x_pos + 310, 432, canyon.width + 10, 144);
   fill(139, 69, 19);
@@ -103,9 +96,7 @@ function draw() {
   rect(canyon.x_pos + 420, 432, canyon.width / 7, 144);
   //Canyon End
 
-
   //collectable
-
   if (isFound == false) {
     fill(255, 0, 0);
     ellipse(430, 417, 30, 30);
@@ -120,10 +111,9 @@ function draw() {
     arc(418, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
     arc(425, 408, 20, 5, 0, PI / 5.0); // lower quarter circle
   }
+  //Collectable end
 
-  //Trees
   //For looping the trees_x
-
   for (var i = 0; i < trees_x.length; i++) {
     var treePos_y = height / 1.725;
 
@@ -139,8 +129,8 @@ function draw() {
     ellipse(trees_x[i] - 4, 290, 60, 60);
     ellipse(trees_x[i] + 45, 290, 60, 60);
     ellipse(trees_x[i] + 20, 250, 60, 60);
-    //Tree ends
   }
+  //Tree End
 
   //Clouds with for loop
   for (i = 0; i < clouds.length; i++) {
@@ -183,9 +173,7 @@ function draw() {
       clouds[i].height
     );
   }
-
-
-  
+  //Cloud End
 
   //the game character
   if (isLeft && isFalling) {
@@ -261,14 +249,15 @@ function draw() {
 
   pop();
 
-  button = createButton("Log");
-  button.position(0, 576);
-  button.mousePressed(flip);
+  //Show Game Screen Data for debugging
+  logButton = createButton("Log");
+  logButton.position(0, 576);
+  logButton.mousePressed(flip);
   function flip() {
-    log = !log;
+    logData = !logData;
   }
-
-  if (log) {
+  if (logData) {
+    fill("black");
     text("isFalling: " + isFalling, 10, 12);
     text("isLeft: " + isLeft, 10, 25);
     text("isRight: " + isRight, 10, 37);
@@ -277,7 +266,19 @@ function draw() {
     text("isPlummeting: " + isPlummeting, 10, 72);
     text("gameChar_x:" + gameChar_x, 10, 84);
     text("gameChar_y:" + gameChar_y, 10, 96);
-    text("dist from item: " + dist(405, 400, gameChar_x, gameChar_y), 10, 108);
+  }
+
+  //Create a reset button
+  resetButton = createButton("Reset");
+  resetButton.position(40, 576);
+  resetButton.mousePressed(reset);
+  function reset() {
+    isFalling = !isFalling;
+    isPlummeting = !isPlummeting;
+    isFound = !isFound;
+    cameraPosX = 0;
+    gameChar_x = width / 2;
+    gameChar_y = floorPos_y = (height * 3) / 4;
   }
 
   ///////////INTERACTION CODE//////////
@@ -288,8 +289,8 @@ function draw() {
   } else if (isRight) {
     gameChar_x += 3; // Move to right
   } else if (gameChar_y < floorPos_y) {
-    gameChar_y += 1.5;
     isFalling = true;
+    gameChar_y += 2;
   } else if (isPlummeting) {
     gameChar_y += 2;
   } else {
@@ -297,9 +298,10 @@ function draw() {
   }
 
   //Setting collectable as true (invisible) using distance function.
-  if (dist(405, 432, gameChar_x, gameChar_y) < 35) {
+  if (dist(405, 432, gameChar_x, gameChar_y) < 25) {
     isFound = true;
   }
+  //Setting distance to make the character plummet into canyon
   if (dist(365, 432, gameChar_x, gameChar_y) < 38) {
     isLeft = false;
     isRight = false;
@@ -317,8 +319,8 @@ function keyPressed() {
   // console.log(isFalling);
 
   if (isFalling || isPlummeting) {
-    isLeft = false;
-    isRight = false;
+    keyCode = 0;
+    // isLeft = falseisRight = false;
   } else if (keyCode == 65) {
     console.log("Left Arrow");
     isLeft = true;
