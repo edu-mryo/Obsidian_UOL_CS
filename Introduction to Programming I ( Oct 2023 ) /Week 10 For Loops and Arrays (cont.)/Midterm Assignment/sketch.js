@@ -28,11 +28,11 @@ function setup() {
   gameChar_x = width / 2;
   gameChar_y = floorPos_y;
   canyon = { x_pos: 0, width: 100 };
-  trees_x = [250, 387, 560, 900, 110]; //initialise with an array of numbers, which a tree will be drawn on the canvas.
+  trees_x = [250, 560,670, 900, 110]; //initialise with an array of numbers, which a tree will be drawn on the canvas.
   clouds = [
-    { x_pos: 100, y_pos: 100, width: 10, height: 10 },
-    { x_pos: 250, y_pos: 320, width: 30, height: 40 },
-    { x_pos: 740, y_pos: 220, width: 32, height: 19 },
+    { x_pos: 690, y_pos: 100, width: 40, height:40 },
+    { x_pos: 250, y_pos:70, width:40, height: 40 },
+    { x_pos: 820, y_pos:50, width: 40, height: 40 },
   ];
 }
 
@@ -168,11 +168,12 @@ function draw() {
     arc(425, 408, 20, 5, 0, PI / 5.0); // lower quarter circle
   }
 
-  //TreesQqq
+  //Trees
   //For looping the trees_x
   for (var i = 0; i < trees_x.length; i++) {
     var treePos_y = height / 1.72;
     // fill brown
+    noStroke();
     fill(139, 69, 19);
     rect(trees_x[i], treePos_y, 30, 100);
     // fill green
@@ -184,6 +185,19 @@ function draw() {
     ellipse(trees_x[i] + 45, 290, 60, 60);
     ellipse(trees_x[i] + 20, 250, 60, 60);
     //Tree ends
+  }
+
+  //Clouds with for loop
+  for(i=0;i<clouds.length;i++){
+    noStroke();
+	fill(255);
+    ellipse(clouds[i].x_pos,clouds[i].y_pos,clouds[i].width,clouds[i].height);
+    ellipse(clouds[i].x_pos + 20, clouds[i].y_pos - 10, clouds[i].width , clouds[i].height);
+    ellipse(clouds[i].x_pos + 20, clouds[i].y_pos + 10, clouds[i].width , clouds[i].height);
+    ellipse(clouds[i].x_pos + 40, clouds[i].y_pos - 10, clouds[i].width , clouds[i].height);
+    ellipse(clouds[i].x_pos + 40, clouds[i].y_pos + 10, clouds[i].width , clouds[i].height);
+    ellipse(clouds[i].x_pos + 60, clouds[i].y_pos, clouds[i].width , clouds[i].height);
+  
   }
 
   ///////////INTERACTION CODE//////////

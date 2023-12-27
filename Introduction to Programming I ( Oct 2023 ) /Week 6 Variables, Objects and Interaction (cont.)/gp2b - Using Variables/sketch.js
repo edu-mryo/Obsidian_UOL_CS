@@ -37,7 +37,7 @@ function setup() {
 
 	mountain = { x_pos: 100, y_pos: 100 };
 
-	cloud = { x_pos: 100, y_pos: 100, width: 10, height: 10 };
+	cloud = { x_pos: 100, y_pos: 100, width: 40, height: 40 };
 
 }
 
@@ -53,12 +53,12 @@ function draw() {
 	noStroke();
 	fill(255);
 	//Cloud in the sky
-	ellipse(cloud.x_pos, cloud.y_pos, cloud.width + 30, cloud.height + 30);
-	ellipse(cloud.x_pos + 20, cloud.y_pos - 10, cloud.width + 30, cloud.height + 30);
-	ellipse(cloud.x_pos + 20, cloud.y_pos + 10, cloud.width + 30, cloud.height + 30);
-	ellipse(cloud.x_pos + 40, cloud.y_pos - 10, cloud.width + 30, cloud.height + 30);
-	ellipse(cloud.x_pos + 40, cloud.y_pos + 10, cloud.width + 30, cloud.height + 30);
-	ellipse(cloud.x_pos + 60, cloud.y_pos, cloud.width + 30, cloud.height + 30);
+	ellipse(cloud.x_pos, cloud.y_pos, cloud.width, cloud.height);
+	ellipse(cloud.x_pos + 20, cloud.y_pos - 10, cloud.width , cloud.height);
+	ellipse(cloud.x_pos + 20, cloud.y_pos + 10, cloud.width , cloud.height);
+	ellipse(cloud.x_pos + 40, cloud.y_pos - 10, cloud.width , cloud.height);
+	ellipse(cloud.x_pos + 40, cloud.y_pos + 10, cloud.width , cloud.height);
+	ellipse(cloud.x_pos + 60, cloud.y_pos, cloud.width , cloud.height);
 	noStroke();
 	fill(255);
 	fill(139, 69, 19, 190);
