@@ -8,18 +8,22 @@ Midterm Assignment
 
 */
 
+//Character Related
 var gameChar_x;
 var gameChar_y;
 var floorPos_y;
+//Character Action
 var isLeft = false;
 var isRight = false;
 var isFalling = false;
 var isPlummeting = false;
 var isFound = false;
+// Additional variables for Debugging purpose
 var logData = true;
 var logButton;
 var reset = false;
 var resetButton;
+// Scenaries related
 var canyon;
 var trees_x = []; //Declare a variable called trees_x
 var clouds = [];
@@ -32,7 +36,7 @@ function setup() {
   gameChar_x = width / 2;
   gameChar_y = floorPos_y;
   canyon = { x_pos: 0, width: 100 };
-  trees_x = [250, 560, 670, 900, 10]; //initialise with an array of numbers, which a tree will be drawn on the canvas.
+  trees_x = [250, 560, 670, 900, 10];
   clouds = [
     { x_pos: 690, y_pos: 100, width: 40, height: 40 },
     { x_pos: 250, y_pos: 70, width: 40, height: 40 },
@@ -48,9 +52,13 @@ function setup() {
 function draw() {
   ///////////DRAWING CODE//////////
 
+  /**
+   * Conditional statement for controlling camera position.
+   * 
+   */
   if (isRight) {
     cameraPosX += 3;
-    isLeft = false;
+    isLeft = false; 
   } else if (isLeft) {
     cameraPosX -= 3;
     isRight = false;
@@ -276,7 +284,7 @@ function draw() {
     logData = true;
     isFalling = false;
     isPlummeting = false;
-    isFound = false
+    isFound = false;
     cameraPosX = 0;
     gameChar_x = width / 2;
     gameChar_y = floorPos_y = (height * 3) / 4;
