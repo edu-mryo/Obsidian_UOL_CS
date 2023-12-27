@@ -22,6 +22,7 @@ var canyon;
 var trees_x = []; //Declare a variable called trees_x
 var clouds = [];
 var mountains = [];
+var cameraPosX = 0;
 
 function setup() {
   createCanvas(1024, 576);
@@ -45,38 +46,31 @@ function setup() {
 function draw() {
   ///////////DRAWING CODE//////////
 
+  if(isRight){
+    cameraPosX+=3;
+  }else if(isLeft){
+    cameraPosX-=3;
+  }
+  
+  
   background(100, 155, 255); //fill the sky blue
 
   noStroke();
   fill(0, 155, 0);
+
   rect(0, floorPos_y, width, height - floorPos_y); //draw some green ground
   fill("black");
 
+  push();
+  translate(-cameraPosX, 0);
+
+
   //Create Log data and button for debugging pupose
-  button = createButton("Log");
-  button.position(0, 576);
-  button.mousePressed(flip);
-  function flip() {
-    log = !log;
-  }
-
-  if (log) {
-    text("isFalling: " + isFalling, 10, 12);
-    text("isLeft: " + isLeft, 10, 25);
-    text("isRight: " + isRight, 10, 37);
-    text("isFound: " + isFound, 10, 49);
-    text("keyCode:" + keyCode, 10, 60);
-    text("isPlummeting: " + isPlummeting, 10, 72);
-    text("gameChar_x:" + gameChar_x, 10, 84);
-    text("gameChar_y:" + gameChar_y, 10, 96);
-    text("dist from item: " + dist(405, 400, gameChar_x, gameChar_y), 10, 108);
-  }
-
   //for loop mountains
   for (i = 0; i < mountains.length; i++) {
     // noStroke();
     // fill(255);
-    fill(128,128,128,230);
+    fill(128, 128, 128, 230);
     triangle(
       mountains[i].x_pos - 100,
       mountains[i].y_pos + 335,
@@ -85,7 +79,7 @@ function draw() {
       mountains[i].x_pos + 27,
       mountains[i].y_pos + 150
     );
-    fill('white');
+    fill("white");
     triangle(
       mountains[i].x_pos - 8,
       mountains[i].y_pos + 200,
@@ -95,6 +89,9 @@ function draw() {
       mountains[i].y_pos + 150
     );
   }
+
+  
+
 
   //Draw the canyon
 
@@ -106,80 +103,6 @@ function draw() {
   rect(canyon.x_pos + 420, 432, canyon.width / 7, 144);
   //Canyon End
 
-  //the game character
-  if (isLeft && isFalling) {
-    // add your jumping-left code
-  } else if (isRight && isFalling) {
-    // add your jumping-right code
-  } else if (isLeft) {
-    // add your walking left code
-
-    fill("#FFE4C4");
-    ellipse(gameChar_x, gameChar_y - 58, 35, 35);
-    ellipse(gameChar_x - 18, gameChar_y - 57, 9, 9);
-
-    fill("#0aa132");
-    rect(gameChar_x - 10, gameChar_y - 43, 20, 38);
-
-    fill("black");
-    ellipse(gameChar_x - 8, gameChar_y - 2, 12, 12);
-    ellipse(gameChar_x + 10, gameChar_y - 2, 12, 12);
-  } else if (isRight) {
-    // add your walking right code
-
-    fill("#FFE4C4");
-    ellipse(gameChar_x, gameChar_y - 58, 35, 35);
-    ellipse(gameChar_x + 18, gameChar_y - 57, 9, 9);
-
-    fill("#0aa132");
-    rect(gameChar_x - 10, gameChar_y - 43, 20, 38);
-
-    fill("black");
-    ellipse(gameChar_x - 8, gameChar_y - 2, 12, 12);
-    ellipse(gameChar_x + 10, gameChar_y - 2, 12, 12);
-  } else if (isFalling || isPlummeting) {
-    // add your jumping facing forwards code
-
-    fill("#FFE4C4");
-    ellipse(gameChar_x, gameChar_y - 58, 35, 35);
-
-    fill("#FFE4C4");
-    stroke("black"); // Add stroke to make the nose more obvious
-    ellipse(gameChar_x, gameChar_y - 55, 5, 5);
-
-    noStroke();
-    fill("#0aa132");
-    rect(gameChar_x - 15, gameChar_y - 43, 30, 30);
-    rect(gameChar_x - 20, gameChar_y - 43, 5, 20);
-    rect(gameChar_x + 15, gameChar_y - 43, 5, 20);
-
-    fill("black");
-    ellipse(gameChar_x - 10, gameChar_y - 10, 12, 12);
-    ellipse(gameChar_x + 10, gameChar_y - 10, 12, 12);
-    ellipse(gameChar_x - 16, gameChar_y - 20, 8, 8);
-    ellipse(gameChar_x + 16, gameChar_y - 20, 8, 8);
-  } else {
-    // add your standing front facing code
-
-    fill("#FFE4C4");
-    ellipse(gameChar_x, gameChar_y - 58, 35, 35);
-
-    fill("#FFE4C4");
-    stroke("black"); // Add stroke to make the nose more obvious
-    ellipse(gameChar_x, gameChar_y - 55, 5, 5);
-
-    noStroke();
-    fill("#0aa132");
-    rect(gameChar_x - 15, gameChar_y - 43, 30, 38);
-    rect(gameChar_x - 20, gameChar_y - 43, 5, 20);
-    rect(gameChar_x + 15, gameChar_y - 43, 5, 20);
-
-    fill("black");
-    ellipse(gameChar_x - 10, gameChar_y - 3, 12, 12);
-    ellipse(gameChar_x + 10, gameChar_y - 3, 12, 12);
-    ellipse(gameChar_x - 16, gameChar_y - 20, 8, 8);
-    ellipse(gameChar_x + 16, gameChar_y - 20, 8, 8);
-  }
 
   //collectable
 
@@ -261,13 +184,109 @@ function draw() {
     );
   }
 
+
+  
+
+  //the game character
+  if (isLeft && isFalling) {
+    // add your jumping-left code
+  } else if (isRight && isFalling) {
+    // add your jumping-right code
+  } else if (isLeft) {
+    // add your walking left code
+
+    fill("#FFE4C4");
+    ellipse(gameChar_x, gameChar_y - 58, 35, 35);
+    ellipse(gameChar_x - 18, gameChar_y - 57, 9, 9);
+
+    fill("#0aa132");
+    rect(gameChar_x - 10, gameChar_y - 43, 20, 38);
+
+    fill("black");
+    ellipse(gameChar_x - 8, gameChar_y - 2, 12, 12);
+    ellipse(gameChar_x + 10, gameChar_y - 2, 12, 12);
+  } else if (isRight) {
+    // add your walking right code
+    fill("#FFE4C4");
+    ellipse(gameChar_x, gameChar_y - 58, 35, 35);
+    ellipse(gameChar_x + 18, gameChar_y - 57, 9, 9);
+
+    fill("#0aa132");
+    rect(gameChar_x - 10, gameChar_y - 43, 20, 38);
+
+    fill("black");
+    ellipse(gameChar_x - 8, gameChar_y - 2, 12, 12);
+    ellipse(gameChar_x + 10, gameChar_y - 2, 12, 12);
+  } else if (isFalling || isPlummeting) {
+    // add your jumping facing forwards code
+    fill("#FFE4C4");
+    ellipse(gameChar_x, gameChar_y - 58, 35, 35);
+
+    fill("#FFE4C4");
+    stroke("black"); // Add stroke to make the nose more obvious
+    ellipse(gameChar_x, gameChar_y - 55, 5, 5);
+
+    noStroke();
+    fill("#0aa132");
+    rect(gameChar_x - 15, gameChar_y - 43, 30, 30);
+    rect(gameChar_x - 20, gameChar_y - 43, 5, 20);
+    rect(gameChar_x + 15, gameChar_y - 43, 5, 20);
+
+    fill("black");
+    ellipse(gameChar_x - 10, gameChar_y - 10, 12, 12);
+    ellipse(gameChar_x + 10, gameChar_y - 10, 12, 12);
+    ellipse(gameChar_x - 16, gameChar_y - 20, 8, 8);
+    ellipse(gameChar_x + 16, gameChar_y - 20, 8, 8);
+  } else {
+    // add your standing front facing code
+    fill("#FFE4C4");
+    ellipse(gameChar_x, gameChar_y - 58, 35, 35);
+
+    fill("#FFE4C4");
+    stroke("black"); // Add stroke to make the nose more obvious
+    ellipse(gameChar_x, gameChar_y - 55, 5, 5);
+
+    noStroke();
+    fill("#0aa132");
+    rect(gameChar_x - 15, gameChar_y - 43, 30, 38);
+    rect(gameChar_x - 20, gameChar_y - 43, 5, 20);
+    rect(gameChar_x + 15, gameChar_y - 43, 5, 20);
+
+    fill("black");
+    ellipse(gameChar_x - 10, gameChar_y - 3, 12, 12);
+    ellipse(gameChar_x + 10, gameChar_y - 3, 12, 12);
+    ellipse(gameChar_x - 16, gameChar_y - 20, 8, 8);
+    ellipse(gameChar_x + 16, gameChar_y - 20, 8, 8);
+  }
+
+  pop();
+
+  button = createButton("Log");
+  button.position(0, 576);
+  button.mousePressed(flip);
+  function flip() {
+    log = !log;
+  }
+
+  if (log) {
+    text("isFalling: " + isFalling, 10, 12);
+    text("isLeft: " + isLeft, 10, 25);
+    text("isRight: " + isRight, 10, 37);
+    text("isFound: " + isFound, 10, 49);
+    text("keyCode:" + keyCode, 10, 60);
+    text("isPlummeting: " + isPlummeting, 10, 72);
+    text("gameChar_x:" + gameChar_x, 10, 84);
+    text("gameChar_y:" + gameChar_y, 10, 96);
+    text("dist from item: " + dist(405, 400, gameChar_x, gameChar_y), 10, 108);
+  }
+
   ///////////INTERACTION CODE//////////
   //Put conditional statements to move the game character below here
 
   if (isLeft) {
-    gameChar_x -= 1;
+    gameChar_x -= 3; // Move to left
   } else if (isRight) {
-    gameChar_x += 1;
+    gameChar_x += 3; // Move to right
   } else if (gameChar_y < floorPos_y) {
     gameChar_y += 1.5;
     isFalling = true;
@@ -310,6 +329,8 @@ function keyPressed() {
     console.log("Jumping");
     gameChar_y -= 100;
   }
+
+  pop();
 
   //Conditional statment for the character to get item
 }
