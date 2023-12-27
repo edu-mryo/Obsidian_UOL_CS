@@ -187,7 +187,7 @@ function draw() {
 
   //Game character and its movements
   if (isLeft && isFalling) {
-    //Jumping Left
+    //Finishing the part of Jumping Left
     fill("#FFE4C4");
     ellipse(gameChar_x, gameChar_y - 58, 35, 35);
     ellipse(gameChar_x - 18, gameChar_y - 57, 9, 9);
@@ -199,7 +199,7 @@ function draw() {
     ellipse(gameChar_x - 10, gameChar_y - 15, 12, 12);
     ellipse(gameChar_x + 8, gameChar_y - 8, 12, 12);
   } else if (isRight && isFalling) {
-    //Jumping Right
+    //Finishing the part of Jumping Right
     fill("#FFE4C4");
     ellipse(gameChar_x, gameChar_y - 58, 35, 35);
     ellipse(gameChar_x + 18, gameChar_y - 57, 9, 9);
@@ -278,7 +278,7 @@ function draw() {
 
   pop();
 
-  //Show Game Screen Data for debugging
+  //Original Code : Show Game Screen Data for debugging
   logButton = createButton("Log");
   logButton.position(0, 576);
   logButton.mousePressed(flip);
@@ -297,8 +297,9 @@ function draw() {
     text("gameChar_y:" + gameChar_y, 10, 96);
     text("floor_pos:" + floorPos_y, 10, 105);
   }
+  // Log Button End
 
-  //Create a reset button
+  //Original CodeCreate a reset button
   resetButton = createButton("Reset");
   resetButton.position(40, 576);
   resetButton.mousePressed(reset);
@@ -311,6 +312,7 @@ function draw() {
     gameChar_x = width / 2;
     gameChar_y = floorPos_y = (height * 3) / 4;
   }
+  //Reset Button End
 
   ///////////INTERACTION CODE//////////
   // Movement
@@ -337,10 +339,11 @@ function draw() {
     isRight = false;
     isPlummeting = true;
   }
+  // Original Code : Resetting the game when character falls
   if (gameChar_y > 700) {
-    // Resetting game when character falls and reach 700
     reset();
   }
+  //Original Code End
 }
 
 function keyPressed() {
@@ -360,6 +363,7 @@ function keyPressed() {
   } else if (keyCode == 68) {
     console.log("Right Arrow");
     isRight = true;
+    //Original Code : Jump Left and Right
   } else if (keyCode == 87 && isLeft) {
     console.log("Left Jumping");
     isFalling = true;
@@ -368,12 +372,12 @@ function keyPressed() {
     console.log("Right Jumping");
     isFalling = true;
     gameChar_y -= 100;
+    // Original Code End
   } else if (keyCode == 87) {
     console.log("Jumping");
     gameChar_y -= 100;
   }
 
-  //Conditional statment for the character to get item
 }
 
 function keyReleased() {
