@@ -58,7 +58,7 @@ function draw() {
    */
   if (isRight) {
     cameraPosX += 3;
-    isLeft = false; 
+    isLeft = false;
   } else if (isLeft) {
     cameraPosX -= 3;
     isRight = false;
@@ -103,7 +103,11 @@ function draw() {
   rect(canyon.x_pos + 420, 432, canyon.width / 7, 144);
   //Canyon End
 
-  //collectable
+  /**
+   * Collectable. Default isFound is false
+   * If character approaches collectable within certain range
+   * Will change to isFound = true
+   */
   if (isFound == false) {
     fill(255, 0, 0);
     ellipse(430, 417, 30, 30);
@@ -123,7 +127,6 @@ function draw() {
   //For looping the trees_x
   for (var i = 0; i < trees_x.length; i++) {
     var treePos_y = height / 1.725;
-
     //fill brown
     noStroke();
     fill(139, 69, 19);
@@ -139,7 +142,7 @@ function draw() {
   }
   //Tree End
 
-  //Clouds with for loop
+  //For loop clouds
   for (i = 0; i < clouds.length; i++) {
     noStroke();
     fill(255);
@@ -182,14 +185,33 @@ function draw() {
   }
   //Cloud End
 
-  //the game character
+  //Game character and its movements
   if (isLeft && isFalling) {
-    // add your jumping-left code
-  } else if (isRight && isFalling) {
-    // add your jumping-right code
-  } else if (isLeft) {
-    // add your walking left code
+    //Jumping Left
+    fill("#FFE4C4");
+    ellipse(gameChar_x, gameChar_y - 58, 35, 35);
+    ellipse(gameChar_x - 18, gameChar_y - 57, 9, 9);
 
+    fill("#0aa132");
+    rect(gameChar_x - 10, gameChar_y - 43, 20, 33);
+
+    fill("black");
+    ellipse(gameChar_x - 10, gameChar_y - 15, 12, 12);
+    ellipse(gameChar_x + 8, gameChar_y - 8, 12, 12);
+  } else if (isRight && isFalling) {
+    //Jumping Right
+    fill("#FFE4C4");
+    ellipse(gameChar_x, gameChar_y - 58, 35, 35);
+    ellipse(gameChar_x + 18, gameChar_y - 57, 9, 9);
+
+    fill("#0aa132");
+    rect(gameChar_x - 10, gameChar_y - 43, 20, 33);
+
+    fill("black");
+    ellipse(gameChar_x - 8, gameChar_y - 8, 12, 12);
+    ellipse(gameChar_x + 10, gameChar_y - 15, 12, 12);
+  } else if (isLeft) {
+    // Walking Left
     fill("#FFE4C4");
     ellipse(gameChar_x, gameChar_y - 58, 35, 35);
     ellipse(gameChar_x - 18, gameChar_y - 57, 9, 9);
@@ -201,7 +223,7 @@ function draw() {
     ellipse(gameChar_x - 8, gameChar_y - 2, 12, 12);
     ellipse(gameChar_x + 10, gameChar_y - 2, 12, 12);
   } else if (isRight) {
-    // add your walking right code
+    // Walking Right
     fill("#FFE4C4");
     ellipse(gameChar_x, gameChar_y - 58, 35, 35);
     ellipse(gameChar_x + 18, gameChar_y - 57, 9, 9);
@@ -213,12 +235,12 @@ function draw() {
     ellipse(gameChar_x - 8, gameChar_y - 2, 12, 12);
     ellipse(gameChar_x + 10, gameChar_y - 2, 12, 12);
   } else if (isFalling || isPlummeting) {
-    // add your jumping facing forwards code
+    // Facing front fall
     fill("#FFE4C4");
     ellipse(gameChar_x, gameChar_y - 58, 35, 35);
 
     fill("#FFE4C4");
-    stroke("black"); // Add stroke to make the nose more obvious
+    stroke("black");
     ellipse(gameChar_x, gameChar_y - 55, 5, 5);
 
     noStroke();
@@ -233,12 +255,12 @@ function draw() {
     ellipse(gameChar_x - 16, gameChar_y - 20, 8, 8);
     ellipse(gameChar_x + 16, gameChar_y - 20, 8, 8);
   } else {
-    // add your standing front facing code
+    // Dormant facing front
     fill("#FFE4C4");
     ellipse(gameChar_x, gameChar_y - 58, 35, 35);
 
     fill("#FFE4C4");
-    stroke("black"); // Add stroke to make the nose more obvious
+    stroke("black");
     ellipse(gameChar_x, gameChar_y - 55, 5, 5);
 
     noStroke();
@@ -273,6 +295,7 @@ function draw() {
     text("isPlummeting: " + isPlummeting, 10, 72);
     text("gameChar_x:" + gameChar_x, 10, 84);
     text("gameChar_y:" + gameChar_y, 10, 96);
+    text("floor_pos:" + floorPos_y, 10, 105);
   }
 
   //Create a reset button
@@ -290,8 +313,7 @@ function draw() {
   }
 
   ///////////INTERACTION CODE//////////
-  //Put conditional statements to move the game character below here
-
+  // Movement
   if (isLeft) {
     gameChar_x -= 3; // Move to left
   } else if (isRight) {
@@ -315,6 +337,10 @@ function draw() {
     isRight = false;
     isPlummeting = true;
   }
+  if (gameChar_y > 700) {
+    // Resetting game when character falls and reach 700
+    reset();
+  }
 }
 
 function keyPressed() {
@@ -334,12 +360,18 @@ function keyPressed() {
   } else if (keyCode == 68) {
     console.log("Right Arrow");
     isRight = true;
+  } else if (keyCode == 87 && isLeft) {
+    console.log("Left Jumping");
+    isFalling = true;
+    gameChar_y -= 100;
+  } else if (keyCode == 87 && isRight) {
+    console.log("Right Jumping");
+    isFalling = true;
+    gameChar_y -= 100;
   } else if (keyCode == 87) {
     console.log("Jumping");
     gameChar_y -= 100;
   }
-
-  pop();
 
   //Conditional statment for the character to get item
 }
