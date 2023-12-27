@@ -54,7 +54,7 @@ function draw() {
 
   /**
    * Conditional statement for controlling camera position.
-   * 
+   * adding isLeft/isRight = false for locking the camera direction.
    */
   if (isRight) {
     cameraPosX += 3;
@@ -64,17 +64,16 @@ function draw() {
     isRight = false;
   }
 
-  background(100, 155, 255); //fill the sky blue
+  background(100, 155, 255); //Sky
   noStroke();
   fill(0, 155, 0);
-  rect(0, floorPos_y, width, height - floorPos_y); //draw some green ground
-  // fill("black"); for night screen
+  rect(0, floorPos_y, width, height - floorPos_y); //Ground in Green
 
-  //Start scrolling bakcground
+  //Start scrolling background
   push();
   translate(-cameraPosX, 0);
 
-  //for loop mountains
+  //For loop mountains
   for (i = 0; i < mountains.length; i++) {
     fill(128, 128, 128, 230);
     triangle(
