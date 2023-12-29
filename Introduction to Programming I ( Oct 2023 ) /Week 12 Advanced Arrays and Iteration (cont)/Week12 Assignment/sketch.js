@@ -25,31 +25,29 @@ var reset = false;
 var resetButton;
 // Scenaries related
 var canyon;
-var trees_x = []; //Declare a variable called trees_x
-var clouds = [];
-var mountains = [];
+var canyons = [{ x_pos: 310, y_pos:432, width: 110 }, { x_pos: 90, y_pos:432, width: 110 }, { x_pos: 700, y_pos:432,width: 110 }];
+
+var trees_x = [250, 560, 670, 900, 10];
+var clouds = [
+  { x_pos: 690, y_pos: 100, width: 40, height: 40 },
+  { x_pos: 250, y_pos: 70, width: 40, height: 40 },
+  { x_pos: 820, y_pos: 50, width: 40, height: 40 },
+];
+var mountains = [
+    { x_pos: 100, y_pos: 97 },
+    { x_pos: 250, y_pos: 97 },
+    { x_pos: 900, y_pos: 97 },
+  ];
 var cameraPosX = 0;
-var collectable;
+var collectables = [{ x_pos: 430, y_pos: 417, size: 30 }, { x_pos: 190, y_pos: 417, size: 30 }, { x_pos: 900, y_pos: 417, size: 30 }, { x_pos: 810, y_pos: 417, size: 30 }];
 
 function setup() {
   createCanvas(1024, 576);
   floorPos_y = (height * 3) / 4;
   gameChar_x = width / 2;
   gameChar_y = floorPos_y;
-  canyon = { x_pos: 0, width: 100 };
-  trees_x = [250, 560, 670, 900, 10];
-  collectable = { x_pos: 430, y_pos: 417, size: 30 };
-  clouds = [
-    { x_pos: 690, y_pos: 100, width: 40, height: 40 },
-    { x_pos: 250, y_pos: 70, width: 40, height: 40 },
-    { x_pos: 820, y_pos: 50, width: 40, height: 40 },
-  ];
-  mountains = [
-    { x_pos: 100, y_pos: 97 },
-    { x_pos: 250, y_pos: 97 },
-    { x_pos: 900, y_pos: 97 },
-  ];
-}
+
+};
 
 function draw() {
   ///////////DRAWING CODE//////////
@@ -80,7 +78,12 @@ function draw() {
 
 
   //Draw the canyon
-  drawCanyon(canyon);
+  for (var i = 0; i < canyons.length; i++) {
+    drawCanyon(canyons[i]);
+    checkCanyon(canyons[i]);
+  };
+
+  // drawCanyon(canyon);
   //Canyon End
 
   /**
@@ -88,7 +91,10 @@ function draw() {
    * If character approaches collectable within certain range
    * Will change to isFound = true
    */
-  drawCollectable(collectable);
+  for (var i = 0; i < collectables.length; i++) {
+    drawCollectable(collectables[i]);
+    checkCollectable(collectables[i]);
+  }
   //Collectable end
 
   //Draw Trees
@@ -209,7 +215,8 @@ function draw() {
     text("isPlummeting: " + isPlummeting, 10, 72);
     text("gameChar_x:" + gameChar_x, 10, 84);
     text("gameChar_y:" + gameChar_y, 10, 96);
-    text("floor_pos:" + floorPos_y, 10, 105);
+    // text("canyon0.x:" + canyons[0].width, 10, 108);
+    text("canyon_distantce:"+ dist(canyons[0].x_pos, canyons[0].y_pos, gameChar_x, gameChar_y),10,120);
   }
   // Log Button End
 
@@ -244,20 +251,15 @@ function draw() {
   }
 
   //Setting collectable as true (invisible) using distance function.
-  checkCollectable(collectable);
+  // checkCollectable(collectable);
   //Setting distance to make the character plummet into canyon
-  // if (dist(365, 432, gameChar_x, gameChar_y) < 38) {
-  //   isLeft = false;
-  //   isRight = false;
-  //   isPlummeting = true;
-  // }
-  checkCanyon(canyon);
+  // checkCanyon(canyon);
   // Original Code : Resetting the game when character falls
   if (gameChar_y > 700) {
     reset();
   }
   //Original Code End
-}
+};
 
 function keyPressed() {
   // if statements to control the animation of the character when
@@ -396,30 +398,28 @@ function drawTrees() {
 };
 function drawCollectable(t_collectable) {
   if (isFound == false) {
+    stroke(0);
     fill(255, 0, 0);
-    ellipse(t_collectable.x_pos, t_collectable.y_pos, 30, 30);
+    ellipse(t_collectable.x_pos, t_collectable.y_pos, t_collectable.size, t_collectable.size);
     fill(255, 255, 0, 0);
     stroke(0);
-    arc(418, 400, 30, 50, 0, PI / 5.0); // lower quarter circle
-    arc(425, 408, 20, 5, 0, PI / 5.0); // lower quarter circle
+    arc(t_collectable.x_pos - 12, t_collectable.y_pos - 17, 30, 50, 0, PI / 5.0); // lower quarter circle
+    arc(t_collectable.x_pos - 5, t_collectable.y_pos - 9, 20, 5, 0, PI / 5.0); // lower quarter circle
   }
 };
 function drawCanyon(t_canyon) {
   fill(0, 0, 255);
-  rect(t_canyon.x_pos + 310, 432, t_canyon.width + 10, 144);
-  fill(139, 69, 19);
-  rect(t_canyon.x_pos + 300, 432, t_canyon.width / 7, 144);
-  rect(t_canyon.x_pos + 420, 432, t_canyon.width / 7, 144);
+  rect(t_canyon.x_pos, t_canyon.y_pos, t_canyon.width + 10, 144);
 };
-function checkCollectable(t_collectable){
+function checkCollectable(t_collectable) {
   if (dist(t_collectable.x_pos, t_collectable.y_pos, gameChar_x, gameChar_y) < 25) {
     isFound = true;
   }
 };
-function checkCanyon(t_canyon){
-  if (dist(t_canyon.x_pos+365, t_canyon.y_pos, gameChar_x, gameChar_y) < 38) {
+function checkCanyon(t_canyon) {
+  if (dist(t_canyon.x_pos, t_canyon.y_pos, gameChar_x, gameChar_y) < 50) {
     isLeft = false;
     isRight = false;
     isPlummeting = true;
   }
-}
+};
