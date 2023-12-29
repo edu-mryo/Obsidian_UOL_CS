@@ -15,7 +15,6 @@ function functionName(){
  Function with `return`
 
 ```js
-
 function functionName(){
 
     if (logic){
@@ -25,7 +24,6 @@ function functionName(){
     }
 
 };
-
 ```
 
 
