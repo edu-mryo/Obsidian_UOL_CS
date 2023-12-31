@@ -7,13 +7,12 @@ function setup() {
   base_y = height - 50;
 
   flowers = [];
-//   var flower = {
-//     base_x: 0,
-//     base_y: height - 50,
-//     stem_h: 100,
-//     col: color(255, 50, 50),
-//   };
 
+
+  /**
+   * We needed to put the flower obj inside the for loop or otherwise the array gets updated every iteration
+   * Causing the flower to be pushed in one side.
+   */
   for (var i = 0; i < 10; i++) {
     flower = {
       base_x: i * 100,
@@ -41,6 +40,7 @@ function drawFlower(_flower) {
   strokeWeight(10);
   stroke(0, 200, 50);
   curve(
+    //The original parameter had flower.base_x ... so updated to _flower
     _flower.base_x + 200,
     _flower.base_y + 100,
     _flower.base_x,
@@ -58,8 +58,12 @@ function drawFlower(_flower) {
   ellipse(_flower.base_x, _flower.base_y + 45 - _flower.stem_h, 50, 70);
   ellipse(_flower.base_x, _flower.base_y - 45 - _flower.stem_h, 50, 70);
 
-  //flip the colour
+  
+  /**flip the colour
+   * This still bugs me because the flower is constantly changing colour.
+   * **/
   _flower.col = color(blue(_flower.col), red(_flower.col), green(_flower.col));
+  
 
   //draw the center
   fill(_flower.col)
