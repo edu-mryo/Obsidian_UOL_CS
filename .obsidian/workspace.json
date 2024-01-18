@@ -8,53 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c3868e13a98cd434",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/setup_draw_flow.png"
-              }
-            }
-          },
-          {
-            "id": "d3033e3879a5bbc5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Week 3 Summary.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd46cced7206442d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/Week 6 Summary.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cd08c5e486b22c18",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /gp3b - Game Character Interacion/README.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6d66e1b65758d6da",
@@ -121,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /gp3b - Game Character Interacion/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /gp3b - Game Character Interacion/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /gp3b - Game Character Interacion/README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -185,46 +141,51 @@
   },
   "active": "cd08c5e486b22c18",
   "lastOpenFiles": [
-    "CM1015 Computational Mathematics ( Oct 2023 )/DALL·E Tokyo Night Cover.png",
-    "CM1015 Computational Mathematics ( Oct 2023 )/DALL·E 2023-12-01 22.57.05 - A lofi-inspired cover art for a late-night Tokyo theme. The scene is set in Tokyo at night with a slightly blurred, dreamy quality, emphasizing a sere.png",
-    "CM1015 Computational Mathematics ( Oct 2023 )/DALL·E 2023-12-01 22.57.05 - A lofi-inspired cover art for a late-night Tokyo theme. The scene is set in Tokyo at night with a slightly blurred, dreamy quality, emphasizing a sere.png.crdownload",
+    "Introduction to Programming I ( Oct 2023 ) /Week 13 User defined Functions and Scope/Week 13 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 13 User defined Functions and Scope/Lecture Codes/User Defined Function/ex1_flowerExample_complete/sketch.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 13 User defined Functions and Scope/Lecture Codes/User Defined Function/ex1_flowerExample_complete/p5.min.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 13 User defined Functions and Scope/Lecture Codes/User Defined Function/ex1_flowerExample_complete/index.html",
+    "Introduction to Programming I ( Oct 2023 ) /Week 13 User defined Functions and Scope/Lecture Codes/User Defined Function/ex1_flowerExample/sketch.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 13 User defined Functions and Scope/Lecture Codes/User Defined Function/ex1_flowerExample/p5.min.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 13 User defined Functions and Scope/Lecture Codes/User Defined Function/ex1_flowerExample/index.html",
+    "Introduction to Programming I ( Oct 2023 ) /Week 13 User defined Functions and Scope/Lecture Codes/User Defined Function/ex1_flowerExample_complete",
+    "Introduction to Programming I ( Oct 2023 ) /Week 13 User defined Functions and Scope/Lecture Codes/User Defined Function/ex1_flowerExample",
+    "Introduction to Programming I ( Oct 2023 ) /Week 13 User defined Functions and Scope/Lecture Codes/User Defined Function",
+    "Introduction to Programming I ( Oct 2023 ) /Week 13 User defined Functions and Scope/Lecture Codes/Returning values from Functions/Spaceship/ex2_complete/sketch.js",
+    "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /gp3b - Game Character Interacion/README.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 12 Advanced Arrays and Iteration (cont)/Week12 Assignment/README.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 11 Advanced Arrays and Iterations/Week 11 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 10 For Loops and Arrays (cont.)/Midterm Assignment/README.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 10 For Loops and Arrays (cont.)/Week 10 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 09 For Loops and Arrays/Week 9 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 08 Conditionals and Variables (cont.) /gp3b - Game Character Interacion/README.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 08 Conditionals and Variables (cont.) /gp3a - Game Character Interacion/README.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 08 Conditionals and Variables (cont.) /Week 8 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 07 Conditionals and variable types/robot heads/hackIt.gif",
+    "Introduction to Programming I ( Oct 2023 ) /Week 07 Conditionals and variable types/Week 7 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 06 Variables, Objects and Interaction (cont.)/redundant_code.png",
+    "Introduction to Programming I ( Oct 2023 ) /Week 06 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/submission/variables_setup_fct.png",
+    "Introduction to Programming I ( Oct 2023 ) /Week 06 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/submission/mousePressed.png",
+    "Introduction to Programming I ( Oct 2023 ) /Week 06 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/submission/game_screen.png",
+    "Introduction to Programming I ( Oct 2023 ) /Week 06 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/submission/front_facing_character.png",
+    "Introduction to Programming I ( Oct 2023 ) /Week 06 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/submission/cloud_mountain_tree.png",
+    "Introduction to Programming I ( Oct 2023 ) /Week 06 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/submission/canyon_collectable_item.png",
+    "Introduction to Programming I ( Oct 2023 ) /Week 06 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/README.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 06 Variables, Objects and Interaction (cont.)/gp2a - Game Character/character.png",
+    "Introduction to Programming I ( Oct 2023 ) /Week 06 Variables, Objects and Interaction (cont.)/Week 6 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 05 Variables, Objects and Interaction/sunrise/Sunrise.gif",
+    "Introduction to Programming I ( Oct 2023 ) /Week 05 Variables, Objects and Interaction/Week 5 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 04 Drawing in 2D II/Week 4 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 03 Drawing in 2D/Week 3 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 02 Your Development Environment II/Week 2 Summary.md",
+    "Introduction to Programming I ( Oct 2023 ) /Week 01 Your Development Environment/Week 1 Note.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /Week 8 Summary.md",
     "conflict-files-obsidian-git.md",
-    "CM1015 Computational Mathematics ( Oct 2023 )/MPKmini3_Updater_v1.26.app/Contents/Frameworks/QtWidgets.framework/Versions/5/_CodeSignature/CodeResources",
-    "CM1015 Computational Mathematics ( Oct 2023 )/MPKmini3_Updater_v1.26.app/Contents/Frameworks/QtWidgets.framework/Versions/5/Resources/Info.plist",
-    "CM1015 Computational Mathematics ( Oct 2023 )/MPKmini3_Updater_v1.26.app/Contents/Frameworks/QtSvg.framework/Versions/5/_CodeSignature/CodeResources",
-    "CM1015 Computational Mathematics ( Oct 2023 )/MPKmini3_Updater_v1.26.app/Contents/Frameworks/QtSvg.framework/Versions/5/Resources/Info.plist",
-    "CM1015 Computational Mathematics ( Oct 2023 )/MPKmini3_Updater_v1.26.app/Contents/Frameworks/QtPrintSupport.framework/Versions/5/_CodeSignature/CodeResources",
-    "CM1015 Computational Mathematics ( Oct 2023 )/MPKmini3_Updater_v1.26.app/Contents/Frameworks/QtPrintSupport.framework/Versions/5/Resources/Info.plist",
-    "CM1015 Computational Mathematics ( Oct 2023 )/MPKmini3_Updater_v1.26.app/Contents/Frameworks/QtGui.framework/Versions/5/_CodeSignature/CodeResources",
-    "CM1015 Computational Mathematics ( Oct 2023 )/MPKmini3_Updater_v1.26.app/Contents/Frameworks/QtGui.framework/Versions/5/Resources/Info.plist",
-    "CM1015 Computational Mathematics ( Oct 2023 )/MPKmini3_Updater_v1.26.app/Contents/Frameworks/QtDBus.framework/Versions/5/_CodeSignature/CodeResources",
-    "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /gp3b - Game Character Interacion/README.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/Week 7 Summary.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /gp3a - Game Character Interacion/README.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian/gp3a - Game Character Interacion/README.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 1/Mondrian/gp3a - Game Character Interacion 2/README.md",
-    "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/setup_draw_flow.png",
-    "Introduction to Programming I ( Oct 2023 ) /Week 7 Conditionals and variable types/robot heads/hackIt.gif",
     "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/Week 6 Summary.md",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/submission/variables_setup_fct.png",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/submission/mousePressed.png",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/submission/game_screen.png",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/submission/cloud_mountain_tree.png",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/submission/canyon_collectable_item.png",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/submission/front_facing_character.png",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/README.md",
-    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2a - Game Character/character.png",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 4 Sequence and Series (cont.)/Week 4 Summary.md",
-    "Introduction to Programming I ( Oct 2023 ) /Week 5 Variables, Objects and Interaction/Week 5 Summary.md",
-    "Introduction to Programming I ( Oct 2023 ) /Week 4 Drawing in 2D II/Week 4 Summary.md",
-    "Introduction to Programming I ( Oct 2023 ) /Week 3 Drawing in 2D/Week 3 Summary.md",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 2 Number Bases Continue/Week 2 Summary.md",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 3 Sequences and Series/Week 3 Summary.md",
-    "Introduction to Programming I ( Oct 2023 ) /Week 2 Your Development Environment II/Week 2 Summary.md",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Summary.md",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1 Your Development Environment/Week 1 Note.md",
-    "Introduction to Programming I ( Oct 2023 ) /Week 1/Week 1 Note.md",
-    "CM1015 Computational Mathematics ( Oct 2023 )/Week 1 Introduction to number bases -  conversion to decimal/Week 1 Note.md"
+    "Introduction to Programming I ( Oct 2023 ) /Week 6 Variables, Objects and Interaction (cont.)/gp2b - Using Variables/README.md"
   ]
 }
