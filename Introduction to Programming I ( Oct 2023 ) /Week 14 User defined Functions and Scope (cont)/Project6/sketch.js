@@ -120,6 +120,14 @@ function draw() {
   drawClouds();
   //Cloud End
 
+  renderFlagPole();
+  if (flagPole.isReached == false) {
+    checkFlagePole()
+  }
+
+
+
+
   //Game character and its movements
   if (isLeft && isFalling) {
     //Finishing the part of Jumping Left
@@ -221,10 +229,6 @@ function draw() {
     ellipse(gameChar_x + 16, gameChar_y - 20, 8, 8);
   }
 
-  renderFlagPole();
-  if (flagPole.isReached == false) {
-    checkFlagePole()
-  }
   pop();
 
   checkPlayerDie();
@@ -243,18 +247,13 @@ function draw() {
     gameChar_y += 2;
   } else (isFalling = false)
 
-  // Original Code : Resetting the game when character falls
-
-  //Original Code End
-  function reset() {
-    logData = true;
-    isFalling = false;
-    isPlummeting = false;
-    isFound = false;
-    cameraPosX = 0;
-    gameChar_x = width / 2;
-    gameChar_y = floorPos_y = (height * 3) / 4;
+  if(lives<1){
+    background('white');
+    textSize(50);
+    fill('black');
+    text("Game Over",gameChar_y,height/2)
   }
+  
 };
 
 function keyPressed() {
