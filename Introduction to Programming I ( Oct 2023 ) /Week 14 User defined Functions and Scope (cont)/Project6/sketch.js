@@ -11,6 +11,7 @@ Multiple interactable
 //Character Related
 var gameChar_x;
 var gameChar_y;
+var gameChar_width;
 var floorPos_y;
 //Character Action
 var isLeft = false;
@@ -50,6 +51,7 @@ function setup() {
   floorPos_y = (height * 3) / 4;
   gameChar_x = width / 2;
   gameChar_y = floorPos_y;
+  gameChar_width = 24;
   // logButton = createButton("Log");
   // resetButton = createButton('Reset');
 
@@ -416,7 +418,7 @@ function drawCollectable(t_collectable) {
 };
 function drawCanyon(t_canyon) {
   fill(0, 0, 255);
-  rect(t_canyon.x_pos, t_canyon.y_pos, t_canyon.width, height-floorPos_y);
+  rect(t_canyon.x_pos, t_canyon.y_pos, t_canyon.width, height - floorPos_y);
 };
 function checkCollectable(t_collectable) {
   if (dist(t_collectable.x_pos, t_collectable.y_pos, gameChar_x, gameChar_y) < 25) {
@@ -424,7 +426,8 @@ function checkCollectable(t_collectable) {
   }
 };
 function checkCanyon(t_canyon) {
-  if (dist(t_canyon.x_pos, t_canyon.y_pos, gameChar_x, gameChar_y) < 50) {
+  // if (dist(t_canyon.x_pos, t_canyon.y_pos, gameChar_x, gameChar_y) <40) {
+  if ((gameChar_y == t_canyon.y_pos) && (gameChar_x - gameChar_width / 2 > (t_canyon.x_pos)) && (gameChar_x + gameChar_width / 2 < (t_canyon.x_pos + 100))) {
     isLeft = false;
     isRight = false;
     isPlummeting = true;
