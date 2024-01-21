@@ -231,15 +231,15 @@ function draw() {
   // resetButton = createButton('Reset');
   // resetButton.position(40, 576);
   // resetButton.mousePressed(reset);
-  // function reset() {
-  //   logData = true;
-  //   isFalling = false;
-  //   isPlummeting = false;
-  //   isFound = false;
-  //   cameraPosX = 0;
-  //   gameChar_x = width / 2;
-  //   gameChar_y = floorPos_y = (height * 3) / 4;
-  // }
+  function reset() {
+    logData = true;
+    isFalling = false;
+    isPlummeting = false;
+    isFound = false;
+    cameraPosX = 0;
+    gameChar_x = width / 2;
+    gameChar_y = floorPos_y = (height * 3) / 4;
+  }
   //Reset Button End
 
   ///////////INTERACTION CODE//////////
@@ -416,7 +416,7 @@ function drawCollectable(t_collectable) {
 };
 function drawCanyon(t_canyon) {
   fill(0, 0, 255);
-  rect(t_canyon.x_pos, t_canyon.y_pos, t_canyon.width + 10, 144);
+  rect(t_canyon.x_pos, t_canyon.y_pos, t_canyon.width, height-floorPos_y);
 };
 function checkCollectable(t_collectable) {
   if (dist(t_collectable.x_pos, t_collectable.y_pos, gameChar_x, gameChar_y) < 25) {
