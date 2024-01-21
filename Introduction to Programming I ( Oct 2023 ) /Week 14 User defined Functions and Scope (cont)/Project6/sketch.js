@@ -13,7 +13,7 @@ var gameChar_x;
 var gameChar_y;
 var gameChar_width;
 var floorPos_y;
-var lives = 3;
+var lives = {stat:3,x_pos:15};
 //Character Action
 var isLeft = false;
 var isRight = false;
@@ -50,12 +50,15 @@ var collectables = [
 
 var flagPole = { x_pos: 980, isReached: false };
 
+
 function setup() {
-  lives = 3;
+  lives.stat;
   createCanvas(1024, 576);
   floorPos_y = (height * 3) / 4;
   startGame();
+
 };
+
 
 function draw() {
   ///////////DRAWING CODE//////////
@@ -66,19 +69,22 @@ function draw() {
    */
 
   if (isRight) {
-    cameraPosX += 3;
+    cameraPosX += 5;
     isLeft = false;
   } else if (isLeft) {
-    cameraPosX -= 3;
+    cameraPosX -= 5;
     isRight = false;
   }
 
   background(100, 155, 255); //Sky
   fill('black');
+  textStyle(BOLD);
   text(`Game Score: ${game_score}`, 10, 20);
-  text(`Lives: ${lives}`, 10, 30);
   noStroke();
   fill(0, 155, 0);
+
+
+
   rect(0, floorPos_y, width, height - floorPos_y); //Ground in Green
 
   //Start scrolling background
@@ -87,6 +93,9 @@ function draw() {
 
   //Draw mountains
   drawMountains();
+  // heart(15,40,10,50);
+
+
 
 
   //Draw the canyon
@@ -125,7 +134,7 @@ function draw() {
     checkFlagePole()
   }
 
- 
+
 
 
 
@@ -230,7 +239,41 @@ function draw() {
     ellipse(gameChar_x + 16, gameChar_y - 20, 8, 8);
   }
 
+
+
+
   pop();
+
+  for(var i = 0;i<lives.stat;i++){
+    let x = lives.x_pos + (i*20)
+    heart(x,25,10)
+    console.log(lives.stat)
+  }
+
+
+  if (lives.stat < 1) {
+    push()
+    background('white');
+    textSize(50);
+    fill('black');
+    textAlign(CENTER);
+    text("Game Over", width / 2, height / 2)
+    textSize(30)
+    text("Press Spacebard to Restart", width / 2, height / 1.75)
+
+    pop()
+  }
+  if (flagPole.isReached) {
+    push()
+    background('white');
+    textSize(50);
+    fill('red');
+    textAlign(CENTER);
+    text("Stage Cleared", width / 2, height / 2);
+    textSize(30);
+    text("Press Spacebar to Continue", width / 2, height/1.75)
+    pop()
+  }
 
   checkPlayerDie();
 
@@ -238,43 +281,32 @@ function draw() {
   ///////////INTERACTION CODE//////////
   // Movement
   if (isLeft) {
-    gameChar_x -= 3; // Move to left
+    gameChar_x -= 5; // Move to left
   } else if (isRight) {
-    gameChar_x += 3; // Move to right
+    gameChar_x += 5; // Move to right
   } else if (gameChar_y < floorPos_y) {
     isFalling = true;
-    gameChar_y += 2;
+    gameChar_y += 3;
   } else if (isPlummeting) {
-    gameChar_y += 2;
+    gameChar_y += 5;
   } else (isFalling = false)
 
-  if(lives<1){
-    background('white');
-    textSize(50);
-    fill('black');
-    text("Game Over",gameChar_y,height/2)
-    return    
-  }
-  if(flagPole.isReached){
-    background('white');
-    textSize(50);
-    fill('red');
-    text("Stage Cleared",gameChar_x,height/2)
-    return    
-  }
-  
-  
+
+
 };
 
 function keyPressed() {
-  // if statements to control the animation of the character when
-  // keys are pressed.
 
-  //open up the console to see how these work
   console.log("keyPressed: " + key);
   console.log("keyPressed: " + keyCode);
-  // console.log(isFalling);
 
+  if (flagPole.isReached || lives.stat < 1) {
+    if (keyCode == 32) {
+      lives.stat = 3
+      startGame();
+      return
+    }
+  }
   if (isFalling || isPlummeting) {
     keyCode = 0;
   } else if (keyCode == 65) {
@@ -457,7 +489,7 @@ function checkFlagePole() {
 
 function checkPlayerDie() {
   if (gameChar_y > 700) {
-    lives -= 1;
+    lives.stat -= 1;
     startGame();
   }
 
@@ -469,4 +501,14 @@ function startGame() {
   gameChar_width = 24;
   cameraPosX = 0;
   isPlummeting = false;
+  flagPole.isReached = false;
+}
+
+function heart(x, y, size) {
+  fill('red')
+  beginShape();
+  vertex(x, y);
+  bezierVertex(x - size / 2, y - size / 2, x - size, y + size / 3, x, y + size);
+  bezierVertex(x + size, y + size / 3, x + size / 2, y - size / 2, x, y);
+  endShape(CLOSE);
 }

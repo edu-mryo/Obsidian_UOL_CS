@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6c1f02f88b92afc8",
+        "id": "e9d3649f994043c9",
         "type": "tabs",
         "children": [
           {
-            "id": "cd08c5e486b22c18",
+            "id": "9da997baeedf8cf1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -139,8 +139,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cd08c5e486b22c18",
+  "active": "9da997baeedf8cf1",
   "lastOpenFiles": [
+    "Introduction to Programming I ( Oct 2023 ) /Week 14 User defined Functions and Scope (cont)/Project6.zip",
     "Introduction to Programming I ( Oct 2023 ) /Week 14 User defined Functions and Scope (cont)/Project6/sketch.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 14 User defined Functions and Scope (cont)/Project6/README.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 14 User defined Functions and Scope (cont)/Project6/p5.min.js",
@@ -154,7 +155,6 @@
     "Introduction to Programming I ( Oct 2023 ) /Week 13 User defined Functions and Scope/Lecture Codes/User Defined Function/ex1_flowerExample_complete/p5.min.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 13 User defined Functions and Scope/Lecture Codes/User Defined Function/ex1_flowerExample_complete/index.html",
     "Introduction to Programming I ( Oct 2023 ) /Week 13 User defined Functions and Scope/Lecture Codes/User Defined Function/ex1_flowerExample/sketch.js",
-    "Introduction to Programming I ( Oct 2023 ) /Week 13 User defined Functions and Scope/Lecture Codes/User Defined Function/ex1_flowerExample/p5.min.js",
     "Introduction to Programming I ( Oct 2023 ) /Week 8 Conditionals and Variables (cont.) /gp3b - Game Character Interacion/README.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 12 Advanced Arrays and Iteration (cont)/Week12 Assignment/README.md",
     "Introduction to Programming I ( Oct 2023 ) /Week 11 Advanced Arrays and Iterations/Week 11 Summary.md",
