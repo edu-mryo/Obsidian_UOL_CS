@@ -136,7 +136,7 @@ function draw() {
     background('white');
     textSize(50);
     fill('red');
-    text("Stage Cleared",gameChar_y,height/2)
+    text("Stage Cleared",gameChar_x,height/2)
     return    
   }
 
