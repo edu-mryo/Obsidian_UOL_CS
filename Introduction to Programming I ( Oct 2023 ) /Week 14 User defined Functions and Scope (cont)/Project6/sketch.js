@@ -225,6 +225,7 @@ function draw() {
     ellipse(gameChar_x + 16, gameChar_y - 20, 8, 8);
   }
 
+  renderFlagPolse();
   pop();
 
   //Original Code : Show Game Screen Data for debugging
@@ -452,5 +453,13 @@ function checkCanyon(t_canyon) {
 };
 
 function renderFlagPolse(){
-  rect();
+  push();
+  strokeWeight(5);
+  stroke(100);
+  line(flagPole.x_pos,floorPos_y,flagPole.x_pos,floorPos_y-250);
+  pop();
+}
+
+function checkFlagePole(){
+  if()
 }
