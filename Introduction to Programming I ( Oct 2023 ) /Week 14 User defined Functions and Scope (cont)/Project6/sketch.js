@@ -226,6 +226,7 @@ function draw() {
   }
 
   renderFlagPolse();
+  checkFlagePole();
   pop();
 
   //Original Code : Show Game Screen Data for debugging
@@ -254,15 +255,7 @@ function draw() {
   // resetButton = createButton('Reset');
   // resetButton.position(40, 576);
   // resetButton.mousePressed(reset);
-  function reset() {
-    logData = true;
-    isFalling = false;
-    isPlummeting = false;
-    isFound = false;
-    cameraPosX = 0;
-    gameChar_x = width / 2;
-    gameChar_y = floorPos_y = (height * 3) / 4;
-  }
+  
   //Reset Button End
 
   ///////////INTERACTION CODE//////////
@@ -461,5 +454,17 @@ function renderFlagPolse(){
 }
 
 function checkFlagePole(){
-  if()
+  if(gameChar_y == flagPole.x_pos){
+    reset();
+  }
+}
+
+function reset() {
+  logData = true;
+  isFalling = false;
+  isPlummeting = false;
+  isFound = false;
+  cameraPosX = 0;
+  gameChar_x = width / 2;
+  gameChar_y = floorPos_y = (height * 3) / 4;
 }
