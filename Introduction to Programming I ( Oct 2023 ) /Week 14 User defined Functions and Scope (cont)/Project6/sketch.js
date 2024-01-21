@@ -464,9 +464,10 @@ function renderFlagPole(){
   line(flagPole.x_pos,floorPos_y,flagPole.x_pos,floorPos_y-250);
   noStroke();
   if(flagPole.isReached){
-    rect(flagPole.x_pos,floorPos_y-250,50,50);
+    stroke('red');
+    rect(flagPole.x_pos,floorPos_y-250,60,35);
   }else{
-    rect(flagPole.x_pos,floorPos_y-50,50,50);
+    rect(flagPole.x_pos,floorPos_y-33,60,35);
   }
   pop();
 }
