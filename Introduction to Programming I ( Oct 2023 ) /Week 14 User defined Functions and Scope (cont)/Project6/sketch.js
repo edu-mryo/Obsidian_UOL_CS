@@ -2,7 +2,7 @@
 
 The Game Project
 
-Week 12
+Week 14
 
 Multiple interactable 
 
@@ -125,20 +125,7 @@ function draw() {
     checkFlagePole()
   }
 
-  if(lives<1){
-    background('white');
-    textSize(50);
-    fill('black');
-    text("Game Over",gameChar_y,height/2)
-    return    
-  }
-  if(flagPole.isReached){
-    background('white');
-    textSize(50);
-    fill('red');
-    text("Stage Cleared",gameChar_x,height/2)
-    return    
-  }
+ 
 
 
 
@@ -261,6 +248,20 @@ function draw() {
     gameChar_y += 2;
   } else (isFalling = false)
 
+  if(lives<1){
+    background('white');
+    textSize(50);
+    fill('black');
+    text("Game Over",gameChar_y,height/2)
+    return    
+  }
+  if(flagPole.isReached){
+    background('white');
+    textSize(50);
+    fill('red');
+    text("Stage Cleared",gameChar_x,height/2)
+    return    
+  }
   
   
 };
