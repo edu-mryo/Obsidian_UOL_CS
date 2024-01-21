@@ -47,7 +47,7 @@ var collectables = [
   { x_pos: 900, y_pos: 417, size: 30, isFound: false },
   { x_pos: 810, y_pos: 417, size: 30, isFound: false }];
 
-  var flagPolse = {x_pos:}
+var flagPole = { x_pos: 980, isReached: false };
 
 function setup() {
   createCanvas(1024, 576);
@@ -55,8 +55,8 @@ function setup() {
   gameChar_x = width / 2;
   gameChar_y = floorPos_y;
   gameChar_width = 24;
- 
-  
+
+
   // logButton = createButton("Log");
   // resetButton = createButton('Reset');
 
@@ -70,7 +70,7 @@ function draw() {
    * Conditional statement for controlling camera position.
    * adding isLeft/isRight = false for locking the camera direction.
    */
-  
+
   if (isRight) {
     cameraPosX += 3;
     isLeft = false;
@@ -81,7 +81,7 @@ function draw() {
 
   background(100, 155, 255); //Sky
   fill('black');
-  text(`Game Score: ${game_score}`,10,20);
+  text(`Game Score: ${game_score}`, 10, 20);
   noStroke();
   fill(0, 155, 0);
   rect(0, floorPos_y, width, height - floorPos_y); //Ground in Green
@@ -109,9 +109,9 @@ function draw() {
    * Will change to isFound = true
    */
   for (var i = 0; i < collectables.length; i++) {
-    if(!collectables[i].isFound){
-    drawCollectable(collectables[i]);
-    checkCollectable(collectables[i]);
+    if (!collectables[i].isFound) {
+      drawCollectable(collectables[i]);
+      checkCollectable(collectables[i]);
     }
   }
   //Collectable end
@@ -137,9 +137,9 @@ function draw() {
     fill("black");
     ellipse(gameChar_x - 10, gameChar_y - 15, 12, 12);
     ellipse(gameChar_x + 8, gameChar_y - 8, 12, 12);
-    if(gameChar_y<floorPos_y){
-      gameChar_y+=1;
-    }else(
+    if (gameChar_y < floorPos_y) {
+      gameChar_y += 1;
+    } else (
       isFalling = false
     )
   } else if (isRight && isFalling) {
@@ -154,9 +154,9 @@ function draw() {
     fill("black");
     ellipse(gameChar_x - 8, gameChar_y - 8, 12, 12);
     ellipse(gameChar_x + 10, gameChar_y - 15, 12, 12);
-    if(gameChar_y<floorPos_y){
-      gameChar_y+=1;
-    }else(
+    if (gameChar_y < floorPos_y) {
+      gameChar_y += 1;
+    } else (
       isFalling = false
     )
   } else if (isLeft) {
@@ -422,13 +422,13 @@ function drawTrees() {
   }
 };
 function drawCollectable(t_collectable) {
-    stroke(0);
-    fill(255, 0, 0);
-    ellipse(t_collectable.x_pos, t_collectable.y_pos, t_collectable.size, t_collectable.size);
-    fill(255, 255, 0, 0);
-    stroke(0);
-    arc(t_collectable.x_pos - 12, t_collectable.y_pos - 17, 30, 50, 0, PI / 5.0); // lower quarter circle
-    arc(t_collectable.x_pos - 5, t_collectable.y_pos - 9, 20, 5, 0, PI / 5.0); // lower quarter circle
+  stroke(0);
+  fill(255, 0, 0);
+  ellipse(t_collectable.x_pos, t_collectable.y_pos, t_collectable.size, t_collectable.size);
+  fill(255, 255, 0, 0);
+  stroke(0);
+  arc(t_collectable.x_pos - 12, t_collectable.y_pos - 17, 30, 50, 0, PI / 5.0); // lower quarter circle
+  arc(t_collectable.x_pos - 5, t_collectable.y_pos - 9, 20, 5, 0, PI / 5.0); // lower quarter circle
 };
 function drawCanyon(t_canyon) {
   fill(0, 0, 255);
@@ -436,11 +436,11 @@ function drawCanyon(t_canyon) {
 };
 function checkCollectable(t_collectable) {
 
-  if(dist(gameChar_x,gameChar_y,t_collectable.x_pos,t_collectable.y_pos)<25){
+  if (dist(gameChar_x, gameChar_y, t_collectable.x_pos, t_collectable.y_pos) < 25) {
     t_collectable.isFound = true
-    game_score +=1; 
+    game_score += 1;
   }
-  
+
 
 };
 function checkCanyon(t_canyon) {
@@ -450,3 +450,7 @@ function checkCanyon(t_canyon) {
     isPlummeting = true;
   }
 };
+
+function renderFlagPolse(){
+  rect();
+}
