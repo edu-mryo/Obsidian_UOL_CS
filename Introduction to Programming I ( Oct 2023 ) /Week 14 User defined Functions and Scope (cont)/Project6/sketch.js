@@ -412,7 +412,7 @@ function drawCanyon(t_canyon) {
   rect(t_canyon.x_pos, t_canyon.y_pos, t_canyon.width + 10, 144);
 };
 function checkCollectable(t_collectable) {
-  if (dist(t_collectable.x_pos, t_collectable.y_pos, gameChar_x, gameChar_y) < 25) {
+  if (dist(t_collectable[i].x_pos, t_collectable[i].y_pos, gameChar_x, gameChar_y) < 25) {
     isFound = true;
   }
 };
