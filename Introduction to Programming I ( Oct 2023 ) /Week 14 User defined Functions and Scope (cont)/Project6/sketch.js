@@ -466,7 +466,6 @@ function renderFlagPole(){
 }
 
 function checkFlagePole(){
-  if(gameChar_y == flagPole.x_pos){
-    reset();
-  }
+  var d = abs(gameChar_x - flagPole.x_pos)
+  console.log(d);
 }
