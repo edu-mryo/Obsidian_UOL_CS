@@ -228,7 +228,7 @@ function draw() {
 
   renderFlagPole();
   if(flagPole.isReached == false){
-    checkFlagePole();
+    checkFlagePole()
   }
   pop();
 
@@ -462,10 +462,19 @@ function renderFlagPole(){
   strokeWeight(5);
   stroke(100);
   line(flagPole.x_pos,floorPos_y,flagPole.x_pos,floorPos_y-250);
+  noStroke();
+  if(flagPole.isReached){
+    rect(flagPole.x_pos,floorPos_y-250,50,50);
+  }else{
+    rect(flagPole.x_pos,floorPos_y-50,50,50);
+  }
   pop();
 }
 
 function checkFlagePole(){
   var d = abs(gameChar_x - flagPole.x_pos)
-  console.log(d);
+  if(d<15){
+    flagPole.isReached = true;
+    console.log('Reached!')
+  }
 }
