@@ -24,6 +24,7 @@ var logData = true;
 var logButton;
 var reset = false;
 var resetButton;
+var game_score = 0;Check
 // Scenaries related
 var canyon;
 var canyons = [{ x_pos: 310, y_pos: 432, width: 110 }, { x_pos: 90, y_pos: 432, width: 110 }, { x_pos: 700, y_pos: 432, width: 110 }];
@@ -52,6 +53,7 @@ function setup() {
   gameChar_x = width / 2;
   gameChar_y = floorPos_y;
   gameChar_width = 24;
+  Text("Score",game_score,10,10);
   // logButton = createButton("Log");
   // resetButton = createButton('Reset');
 
@@ -406,7 +408,7 @@ function drawTrees() {
   }
 };
 function drawCollectable(t_collectable) {
-  if (isFound == false) {
+  if (t_collectable.isFound == false) {
     stroke(0);
     fill(255, 0, 0);
     ellipse(t_collectable.x_pos, t_collectable.y_pos, t_collectable.size, t_collectable.size);
@@ -421,17 +423,12 @@ function drawCanyon(t_canyon) {
   rect(t_canyon.x_pos, t_canyon.y_pos, t_canyon.width, height - floorPos_y);
 };
 function checkCollectable(t_collectable) {
-  // if (dist(t_collectable.x_pos, t_collectable.y_pos, gameChar_x, gameChar_y) < 25) {
-  //   t_collectable.isFound = true;
-  // }
+
   if(dist(gameChar_x,gameChar_y,t_collectable.x_pos,t_collectable.y_pos)<25){
-    // console.log(t_collectable.isFound=true;
-    console.log(t_collectable.isFound);
+    t_collectable.isFound = true
+    game_score +=1;
   }
-  // var d = dist(gameChar_x,gameChar_y,t_collectable.x_pos,t_collectable.y_pos)
-  // if(d < 40){
-  //   t_collectable.isFound=true;
-  // }
+  
 
 };
 function checkCanyon(t_canyon) {
