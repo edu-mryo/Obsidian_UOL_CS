@@ -24,7 +24,7 @@ var logData = true;
 var logButton;
 var reset = false;
 var resetButton;
-var game_score = 0;Check
+var game_score = 0;
 // Scenaries related
 var canyon;
 var canyons = [{ x_pos: 310, y_pos: 432, width: 110 }, { x_pos: 90, y_pos: 432, width: 110 }, { x_pos: 700, y_pos: 432, width: 110 }];
@@ -53,7 +53,7 @@ function setup() {
   gameChar_x = width / 2;
   gameChar_y = floorPos_y;
   gameChar_width = 24;
-  Text("Score",game_score,10,10);
+ 
   // logButton = createButton("Log");
   // resetButton = createButton('Reset');
 
@@ -67,6 +67,10 @@ function draw() {
    * Conditional statement for controlling camera position.
    * adding isLeft/isRight = false for locking the camera direction.
    */
+  fill('black');
+  textSize(100);
+  text("Score",game_score,10,12);
+
   if (isRight) {
     cameraPosX += 3;
     isLeft = false;
@@ -426,7 +430,7 @@ function checkCollectable(t_collectable) {
 
   if(dist(gameChar_x,gameChar_y,t_collectable.x_pos,t_collectable.y_pos)<25){
     t_collectable.isFound = true
-    game_score +=1;
+    
   }
   
 
