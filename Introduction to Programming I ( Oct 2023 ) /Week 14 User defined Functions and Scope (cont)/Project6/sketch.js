@@ -487,3 +487,9 @@ function checkPlayerDie() {
     lives -= 1;
   }
 }
+
+function startGame(){
+  gameChar_x = width / 2;
+  gameChar_y = floorPos_y;
+  gameChar_width = 24;
+}
