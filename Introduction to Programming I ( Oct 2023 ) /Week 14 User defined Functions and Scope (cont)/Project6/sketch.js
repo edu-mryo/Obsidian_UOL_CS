@@ -120,6 +120,7 @@ function draw() {
   drawTrees();
   //Tree End
 
+
   //Draw Clouds
   drawClouds();
   //Cloud End
@@ -225,8 +226,10 @@ function draw() {
     ellipse(gameChar_x + 16, gameChar_y - 20, 8, 8);
   }
 
-  renderFlagPolse();
-  checkFlagePole();
+  renderFlagPole();
+  if(flagPole.isReached == false){
+    checkFlagePole();
+  }
   pop();
 
   //Original Code : Show Game Screen Data for debugging
@@ -278,6 +281,15 @@ function draw() {
     reset();
   }
   //Original Code End
+  function reset() {
+    logData = true;
+    isFalling = false;
+    isPlummeting = false;
+    isFound = false;
+    cameraPosX = 0;
+    gameChar_x = width / 2;
+    gameChar_y = floorPos_y = (height * 3) / 4;
+  }
 };
 
 function keyPressed() {
@@ -445,7 +457,7 @@ function checkCanyon(t_canyon) {
   }
 };
 
-function renderFlagPolse(){
+function renderFlagPole(){
   push();
   strokeWeight(5);
   stroke(100);
@@ -457,14 +469,4 @@ function checkFlagePole(){
   if(gameChar_y == flagPole.x_pos){
     reset();
   }
-}
-
-function reset() {
-  logData = true;
-  isFalling = false;
-  isPlummeting = false;
-  isFound = false;
-  cameraPosX = 0;
-  gameChar_x = width / 2;
-  gameChar_y = floorPos_y = (height * 3) / 4;
 }
