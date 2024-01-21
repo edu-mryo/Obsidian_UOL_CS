@@ -125,6 +125,20 @@ function draw() {
     checkFlagePole()
   }
 
+  if(lives<1){
+    background('white');
+    textSize(50);
+    fill('black');
+    text("Game Over",gameChar_y,height/2)
+    return    
+  }
+  if(flagPole.isReached){
+    background('white');
+    textSize(50);
+    fill('red');
+    text("Stage Cleared",gameChar_y,height/2)
+    return    
+  }
 
 
 
@@ -247,13 +261,7 @@ function draw() {
     gameChar_y += 2;
   } else (isFalling = false)
 
-  if(lives<1){
-    background('white');
-    textSize(50);
-    fill('black');
-    text("Game Over",gameChar_y,height/2)
-    return    
-  }
+  
   
 };
 
@@ -451,6 +459,7 @@ function checkPlayerDie() {
     lives -= 1;
     startGame();
   }
+
 }
 
 function startGame() {
