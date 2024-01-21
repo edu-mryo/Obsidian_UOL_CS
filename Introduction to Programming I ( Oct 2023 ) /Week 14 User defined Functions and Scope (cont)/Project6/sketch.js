@@ -424,10 +424,14 @@ function checkCollectable(t_collectable) {
   // if (dist(t_collectable.x_pos, t_collectable.y_pos, gameChar_x, gameChar_y) < 25) {
   //   t_collectable.isFound = true;
   // }
-  var d = dist(gameChar_x,gameChar_y,t_collectable.x_pos,t_collectable.y_pos)
-  if(d < 40){
-    t_collectable.isFound=true;
+  if(dist(gameChar_x,gameChar_y,t_collectable.x_pos,t_collectable.y_pos)<25){
+    // console.log(t_collectable.isFound=true;
+    console.log(t_collectable.isFound);
   }
+  // var d = dist(gameChar_x,gameChar_y,t_collectable.x_pos,t_collectable.y_pos)
+  // if(d < 40){
+  //   t_collectable.isFound=true;
+  // }
 
 };
 function checkCanyon(t_canyon) {
