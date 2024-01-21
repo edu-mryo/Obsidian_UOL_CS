@@ -457,5 +457,5 @@ function startGame() {
   gameChar_y = floorPos_y;
   gameChar_width = 24;
   cameraPosX = 0;
-  isFalling = false;
+  isPlummeting = false;
 }
