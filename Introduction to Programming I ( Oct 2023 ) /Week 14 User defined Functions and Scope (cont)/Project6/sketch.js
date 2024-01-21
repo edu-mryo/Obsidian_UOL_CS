@@ -421,12 +421,16 @@ function drawCanyon(t_canyon) {
   rect(t_canyon.x_pos, t_canyon.y_pos, t_canyon.width, height - floorPos_y);
 };
 function checkCollectable(t_collectable) {
-  if (dist(t_collectable.x_pos, t_collectable.y_pos, gameChar_x, gameChar_y) < 25) {
-    t_collectable.isFound = true;
+  // if (dist(t_collectable.x_pos, t_collectable.y_pos, gameChar_x, gameChar_y) < 25) {
+  //   t_collectable.isFound = true;
+  // }
+  var d = dist(gameChar_x,gameChar_y,t_collectable.x_pos,t_collectable.y_pos)
+  if(d < 40){
+    t_collectable.isFound=true;
   }
+
 };
 function checkCanyon(t_canyon) {
-  // if (dist(t_canyon.x_pos, t_canyon.y_pos, gameChar_x, gameChar_y) <40) {
   if ((gameChar_y == t_canyon.y_pos) && (gameChar_x - gameChar_width / 2 > (t_canyon.x_pos)) && (gameChar_x + gameChar_width / 2 < (t_canyon.x_pos + 100))) {
     isLeft = false;
     isRight = false;
