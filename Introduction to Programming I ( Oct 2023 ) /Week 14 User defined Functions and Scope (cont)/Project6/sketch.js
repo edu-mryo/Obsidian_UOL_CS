@@ -76,7 +76,7 @@ function draw() {
   background(100, 155, 255); //Sky
   fill('black');
   text(`Game Score: ${game_score}`, 10, 20);
-  text(`Lives: ${lives}`,10,30);
+  text(`Lives: ${lives}`, 10, 30);
   noStroke();
   fill(0, 155, 0);
   rect(0, floorPos_y, width, height - floorPos_y); //Ground in Green
@@ -135,7 +135,9 @@ function draw() {
     ellipse(gameChar_x + 8, gameChar_y - 8, 12, 12);
     if (gameChar_y < floorPos_y) {
       gameChar_y += 1;
-    } 
+    } else (
+      isFalling = false
+    )
   } else if (isRight && isFalling) {
     //Finishing the part of Jumping Right
     fill("#FFE4C4");
@@ -223,8 +225,10 @@ function draw() {
   if (flagPole.isReached == false) {
     checkFlagePole()
   }
-  checkPlayerDie();
   pop();
+
+  checkPlayerDie();
+
 
   ///////////INTERACTION CODE//////////
   // Movement
@@ -237,9 +241,7 @@ function draw() {
     gameChar_y += 2;
   } else if (isPlummeting) {
     gameChar_y += 2;
-  } else {
-    isFalling = false;
-  }
+  } else (isFalling = false)
 
   // Original Code : Resetting the game when character falls
 
@@ -444,14 +446,16 @@ function checkFlagePole() {
 }
 
 function checkPlayerDie() {
-  if (gameChar_y > 700)  {
+  if (gameChar_y > 700) {
     lives -= 1;
     startGame();
   }
 }
 
-function startGame(){
+function startGame() {
   gameChar_x = width / 2;
   gameChar_y = floorPos_y;
   gameChar_width = 24;
+  cameraPosX = 0;
+  isFalling = false;
 }
