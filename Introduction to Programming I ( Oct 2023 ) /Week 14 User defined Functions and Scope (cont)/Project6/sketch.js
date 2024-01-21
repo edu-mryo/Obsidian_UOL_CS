@@ -252,6 +252,7 @@ function draw() {
     textSize(50);
     fill('black');
     text("Game Over",gameChar_y,height/2)
+    return    
   }
   
 };
@@ -431,6 +432,7 @@ function renderFlagPole() {
     fill('red')
     rect(flagPole.x_pos, floorPos_y - 250, 60, 35);
   } else {
+    fill('black')
     rect(flagPole.x_pos, floorPos_y - 33, 60, 35);
   }
   pop();
