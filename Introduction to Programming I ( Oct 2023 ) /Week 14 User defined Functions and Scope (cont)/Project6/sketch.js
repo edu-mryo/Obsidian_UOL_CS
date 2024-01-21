@@ -76,6 +76,7 @@ function draw() {
   background(100, 155, 255); //Sky
   fill('black');
   text(`Game Score: ${game_score}`, 10, 20);
+  text(`Lives: ${lives}`,10,30);
   noStroke();
   fill(0, 155, 0);
   rect(0, floorPos_y, width, height - floorPos_y); //Ground in Green
@@ -445,7 +446,7 @@ function checkFlagePole() {
 }
 
 function checkPlayerDie() {
-  if (isFalling && gameChar_y > 700 ) {
+  if (isFalling && (gameChar_y > 700) ) {
     lives -= 1;
     startGame();
   }
