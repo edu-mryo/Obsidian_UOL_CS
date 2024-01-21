@@ -107,8 +107,10 @@ function draw() {
    * Will change to isFound = true
    */
   for (var i = 0; i < collectables.length; i++) {
+    if(!collectables[i].isFound){
     drawCollectable(collectables[i]);
     checkCollectable(collectables[i]);
+    }
   }
   //Collectable end
 
@@ -265,10 +267,6 @@ function draw() {
     isFalling = false;
   }
 
-  //Setting collectable as true (invisible) using distance function.
-  // checkCollectable(collectable);
-  //Setting distance to make the character plummet into canyon
-  // checkCanyon(canyon);
   // Original Code : Resetting the game when character falls
   if (gameChar_y > 700) {
     reset();
@@ -412,7 +410,6 @@ function drawTrees() {
   }
 };
 function drawCollectable(t_collectable) {
-  if (t_collectable.isFound == false) {
     stroke(0);
     fill(255, 0, 0);
     ellipse(t_collectable.x_pos, t_collectable.y_pos, t_collectable.size, t_collectable.size);
@@ -420,7 +417,6 @@ function drawCollectable(t_collectable) {
     stroke(0);
     arc(t_collectable.x_pos - 12, t_collectable.y_pos - 17, 30, 50, 0, PI / 5.0); // lower quarter circle
     arc(t_collectable.x_pos - 5, t_collectable.y_pos - 9, 20, 5, 0, PI / 5.0); // lower quarter circle
-  }
 };
 function drawCanyon(t_canyon) {
   fill(0, 0, 255);
