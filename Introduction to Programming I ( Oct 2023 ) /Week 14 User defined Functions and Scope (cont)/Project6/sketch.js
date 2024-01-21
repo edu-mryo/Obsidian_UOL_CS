@@ -54,6 +54,7 @@ function setup() {
   gameChar_y = floorPos_y;
   gameChar_width = 24;
  
+  
   // logButton = createButton("Log");
   // resetButton = createButton('Reset');
 
@@ -67,10 +68,7 @@ function draw() {
    * Conditional statement for controlling camera position.
    * adding isLeft/isRight = false for locking the camera direction.
    */
-  fill('black');
-  textSize(100);
-  text("Score",game_score,10,12);
-
+  
   if (isRight) {
     cameraPosX += 3;
     isLeft = false;
@@ -80,6 +78,8 @@ function draw() {
   }
 
   background(100, 155, 255); //Sky
+  fill('black');
+  text(`Game Score: ${game_score}`,10,20);
   noStroke();
   fill(0, 155, 0);
   rect(0, floorPos_y, width, height - floorPos_y); //Ground in Green
@@ -430,7 +430,6 @@ function checkCollectable(t_collectable) {
 
   if(dist(gameChar_x,gameChar_y,t_collectable.x_pos,t_collectable.y_pos)<25){
     t_collectable.isFound = true
-    
   }
   
 
