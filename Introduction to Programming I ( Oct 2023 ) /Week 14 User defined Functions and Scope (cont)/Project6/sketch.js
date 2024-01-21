@@ -25,7 +25,7 @@ var reset = false;
 var resetButton;
 // Scenaries related
 var canyon;
-var canyons = [{ x_pos: 310, y_pos:432, width: 110 }, { x_pos: 90, y_pos:432, width: 110 }, { x_pos: 700, y_pos:432,width: 110 }];
+var canyons = [{ x_pos: 310, y_pos: 432, width: 110 }, { x_pos: 90, y_pos: 432, width: 110 }, { x_pos: 700, y_pos: 432, width: 110 }];
 
 var trees_x = [250, 560, 670, 900, 10];
 var clouds = [
@@ -34,12 +34,16 @@ var clouds = [
   { x_pos: 820, y_pos: 50, width: 40, height: 40 },
 ];
 var mountains = [
-    { x_pos: 100, y_pos: 97 },
-    { x_pos: 250, y_pos: 97 },
-    { x_pos: 900, y_pos: 97 },
-  ];
+  { x_pos: 100, y_pos: 97 },
+  { x_pos: 250, y_pos: 97 },
+  { x_pos: 900, y_pos: 97 },
+];
 var cameraPosX = 0;
-var collectables = [{ x_pos: 430, y_pos: 417, size: 30 }, { x_pos: 190, y_pos: 417, size: 30 }, { x_pos: 900, y_pos: 417, size: 30 }, { x_pos: 810, y_pos: 417, size: 30 }];
+var collectables = [
+  { x_pos: 430, y_pos: 417, size: 30, isFound: false },
+  { x_pos: 190, y_pos: 417, size: 30, isFound: false },
+  { x_pos: 900, y_pos: 417, size: 30, isFound: false },
+  { x_pos: 810, y_pos: 417, size: 30, isFound: false }];
 
 function setup() {
   createCanvas(1024, 576);
@@ -416,7 +420,7 @@ function drawCanyon(t_canyon) {
 };
 function checkCollectable(t_collectable) {
   if (dist(t_collectable.x_pos, t_collectable.y_pos, gameChar_x, gameChar_y) < 25) {
-    isFound = true;
+    t_collectable.isFound = true;
   }
 };
 function checkCanyon(t_canyon) {
