@@ -135,9 +135,7 @@ function draw() {
     ellipse(gameChar_x + 8, gameChar_y - 8, 12, 12);
     if (gameChar_y < floorPos_y) {
       gameChar_y += 1;
-    } else (
-      isFalling = false
-    )
+    } 
   } else if (isRight && isFalling) {
     //Finishing the part of Jumping Right
     fill("#FFE4C4");
@@ -446,7 +444,7 @@ function checkFlagePole() {
 }
 
 function checkPlayerDie() {
-  if (isFalling && (gameChar_y > 700) ) {
+  if (gameChar_y > 700)  {
     lives -= 1;
     startGame();
   }
