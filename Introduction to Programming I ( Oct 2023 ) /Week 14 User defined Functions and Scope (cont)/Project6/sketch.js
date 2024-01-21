@@ -46,6 +46,9 @@ function setup() {
   floorPos_y = (height * 3) / 4;
   gameChar_x = width / 2;
   gameChar_y = floorPos_y;
+  // logButton = createButton("Log");
+  // resetButton = createButton('Reset');
+
 
 };
 
@@ -199,40 +202,40 @@ function draw() {
   pop();
 
   //Original Code : Show Game Screen Data for debugging
-  logButton = createButton("Log");
-  logButton.position(0, 576);
-  logButton.mousePressed(flip);
-  function flip() {
-    logData = !logData;
-  }
-  if (logData) {
-    fill("black");
-    text("isFalling: " + isFalling, 10, 12);
-    text("isLeft: " + isLeft, 10, 25);
-    text("isRight: " + isRight, 10, 37);
-    text("isFound: " + isFound, 10, 49);
-    text("keyCode:" + keyCode, 10, 60);
-    text("isPlummeting: " + isPlummeting, 10, 72);
-    text("gameChar_x:" + gameChar_x, 10, 84);
-    text("gameChar_y:" + gameChar_y, 10, 96);
-    // text("canyon0.x:" + canyons[0].width, 10, 108);
-    text("canyon_distantce:"+ dist(canyons[0].x_pos, canyons[0].y_pos, gameChar_x, gameChar_y),10,120);
-  }
+  // logButton = createButton("Log");
+  // logButton.position(0, 576);
+  // logButton.mousePressed(flip);
+  // function flip() {
+  //   logData = !logData;
+  // }
+  // if (logData) {
+  //   fill("black");
+  //   text("isFalling: " + isFalling, 10, 12);
+  //   text("isLeft: " + isLeft, 10, 25);
+  //   text("isRight: " + isRight, 10, 37);
+  //   text("isFound: " + isFound, 10, 49);
+  //   text("keyCode:" + keyCode, 10, 60);
+  //   text("isPlummeting: " + isPlummeting, 10, 72);
+  //   text("gameChar_x:" + gameChar_x, 10, 84);
+  //   text("gameChar_y:" + gameChar_y, 10, 96);
+  //   // text("canyon0.x:" + canyons[0].width, 10, 108);
+  //   text("canyon_distantce:"+ dist(canyons[0].x_pos, canyons[0].y_pos, gameChar_x, gameChar_y),10,120);
+  // }
   // Log Button End
 
   //Original CodeCreate a reset button
-  resetButton = createButton('Reset');
-  resetButton.position(40, 576);
-  resetButton.mousePressed(reset);
-  function reset() {
-    logData = true;
-    isFalling = false;
-    isPlummeting = false;
-    isFound = false;
-    cameraPosX = 0;
-    gameChar_x = width / 2;
-    gameChar_y = floorPos_y = (height * 3) / 4;
-  }
+  // resetButton = createButton('Reset');
+  // resetButton.position(40, 576);
+  // resetButton.mousePressed(reset);
+  // function reset() {
+  //   logData = true;
+  //   isFalling = false;
+  //   isPlummeting = false;
+  //   isFound = false;
+  //   cameraPosX = 0;
+  //   gameChar_x = width / 2;
+  //   gameChar_y = floorPos_y = (height * 3) / 4;
+  // }
   //Reset Button End
 
   ///////////INTERACTION CODE//////////
