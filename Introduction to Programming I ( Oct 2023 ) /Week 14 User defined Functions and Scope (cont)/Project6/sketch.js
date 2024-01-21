@@ -13,6 +13,7 @@ var gameChar_x;
 var gameChar_y;
 var gameChar_width;
 var floorPos_y;
+var lives = 3;
 //Character Action
 var isLeft = false;
 var isRight = false;
@@ -50,6 +51,7 @@ var collectables = [
 var flagPole = { x_pos: 980, isReached: false };
 
 function setup() {
+  lives = 3;
   createCanvas(1024, 576);
   floorPos_y = (height * 3) / 4;
   gameChar_x = width / 2;
@@ -227,7 +229,7 @@ function draw() {
   }
 
   renderFlagPole();
-  if(flagPole.isReached == false){
+  if (flagPole.isReached == false) {
     checkFlagePole()
   }
   pop();
@@ -258,7 +260,7 @@ function draw() {
   // resetButton = createButton('Reset');
   // resetButton.position(40, 576);
   // resetButton.mousePressed(reset);
-  
+
   //Reset Button End
 
   ///////////INTERACTION CODE//////////
@@ -457,25 +459,31 @@ function checkCanyon(t_canyon) {
   }
 };
 
-function renderFlagPole(){
+function renderFlagPole() {
   push();
   strokeWeight(5);
   stroke(100);
-  line(flagPole.x_pos,floorPos_y,flagPole.x_pos,floorPos_y-250);
+  line(flagPole.x_pos, floorPos_y, flagPole.x_pos, floorPos_y - 250);
   noStroke();
-  if(flagPole.isReached){
-    stroke('red');
-    rect(flagPole.x_pos,floorPos_y-250,60,35);
-  }else{
-    rect(flagPole.x_pos,floorPos_y-33,60,35);
+  if (flagPole.isReached) {
+    fill('red')
+    rect(flagPole.x_pos, floorPos_y - 250, 60, 35);
+  } else {
+    rect(flagPole.x_pos, floorPos_y - 33, 60, 35);
   }
   pop();
 }
 
-function checkFlagePole(){
+function checkFlagePole() {
   var d = abs(gameChar_x - flagPole.x_pos)
-  if(d<15){
+  if (d < 15) {
     flagPole.isReached = true;
     console.log('Reached!')
+  }
+}
+
+function checkPlayerDie() {
+  if (isFalling && gameChar_y > 700) {
+    lives -= 1;
   }
 }
