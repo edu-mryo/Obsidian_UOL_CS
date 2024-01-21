@@ -47,7 +47,7 @@ var collectables = [
   { x_pos: 900, y_pos: 417, size: 30, isFound: false },
   { x_pos: 810, y_pos: 417, size: 30, isFound: false }];
 
-  var flagPolse = {x_pose}
+  var flagPolse = {x_pos:}
 
 function setup() {
   createCanvas(1024, 576);
@@ -137,7 +137,11 @@ function draw() {
     fill("black");
     ellipse(gameChar_x - 10, gameChar_y - 15, 12, 12);
     ellipse(gameChar_x + 8, gameChar_y - 8, 12, 12);
-    gameChar_y +=1;
+    if(gameChar_y<floorPos_y){
+      gameChar_y+=1;
+    }else(
+      isFalling = false
+    )
   } else if (isRight && isFalling) {
     //Finishing the part of Jumping Right
     fill("#FFE4C4");
@@ -150,6 +154,11 @@ function draw() {
     fill("black");
     ellipse(gameChar_x - 8, gameChar_y - 8, 12, 12);
     ellipse(gameChar_x + 10, gameChar_y - 15, 12, 12);
+    if(gameChar_y<floorPos_y){
+      gameChar_y+=1;
+    }else(
+      isFalling = false
+    )
   } else if (isLeft) {
     // Walking Left
     fill("#FFE4C4");
