@@ -47,6 +47,8 @@ var collectables = [
   { x_pos: 900, y_pos: 417, size: 30, isFound: false },
   { x_pos: 810, y_pos: 417, size: 30, isFound: false }];
 
+  var flagPolse = {x_pose}
+
 function setup() {
   createCanvas(1024, 576);
   floorPos_y = (height * 3) / 4;
@@ -135,6 +137,7 @@ function draw() {
     fill("black");
     ellipse(gameChar_x - 10, gameChar_y - 15, 12, 12);
     ellipse(gameChar_x + 8, gameChar_y - 8, 12, 12);
+    gameChar_y +=1;
   } else if (isRight && isFalling) {
     //Finishing the part of Jumping Right
     fill("#FFE4C4");
@@ -426,6 +429,7 @@ function checkCollectable(t_collectable) {
 
   if(dist(gameChar_x,gameChar_y,t_collectable.x_pos,t_collectable.y_pos)<25){
     t_collectable.isFound = true
+    game_score +=1; 
   }
   
 
