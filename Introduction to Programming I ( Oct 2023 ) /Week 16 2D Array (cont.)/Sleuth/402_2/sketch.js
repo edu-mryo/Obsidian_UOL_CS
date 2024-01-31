@@ -64,6 +64,35 @@ function draw()
 		det.speedY = 1;
 	}
 
+	else if (currentRoad =="Turing Place"){
+		det.speedX = 1
+		det.speedY = 0
+	}
+
+	else if (currentRoad =="Gates Avenue"){
+		det.speedX = 0
+		det.speedY = -1
+	}
+
+	else if (currentRoad =="Huffman Street"){
+		det.speedX = 1
+		det.speedY = 0
+	}
+
+	else if (currentRoad =="Gates Avenue"){
+		det.speedX = 0
+		det.speedY = -1
+	}
+	else if (currentRoad =="Lerdorf Way"){
+		det.speedX = 0
+		det.speedY = 1
+	}
+
+	else if (currentRoad =="Reynolds Street"){
+		det.speedX = 1
+		det.speedY =0
+	}
+
 
 	///////////////DO NOT CHANGE CODE BELOW THIS POINT///////////////////
 	background(50);
