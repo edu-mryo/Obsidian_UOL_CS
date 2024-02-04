@@ -73,7 +73,7 @@ function draw()
 		det.speedX = 0
 		det.speedY = -1
 	}
-
+ 
 	else if (currentRoad =="Huffman Street"){
 		det.speedX = 1
 		det.speedY = 0
