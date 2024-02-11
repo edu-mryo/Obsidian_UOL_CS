@@ -21,26 +21,82 @@ var isFalling = false;
 var isPlummeting = false;
 var isFound = false;
 // Additional variables for Debugging purpose
-var logData = true;
-var logButton;
-var reset = false;
-var resetButton;
 var game_score = 0;
-// Scenaries related
-var canyon;
-var canyons = [{ x_pos: 310, y_pos: 432, width: 110 }, { x_pos: 90, y_pos: 432, width: 110 }, { x_pos: 700, y_pos: 432, width: 110 }];
+// Scenaries related - mountain
+var mountains = []
+var mountain_y_pos = 97;
+var mountain_start = 100;
+var num_mountains = 20;
 
-var trees_x = [250, 560, 670, 900, 10];
-var clouds = [
-  { x_pos: 690, y_pos: 100, width: 40, height: 40 },
-  { x_pos: 250, y_pos: 70, width: 40, height: 40 },
-  { x_pos: 820, y_pos: 50, width: 40, height: 40 },
-];
-var mountains = [
-  { x_pos: 100, y_pos: 97 },
-  { x_pos: 250, y_pos: 97 },
-  { x_pos: 900, y_pos: 97 },
-];
+// Scenaries related - canyon
+var canyons = [];
+var canyon_y_pos = 432;
+var canyon_width = 110;
+var canyon_start = 300;
+var num_canyons = 5;
+
+// Scenaries related - tree
+var trees_x = []
+var tree_start = 250;
+var num_trees = 8;
+
+// Scenaries related - cloud
+var clouds =[]
+var clouds_width = 40;
+var clouds_height = 40;
+var clouds_x_start = 250;
+var clouds_y_start = 70;
+var num_clouds = 10;
+
+// Draw canyons in random position with limiting to 7;
+for (var i = 0; i < num_canyons; i++) {
+  random_increase = getRandomNumberAtLeast(200,500);
+  if (i == 0) {
+    x_pos = canyon_start
+  } else { x_pos = canyons[i - 1].x_pos + random_increase }
+
+  canyon = { x_pos: x_pos, y_pos: canyon_y_pos, width:canyon_width }
+  canyons.push(canyon)
+};
+
+// Draw trees in random position
+for(var i=0;i<num_trees;i++){
+  random_increase = getRandomNumberAtLeast(tree_start,3000);
+  if(i ==0){
+    trees_x.push(tree_start)
+  }else{trees_x.push(random_increase)}
+
+}
+
+// Draw clouds in random position
+for(var i=0;i<num_clouds;i++){
+  random_increase_x = getRandomNumberAtLeast(clouds_x_start,200);
+  y_pos = getRandomNumberAtLeast(clouds_y_start,200)
+
+  if(i==0){
+    x_pos = clouds_x_start;
+    // y_pos = clouds_y_start;
+  }else{
+    x_pos = clouds[i-1].x_pos + random_increase_x; 
+    // y_pos = clouds[i-1].y_pos + random_increase_y;
+  }
+  cloud = {x_pos:x_pos, y_pos:y_pos,width:clouds_width,height:clouds_height}
+  clouds.push(cloud);
+}
+
+
+//Making the generation mountain random and scalable
+for (var i = 0; i < num_mountains; i++) {
+  random_increase = getRandomNumberAtLeast(200,500);
+  if (i == 0) {
+    x_pos = mountain_start
+  } else { x_pos = mountains[i - 1].x_pos + random_increase }
+
+  mountain = { x_pos: x_pos, y_pos: mountain_y_pos }
+  mountains.push(mountain)
+};
+
+
 var cameraPosX = 0;
 var collectables = [
   { x_pos: 430, y_pos: 417, size: 30, isFound: false },
@@ -48,7 +104,7 @@ var collectables = [
   { x_pos: 900, y_pos: 417, size: 30, isFound: false },
   { x_pos: 810, y_pos: 417, size: 30, isFound: false }];
 
-var flagPole = { x_pos: 980, isReached: false };
+var flagPole = { x_pos: 2000, isReached: false };
 
 
 function setup() {
@@ -152,7 +208,7 @@ function draw() {
     ellipse(gameChar_x - 10, gameChar_y - 15, 12, 12);
     ellipse(gameChar_x + 8, gameChar_y - 8, 12, 12);
     if (gameChar_y < floorPos_y) {
-      gameChar_y += 1;
+      gameChar_y += 2;
     } else (
       isFalling = false
     )
@@ -460,7 +516,7 @@ function checkCollectable(t_collectable) {
 
 };
 function checkCanyon(t_canyon) {
-  if ((gameChar_y == t_canyon.y_pos) && (gameChar_x - gameChar_width / 2 > (t_canyon.x_pos)) && (gameChar_x + gameChar_width / 2 < (t_canyon.x_pos + 100))) {
+  if ((gameChar_y == t_canyon.y_pos||gameChar_y > t_canyon.y_pos) && (gameChar_x - gameChar_width / 2 > (t_canyon.x_pos)) && (gameChar_x + gameChar_width / 2 < (t_canyon.x_pos + 100))) {
     isLeft = false;
     isRight = false;
     isPlummeting = true;
@@ -517,4 +573,8 @@ function heart(x, y, size) {
   bezierVertex(x - size / 2, y - size / 2, x - size, y + size / 3, x, y + size);
   bezierVertex(x + size, y + size / 3, x + size / 2, y - size / 2, x, y);
   endShape(CLOSE);
+}
+
+function getRandomNumberAtLeast(min,max) {
+  return Math.floor(Math.random() * (max - min + 1) + min)
 }
