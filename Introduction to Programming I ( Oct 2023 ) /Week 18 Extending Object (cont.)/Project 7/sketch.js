@@ -149,8 +149,9 @@ function draw() {
 
   //Draw mountains
   drawMountains();
-  // heart(15,40,10,50);
 
+
+  drawDeadEnd();
 
 
 
@@ -564,6 +565,15 @@ function startGame() {
   flagPole.isReached = false;
 
 
+}
+
+function drawDeadEnd(){
+  fill('brown')
+  rect(-1000,floorPos_y-150,200,100)
+  rect(-950,floorPos_y-100,20,100)
+  rect(-870,floorPos_y-100,20,100)
+  fill('yellow')
+  text('Dead End U-Turn!',-950,floorPos_y-100);
 }
 
 function heart(x, y, size) {
