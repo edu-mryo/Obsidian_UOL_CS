@@ -2,7 +2,7 @@
 
 The Game Project
 
-Week 18
+Week 14
 
 Multiple interactable 
 
@@ -13,7 +13,7 @@ var gameChar_x;
 var gameChar_y;
 var gameChar_width;
 var floorPos_y;
-var lives = {stat:3,x_pos:15};
+var lives = { stat: 3, x_pos: 15 };
 //Character Action
 var isLeft = false;
 var isRight = false;
@@ -23,6 +23,8 @@ var isFound = false;
 // Additional variables for Debugging purpose
 var logData = true;
 var logButton;
+var reset = false;
+var resetButton;
 var game_score = 0;
 // Scenaries related
 var canyon;
@@ -242,9 +244,9 @@ function draw() {
 
   pop();
 
-  for(var i = 0;i<lives.stat;i++){
-    let x = lives.x_pos + (i*20)
-    heart(x,25,10)
+  for (var i = 0; i < lives.stat; i++) {
+    let x = lives.x_pos + (i * 20)
+    heart(x, 25, 10)
     // console.log(lives.stat)
   }
 
@@ -258,7 +260,6 @@ function draw() {
     text("Game Over", width / 2, height / 2)
     textSize(30)
     text("Press Spacebard to Restart", width / 2, height / 1.75)
-
     pop()
   }
   if (flagPole.isReached) {
@@ -269,7 +270,7 @@ function draw() {
     textAlign(CENTER);
     text("Stage Cleared", width / 2, height / 2);
     textSize(30);
-    text("Press Spacebar to Continue", width / 2, height/1.75)
+    text("Press Spacebar to Continue", width / 2, height / 1.75)
     pop()
   }
 
@@ -284,7 +285,7 @@ function draw() {
     gameChar_x += 5; // Move to right
   } else if (gameChar_y < floorPos_y) {
     isFalling = true;
-    gameChar_y += 3;
+    gameChar_y += 2;
   } else if (isPlummeting) {
     gameChar_y += 5;
   } else (isFalling = false)
@@ -301,6 +302,11 @@ function keyPressed() {
   if (flagPole.isReached || lives.stat < 1) {
     if (keyCode == 32) {
       lives.stat = 3
+      game_score = 0;
+      for (var i = 0; i < collectables.length; i++) {
+        collectables[i].isFound = false;
+        drawCollectable(collectables[i]);
+      };
       startGame();
       return
     }
@@ -488,8 +494,6 @@ function checkFlagePole() {
 function checkPlayerDie() {
   if (gameChar_y > 700) {
     lives.stat -= 1;
-    console.log('died')
-    game_score = 0;
     startGame();
   }
 
@@ -502,7 +506,8 @@ function startGame() {
   cameraPosX = 0;
   isPlummeting = false;
   flagPole.isReached = false;
-  t_collectable.isFound = false;
+
+
 }
 
 function heart(x, y, size) {
