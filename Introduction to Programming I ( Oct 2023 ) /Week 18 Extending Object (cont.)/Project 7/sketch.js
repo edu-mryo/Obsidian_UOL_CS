@@ -20,8 +20,9 @@ var isRight = false;
 var isFalling = false;
 var isPlummeting = false;
 var isFound = false;
-// Additional variables for Debugging purpose
+// Additional variables for game_data
 var game_score = 0;
+var jump_sound;
 // Scenaries related - mountain
 var mountains = []
 var mountain_y_pos = 97;
@@ -106,13 +107,21 @@ var collectables = [
 
 var flagPole = { x_pos: 2000, isReached: false };
 
+function preload(){
+  soundFormats('mp3','wav');
+  jumpSound = loadSound('assets/jump_sound.wav')
+  leftjumpSound = loadSound('assets/left_jump_sound.wav')
+  congratSound = loadSound('assets/congrats.mp3')
+  jumpSound.setVolume(0.1);
+  leftjumpSound.setVolume(0.1);
+  congratSound.setVolume(0.1);
+}
 
 function setup() {
   lives.stat;
   createCanvas(1024, 576);
   floorPos_y = (height * 3) / 4;
   startGame();
-
 };
 
 
@@ -190,10 +199,6 @@ function draw() {
   if (flagPole.isReached == false) {
     checkFlagePole()
   }
-
-
-
-
 
   //Game character and its movements
   if (isLeft && isFalling) {
@@ -328,6 +333,8 @@ function draw() {
     text("Stage Cleared", width / 2, height / 2);
     textSize(30);
     text("Press Spacebar to Continue", width / 2, height / 1.75)
+    congratSound.play();
+    congratSound.stop();
     pop()
   }
 
@@ -353,8 +360,8 @@ function draw() {
 
 function keyPressed() {
 
-  console.log("keyPressed: " + key);
-  console.log("keyPressed: " + keyCode);
+  // console.log("keyPressed: " + key);
+  // console.log("keyPressed: " + keyCode);
 
   if (flagPole.isReached || lives.stat < 1) {
     if (keyCode == 32) {
@@ -381,6 +388,7 @@ function keyPressed() {
     console.log("Left Jumping");
     isFalling = true;
     gameChar_y -= 100;
+    leftjumpSound.play()
   } else if (keyCode == 87 && isRight) {
     console.log("Right Jumping");
     isFalling = true;
@@ -389,6 +397,7 @@ function keyPressed() {
   } else if (keyCode == 87) {
     console.log("Jumping");
     gameChar_y -= 100;
+    jumpSound.play()
   }
 
 }
@@ -397,9 +406,9 @@ function keyReleased() {
   // if statements to control the animation of the character when
   // keys are released.
 
-  console.log("keyReleased: " + key);
-  console.log("keyReleased: " + keyCode);
-  console.log(isFalling);
+  // console.log("keyReleased: " + key);
+  // console.log("keyReleased: " + keyCode);
+  // console.log(isFalling);
 
   if (keyCode == 65) {
     console.log("Released Left Arrow");
@@ -584,6 +593,7 @@ function heart(x, y, size) {
   bezierVertex(x + size, y + size / 3, x + size / 2, y - size / 2, x, y);
   endShape(CLOSE);
 }
+
 
 function getRandomNumberAtLeast(min,max) {
   return Math.floor(Math.random() * (max - min + 1) + min)
