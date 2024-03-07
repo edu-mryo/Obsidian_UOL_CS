@@ -42,7 +42,7 @@ var tree_start = 250;
 var num_trees = 8;
 
 // Scenaries related - cloud
-var clouds =[]
+var clouds = []
 var clouds_width = 40;
 var clouds_height = 40;
 var clouds_x_start = 250;
@@ -51,44 +51,44 @@ var num_clouds = 10;
 
 // Draw canyons in random position with limiting to 7;
 for (var i = 0; i < num_canyons; i++) {
-  random_increase = getRandomNumberAtLeast(200,500);
+  random_increase = getRandomNumberAtLeast(200, 500);
   if (i == 0) {
     x_pos = canyon_start
   } else { x_pos = canyons[i - 1].x_pos + random_increase }
 
-  canyon = { x_pos: x_pos, y_pos: canyon_y_pos, width:canyon_width }
+  canyon = { x_pos: x_pos, y_pos: canyon_y_pos, width: canyon_width }
   canyons.push(canyon)
 };
 
 // Draw trees in random position
-for(var i=0;i<num_trees;i++){
-  random_increase = getRandomNumberAtLeast(tree_start,3000);
-  if(i ==0){
+for (var i = 0; i < num_trees; i++) {
+  random_increase = getRandomNumberAtLeast(tree_start, 3000);
+  if (i == 0) {
     trees_x.push(tree_start)
-  }else{trees_x.push(random_increase)}
+  } else { trees_x.push(random_increase) }
 
 }
 
 // Draw clouds in random position
-for(var i=0;i<num_clouds;i++){
-  random_increase_x = getRandomNumberAtLeast(clouds_x_start,200);
-  y_pos = getRandomNumberAtLeast(clouds_y_start,200)
+for (var i = 0; i < num_clouds; i++) {
+  random_increase_x = getRandomNumberAtLeast(clouds_x_start, 200);
+  y_pos = getRandomNumberAtLeast(clouds_y_start, 200)
 
-  if(i==0){
+  if (i == 0) {
     x_pos = clouds_x_start;
     // y_pos = clouds_y_start;
-  }else{
-    x_pos = clouds[i-1].x_pos + random_increase_x; 
+  } else {
+    x_pos = clouds[i - 1].x_pos + random_increase_x;
     // y_pos = clouds[i-1].y_pos + random_increase_y;
   }
-  cloud = {x_pos:x_pos, y_pos:y_pos,width:clouds_width,height:clouds_height}
+  cloud = { x_pos: x_pos, y_pos: y_pos, width: clouds_width, height: clouds_height }
   clouds.push(cloud);
 }
 
 
 //Making the generation mountain random and scalable
 for (var i = 0; i < num_mountains; i++) {
-  random_increase = getRandomNumberAtLeast(200,500);
+  random_increase = getRandomNumberAtLeast(200, 500);
   if (i == 0) {
     x_pos = mountain_start
   } else { x_pos = mountains[i - 1].x_pos + random_increase }
@@ -107,14 +107,18 @@ var collectables = [
 
 var flagPole = { x_pos: 2000, isReached: false };
 
-function preload(){
-  soundFormats('mp3','wav');
+function preload() {
+  soundFormats('mp3', 'wav');
   jumpSound = loadSound('assets/jump_sound.wav')
   leftjumpSound = loadSound('assets/left_jump_sound.wav')
   congratSound = loadSound('assets/congrats.mp3')
+  yummySound = loadSound('assets/yummy.mp3')
+  ouchSound = loadSound('assets/ouch.mp3')
   jumpSound.setVolume(0.1);
   leftjumpSound.setVolume(0.1);
   congratSound.setVolume(0.1);
+  yummySound.setVolume(0.1);
+  ouchSound.setVolume(0.1);
 }
 
 function setup() {
@@ -197,7 +201,7 @@ function draw() {
 
   renderFlagPole();
   if (flagPole.isReached == false) {
-    checkFlagePole()
+    checkFlagPole()
   }
 
   //Game character and its movements
@@ -333,8 +337,6 @@ function draw() {
     text("Stage Cleared", width / 2, height / 2);
     textSize(30);
     text("Press Spacebar to Continue", width / 2, height / 1.75)
-    congratSound.play();
-    congratSound.stop();
     pop()
   }
 
@@ -393,6 +395,7 @@ function keyPressed() {
     console.log("Right Jumping");
     isFalling = true;
     gameChar_y -= 100;
+    leftjumpSound.play()
     // Original Code End
   } else if (keyCode == 87) {
     console.log("Jumping");
@@ -405,11 +408,6 @@ function keyPressed() {
 function keyReleased() {
   // if statements to control the animation of the character when
   // keys are released.
-
-  // console.log("keyReleased: " + key);
-  // console.log("keyReleased: " + keyCode);
-  // console.log(isFalling);
-
   if (keyCode == 65) {
     console.log("Released Left Arrow");
     isLeft = false;
@@ -520,13 +518,13 @@ function checkCollectable(t_collectable) {
 
   if (dist(gameChar_x, gameChar_y, t_collectable.x_pos, t_collectable.y_pos) < 25) {
     t_collectable.isFound = true
+    yummySound.play();
     game_score += 1;
   }
-
-
 };
+
 function checkCanyon(t_canyon) {
-  if ((gameChar_y == t_canyon.y_pos||gameChar_y > t_canyon.y_pos) && (gameChar_x - gameChar_width / 2 > (t_canyon.x_pos)) && (gameChar_x + gameChar_width / 2 < (t_canyon.x_pos + 100))) {
+  if ((gameChar_y == t_canyon.y_pos || gameChar_y > t_canyon.y_pos) && (gameChar_x - gameChar_width / 2 > (t_canyon.x_pos)) && (gameChar_x + gameChar_width / 2 < (t_canyon.x_pos + 100))) {
     isLeft = false;
     isRight = false;
     isPlummeting = true;
@@ -549,7 +547,7 @@ function renderFlagPole() {
   pop();
 }
 
-function checkFlagePole() {
+function checkFlagPole() {
   var d = abs(gameChar_x - flagPole.x_pos)
   if (d < 15) {
     flagPole.isReached = true;
@@ -560,6 +558,7 @@ function checkFlagePole() {
 function checkPlayerDie() {
   if (gameChar_y > 700) {
     lives.stat -= 1;
+    ouchSound.play();
     startGame();
   }
 
@@ -576,13 +575,13 @@ function startGame() {
 
 }
 
-function drawDeadEnd(){
+function drawDeadEnd() {
   fill('brown')
-  rect(-1000,floorPos_y-150,200,100)
-  rect(-950,floorPos_y-100,20,100)
-  rect(-870,floorPos_y-100,20,100)
+  rect(-1000, floorPos_y - 150, 200, 100)
+  rect(-950, floorPos_y - 100, 20, 100)
+  rect(-870, floorPos_y - 100, 20, 100)
   fill('yellow')
-  text('Dead End U-Turn!',-950,floorPos_y-100);
+  text('Dead End U-Turn!', -950, floorPos_y - 100);
 }
 
 function heart(x, y, size) {
@@ -595,6 +594,6 @@ function heart(x, y, size) {
 }
 
 
-function getRandomNumberAtLeast(min,max) {
+function getRandomNumberAtLeast(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min)
 }
