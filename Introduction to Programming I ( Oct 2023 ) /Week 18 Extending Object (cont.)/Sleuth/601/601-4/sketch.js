@@ -101,11 +101,12 @@ function setup() {
 
 
 	for (i = 0; i < killerLogbook_ptX.length; i++) {
-		if (dist(killerLogbook_ptX[i]), killerLogbook_ptY[i], killingLogbook.Pt_X[i], killingLogbook.Pt_Y[i] < 44 && killerLogbook_recordDate == killingLogbook.date) {
+		if (dist(killerLogbook_ptX[i], killerLogbook_ptY[i], killingLogbook.Pt_X[i], killingLogbook.Pt_Y[i])  < 44  ) {
 			possibleMatches.push({ suspect_x: killerLogbook_ptX[i], suspect_y: killerLogbook_ptY[i], crime_x: killingLogbook.Pt_X[i], crime_y: killingLogbook.Pt_Y[i], victimName: killingLogbook.Killed_[i] })
 		}
 	}
 
+	console.log(possibleMatches)
 
 	// code to draw the matches ( if any)
 	for (let i = 0; i < possibleMatches.length; i++) {
