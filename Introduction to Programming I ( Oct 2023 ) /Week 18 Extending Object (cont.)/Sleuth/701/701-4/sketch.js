@@ -34,116 +34,153 @@ I remember walking down the street and then I saw them. They were carrying a bro
 */
 
 var usualSuspects = [
-	{ 
-		"name": "BRAD MYRLE",
-		"hair": "long white",
-		"item": "fur vest",
-		"expression": "empty",
-		"glasses": "red",
-		"age": 25,
-		"height": 175,
-		"weight": 71
-	},
-	{ 
-		"name": "MAJORIE NIEMELA",
-		"hair": "shaved",
-		"item": "dotted necktie",
-		"expression": "nerveous",
-		"glasses": "black",
-		"age": 57,
-		"height": 184,
-		"weight": 71
-	},
-	{ 
-		"name": "RANDEE PHINNEY",
-		"hair": "thin blond",
-		"item": "orange socks",
-		"expression": "sad",
-		"glasses": "thin metallic",
-		"age": 37,
-		"height": 180,
-		"weight": 75
-	},
-	{ 
-		"name": "LINETTE DURANTS",
-		"hair": "short black",
-		"item": "pair of leather trousers",
-		"expression": "nerveous",
-		"glasses": "very thick",
-		"age": 41,
-		"height": 175,
-		"weight": 79
-	},
-	{ 
-		"name": "LESLEY DORCEY",
-		"hair": "no",
-		"item": "purple hat",
-		"expression": "confused",
-		"glasses": "blue",
-		"age": 21,
-		"height": 194,
-		"weight": 74
-	},
-	{ 
-		"name": "DARBY PEGORD",
-		"hair": "dark brown",
-		"item": "red necktie",
-		"expression": "depressed",
-		"glasses": "light tan",
-		"age": 44,
-		"height": 157,
-		"weight": 59
-	},
-	{ 
-		"name": "SUMMER JENI",
-		"hair": "ginger",
-		"item": "net weave shirt",
-		"expression": "blank",
-		"glasses": "white",
-		"age": 36,
-		"height": 161,
-		"weight": 72
-	}
+  {
+    name: "BRAD MYRLE",
+    hair: "long white",
+    item: "fur vest",
+    expression: "empty",
+    glasses: "red",
+    age: 25,
+    height: 175,
+    weight: 71,
+  },
+  {
+    name: "MAJORIE NIEMELA",
+    hair: "shaved",
+    item: "dotted necktie",
+    expression: "nerveous",
+    glasses: "black",
+    age: 57,
+    height: 184,
+    weight: 71,
+  },
+  {
+    name: "RANDEE PHINNEY",
+    hair: "thin blond",
+    item: "orange socks",
+    expression: "sad",
+    glasses: "thin metallic",
+    age: 37,
+    height: 180,
+    weight: 75,
+  },
+  {
+    name: "LINETTE DURANTS",
+    hair: "short black",
+    item: "pair of leather trousers",
+    expression: "nerveous",
+    glasses: "very thick",
+    age: 41,
+    height: 175,
+    weight: 79,
+  },
+  {
+    name: "LESLEY DORCEY",
+    hair: "no",
+    item: "purple hat",
+    expression: "confused",
+    glasses: "blue",
+    age: 21,
+    height: 194,
+    weight: 74,
+  },
+  {
+    name: "DARBY PEGORD",
+    hair: "dark brown",
+    item: "red necktie",
+    expression: "depressed",
+    glasses: "light tan",
+    age: 44,
+    height: 157,
+    weight: 59,
+  },
+  {
+    name: "SUMMER JENI",
+    hair: "ginger",
+    item: "net weave shirt",
+    expression: "blank",
+    glasses: "white",
+    age: 36,
+    height: 161,
+    weight: 72,
+  },
 ];
 
 var myFont;
 var backgroundImg;
 
 function preload() {
-  myFont = loadFont('SpecialElite.ttf');
+  myFont = loadFont("SpecialElite.ttf");
   backgroundImg = loadImage("Background.png");
 }
 
-function setup()
-{
-	createCanvas(640,480);
-	textFont(myFont);
+function setup() {
+  createCanvas(640, 480);
+  textFont(myFont);
 }
 
 // Declare both your functions here
- function checkSuspect(suspectObj){
-	//I remember walking down the street and then I saw them.
-	// They were carrying a brown paper bag. 
-	//They seemed to be between the age of 38 and 72 years old. 
-	//They had shaved hair. 
-	//Their expression seemed nerveous. 
-	//They were fairly tall, I think between a height of 160 and 210 cm. 
-	//I distinctly remember that they were wearing a dotted necktie, 
-	//They brobably weigh between 62 and 77 kg.
-	//They wore black glasses. 
-	//I'll never forget their blue eyes. 
+function checkSuspect(suspectObj) {
+  //I remember walking down the street and then I saw them.
+  // They were carrying a brown paper bag.
+  //They seemed to be between the age of 38 and 72 years old.
+  //They had shaved hair.
+  //Their expression seemed nerveous.
+  //They were fairly tall, I think between a height of 160 and 210 cm.
+  //I distinctly remember that they were wearing a dotted necktie,
+  //They brobably weigh between 62 and 77 kg.
+  //They wore black glasses.
+  //I'll never forget their blue eyes.
+  // add a variable count and set it to 0 add 1 to count for each match
 
-	
+  var count = 0;
+  if (suspectObj.hair === "shaved") {
+    count++;
+  }
+  if (suspectObj.expression === "nerveous") {
+    count++;
+  }
+  if (suspectObj.item === "dotted necktie") {
+    count++;
+  }
+  if (suspectObj.glasses === "black") {
+    count++;
+  }
+  if (suspectObj.age >= 38 && suspectObj.age <= 72) {
+    count++;
+  }
+  if (suspectObj.height >= 160 && suspectObj.height <= 210) {
+    count++;
+  }
+  if (suspectObj.weight >= 62 && suspectObj.weight <= 77) {
+    count++;
+  }
+  if (suspectObj.eyes === "blue") {
+    count++;
+  }
+  return count;
 }
- function getSuspectMatch(){}
+function getSuspectMatch() {
+  // 	- A getSuspectMatch function which traverses the array of suspects and returns the object representing the guilty suspect,
+  // otherwise - return an empty object.
+  //use if statement, not for loop
 
+  var maxMatch = 0;
+  var guiltySuspect = {};
+  for (var i = 0; i < usualSuspects.length; i++) {
+    var currentMatch = checkSuspect(usualSuspects[i]);
+    if (currentMatch > maxMatch) {
+      maxMatch = currentMatch;
+      guiltySuspect = usualSuspects[i];
+    }
+  }
+  return guiltySuspect;
+}
 
-
-function draw()
-{
+function draw() {
   //You don't need to alter this code
   image(backgroundImg, 0, 0);
 
-  fill(255,0,0);
+  fill(255, 0, 0);
   text(getSuspectMatch().name + " is guilty!", 60, 80);
 }
