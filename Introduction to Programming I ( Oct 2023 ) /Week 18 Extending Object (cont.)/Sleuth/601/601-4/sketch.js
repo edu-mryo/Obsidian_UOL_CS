@@ -60,56 +60,55 @@ var killingLogbook = {
 	Killed_: ['LOUISE ZETLAND', 'LARRAINE PEGORD', 'JACQUELINE DURANTS', 'LESLEY MONKSFORD', 'MAJORIE JENI', 'JAUNITA JOYER', 'SUMMER CASIMERE', 'LAKESHA SYMMES', 'LINETTE MOHWAWK', 'TAMICA MAUBERT', 'TU DAVISWOOD', 'HANG NIEMELA', 'DEEDEE PHINNEY', 'LIANNE COURTWOOD', 'DRUSILLA WARMAN'],
 };
 
-function preload()
-{
+function preload() {
 	countyMap = loadImage("map.png")
 }
 
-function setup()
-{
+function setup() {
 	createCanvas(countyMap.width, countyMap.height);
 	noFill();
 	noStroke();
-	image(countyMap, 0,0);
+	image(countyMap, 0, 0);
 
 	//add your code below here
 
-// 	In the setup function, use a for loop to traverse the sightings, marking all of the locations on the map
-// where she was last seen. Do this by drawing OliveDrab stroke vertexes at each location.
+	// 	In the setup function, use a for loop to traverse the sightings, marking all of the locations on the map
+	// where she was last seen. Do this by drawing OliveDrab stroke vertexes at each location.
 
-for(var i=0;i<killerLogbook_ptX.length;i++){
-	stroke(107,142,35);
-	strokeWeight(3);
-	// beginShape(POINTS);
-	vertex(killerLogbook_ptX[i],killerLogbook_ptY[i]);
-	endShape();
-}
+	for (var i = 0; i < killerLogbook_ptX.length; i++) {
+		stroke(107, 142, 35);
+		strokeWeight(3);
+		// beginShape(POINTS);
+		vertex(killerLogbook_ptX[i], killerLogbook_ptY[i]);
+		endShape();
+	}
 
-// In addition, we've assembled a list of recent thefts in the area. Using another for loop to traverse the
-// recent crime records, you should mark those locations on the map. Do this by drawing small, SeaGreen stroke ellipses at each location.
-for(var i=0;i<killingLogbook.Pt_X.length;i++){
-	stroke(46,139,87);
-	ellipse(killingLogbook.Pt_X[i],killingLogbook.Pt_Y[i],10,10)
-}
+	// In addition, we've assembled a list of recent thefts in the area. Using another for loop to traverse the
+	// recent crime records, you should mark those locations on the map. Do this by drawing small, SeaGreen stroke ellipses at each location.
+	for (var i = 0; i < killingLogbook.Pt_X.length; i++) {
+		stroke(46, 139, 87);
+		ellipse(killingLogbook.Pt_X[i], killingLogbook.Pt_Y[i], 10, 10)
+	}
 
-// This time we will catch Fry by comparing both distance from the crimes and dates of sightings. If she was within less than 44 pixels of any of the crimes within no more than 0 days of their occurrence then the details should be pushed to the list of possible matches with the following format.
+	// This time we will catch Fry by comparing both distance from the crimes and dates of sightings. If she was within less than 44 pixels of any of the crimes within no more than 0 days of their occurrence then the details should be pushed to the list of possible matches with the following format.
 
-// { suspect_x: 0, suspect_y: 0 ,crime_x: 0, crime_y: 0, victimName: "John_Doe" }
+	// { suspect_x: 0, suspect_y: 0 ,crime_x: 0, crime_y: 0, victimName: "John_Doe" }
 
-// Note that the possible matches are already being drawn.
-// Your job is to fill the array with the correct data.
+	// Note that the possible matches are already being drawn.
+	// Your job is to fill the array with the correct data.
 
-// Use X11 colours. You can find a reference table at https://www.w3.org/TR/css3-iccprof#numerical.
+	// Use X11 colours. You can find a reference table at https://www.w3.org/TR/css3-iccprof#numerical.
 
 
-for(i=0;i<killerLogbook_ptX.length;i++){
-	if(dist(killerLogbook_ptX[i]),killerLogbook_ptY[i])
-}
+	for (i = 0; i < killerLogbook_ptX.length; i++) {
+		if (dist(killerLogbook_ptX[i]), killerLogbook_ptY[i], killingLogbook.Pt_X[i], killingLogbook.Pt_Y[i] < 44 && killerLogbook_recordDate == killingLogbook.date) {
+			possibleMatches.push({ suspect_x: killerLogbook_ptX[i], suspect_y: killerLogbook_ptY[i], crime_x: killingLogbook.Pt_X[i], crime_y: killingLogbook.Pt_Y[i], victimName: killingLogbook.Killed_[i] })
+		}
+	}
 
 
 	// code to draw the matches ( if any)
-	for(let i = 0 ; i < possibleMatches.length ; i++)
-	{
+	for (let i = 0; i < possibleMatches.length; i++) {
 		stroke(127);
 		strokeWeight(3);
 		line(possibleMatches[i].crime_x, possibleMatches[i].crime_y, possibleMatches[i].suspect_x, possibleMatches[i].suspect_y);
